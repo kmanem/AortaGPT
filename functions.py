@@ -34,10 +34,6 @@ def rate_limited_api_call(url, params, max_retries=3):
 def fetch_clinvar_variants(gene_symbol):
     """Fetch variants for a given gene from ClinVar API with parallel processing"""
     try:
-        # Check cache first
-        cache_key = f"variants_{gene_symbol}"
-        if cache_key in st.session_state.variant_cache:
-            return st.session_state.variant_cache[cache_key]
         
         # NCBI E-utilities API endpoint
         base_url = "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi"
@@ -87,8 +83,6 @@ def fetch_clinvar_variants(gene_symbol):
                         variants.append(name)
         # Add custom option
         variants.append("Enter custom variant")
-        # Cache results
-        st.session_state.variant_cache[cache_key] = variants
         return variants
         
     except Exception as e:
@@ -124,10 +118,6 @@ def fetch_variant_name(variant_id):
 def fetch_variant_details(variant_name):
     """Fetch detailed information about a specific variant"""
     try:
-        # Check cache
-        cache_key = f"details_{variant_name}"
-        if cache_key in st.session_state.variant_cache:
-            return st.session_state.variant_cache[cache_key]
             
         # Search for variant
         base_url = "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi"
@@ -174,8 +164,6 @@ def fetch_variant_details(variant_name):
                 "clinvar_url": f"https://www.ncbi.nlm.nih.gov/clinvar/variation/{variant_id}/"
             }
             
-            # Cache results
-            st.session_state.variant_cache[cache_key] = details
             return details
         
         return None

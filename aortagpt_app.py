@@ -65,8 +65,6 @@ if 'history' not in st.session_state:
     st.session_state.history = []
 if 'selected_variant_info' not in st.session_state:
     st.session_state.selected_variant_info = None
-if 'variant_cache' not in st.session_state:
-    st.session_state.variant_cache = {}
 if 'search_query' not in st.session_state:
     st.session_state.search_query = ""
 if 'filtered_variants' not in st.session_state:
