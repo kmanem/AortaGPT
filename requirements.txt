@@ -1,5 +1,7 @@
 matplotlib>=3.10.1
 numpy>=2.2.5
+openai>=1.75.0
 requests>=2.32.3
+smolagents[litellm]>=1.15.0
 streamlit>=1.45.0
 watchdog>=6.0.0
