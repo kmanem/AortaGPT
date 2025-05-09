@@ -17,7 +17,10 @@ client = OpenAI()
 gpt_4_1 = LiteLLMModel(model_id="openai/gpt-4.1", api_key=os.getenv("OPENAI_API_KEY"))
 
 # Set page configuration
-st.set_page_config(page_title="AortaGPT: Clinical Decision Support Tool", layout="wide", page_icon=":anatomical_heart:")
+st.set_page_config(page_title="AortaGPT: Clinical Decision Support Tool", 
+                   layout="wide", 
+                   page_icon=":anatomical_heart:",
+                   initial_sidebar_state="expanded")
 
 # Custom CSS styling
 st.markdown("""
@@ -68,6 +71,18 @@ st.markdown("""
 # Title
 st.title(":anatomical_heart: AortaGPT: Clinical Decision Support Tool")
 
+
+# Initialize session state
+if 'history' not in st.session_state:
+    st.session_state.history = []
+if 'selected_variant_info' not in st.session_state:
+    st.session_state.selected_variant_info = None
+if 'variant_cache' not in st.session_state:
+    st.session_state.variant_cache = {}
+if 'search_query' not in st.session_state:
+    st.session_state.search_query = ""
+if 'filtered_variants' not in st.session_state:
+    st.session_state.filtered_variants = []
 # Initialize session state
 if 'selected_variant_info' not in st.session_state:
     st.session_state.selected_variant_info = None
@@ -308,59 +323,106 @@ with st.sidebar:
         key="other_relevant_details"
     )
 
-# Display variant information
-if st.session_state.selected_variant_info:
-    variant_info = st.session_state.selected_variant_info
-    with st.expander("Variant Information"):
-        st.markdown(f"""
-        **Selected Variant:** {variant}  
-        **Clinical Significance:** {variant_info.get('clinical_significance', 'Not available')}  
-        **Review Status:** {variant_info.get('review_status', 'Not available')}  
-        **Last Updated:** {variant_info.get('last_updated', 'Not available')}  
-        <a href="{variant_info.get('clinvar_url', '#')}" target="_blank">View in ClinVar</a>
-        """, unsafe_allow_html=True)
-
-# Initialize Chat button
+## Main content tabs
 submitted = st.sidebar.button("Initialize Chat", type="primary")
-if submitted:
-    # Activate chat interface and seed context
-    st.session_state.chat_active = True
-    from helper_functions import build_patient_context
-    context = build_patient_context(st.session_state, clinical_options)
-    st.session_state.chat_history = [{"role": "system", "content": context}]
+tabs = st.tabs([":speech_balloon: Chat", ":page_facing_up: Report"])
 
-# Chat interface activated?
-if st.session_state.chat_active:
-    st.header(":speech_balloon: AortaGPT Chat")
-    # Display past messages
-    for msg in st.session_state.chat_history:
-        if msg["role"] != "system":
-            st.chat_message(msg["role"]).write(msg["content"])
-    # Get user input
-    user_input = st.chat_input("Ask a question about this patient...")
-    if user_input:
-        st.session_state.chat_history.append({"role": "user", "content": user_input})
-        # Send through Responses API for structured chat
-        with st.spinner("AortaGPT is thinking..."):
-            response = client.responses.create(
-                model="gpt-4.1",
-                input=st.session_state.chat_history
-            )
-        # Parse assistant message
-        if hasattr(response, 'output_text') and response.output_text:
-            assistant_msg = response.output_text
-        else:
+with tabs[0]:
+    # Chat setup
+    if submitted:
+        st.session_state.chat_active = True
+        context = build_patient_context(st.session_state, clinical_options)
+        st.session_state.chat_history = [{"role": "system", "content": context}]
+    if st.session_state.chat_active:
+        st.header(":speech_balloon: AortaGPT Chat")
+        for msg in st.session_state.chat_history:
+            if msg["role"] != "system":
+                st.chat_message(msg["role"]).write(msg["content"])
+        user_input = st.chat_input("Ask a question about this patient...")
+        if user_input:
+            st.session_state.chat_history.append({"role": "user", "content": user_input})
+            with st.spinner("AortaGPT is thinking..."):
+                response = client.responses.create(
+                    model="gpt-4.1-nano",
+                    input=st.session_state.chat_history
+                )
             assistant_msg = ''
-            try:
-                for msg in response.output:
-                    for chunk in msg['content']:
+            if getattr(response, 'output_text', None):
+                assistant_msg = response.output_text
+            else:
+                for m in getattr(response, 'output', []):
+                    for chunk in m.get('content', []):
                         if chunk.get('type') == 'output_text':
                             assistant_msg += chunk.get('text', '')
                         elif chunk.get('type') == 'refusal':
                             assistant_msg += chunk.get('refusal', '')
-            except Exception:
-                assistant_msg = '<Could not parse model response>'
-        st.session_state.chat_history.append({"role": "assistant", "content": assistant_msg})
-        # Re-run to display the assistant's message
-        st.rerun()
+            st.session_state.chat_history.append({"role": "assistant", "content": assistant_msg})
+            st.rerun()
 
+with tabs[1]:
+    # Save to history
+    current_session = {
+        'timestamp': datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
+        'gene': gene,
+        'variant': variant,
+        'root_diameter': root_diameter,
+        'age': age,
+        'sex': sex
+    }
+    st.session_state.history.append(current_session)
+
+    # Display sections
+    st.subheader(":chart_with_upwards_trend: Risk Stratification")
+    display_risk_stratification(gene, variant, root_diameter, z_score, hx)
+
+    st.subheader("🏥 Surgical Thresholds")
+    display_surgical_thresholds(gene, root_diameter)
+
+    st.subheader("🩻 Imaging Surveillance")
+    display_imaging_surveillance(gene, root_diameter, ascending_diameter, hx)
+
+    st.subheader("🏃 Lifestyle & Activity Guidelines")
+    display_lifestyle_guidelines(gene, sex, hx)
+
+    st.subheader(":family: Genetic Counseling")
+    display_genetic_counseling(gene, variant, sex, hx)
+
+    st.subheader(":rotating_light: Red Flag Alerts")
+    display_red_flag_alerts(gene, root_diameter, ascending_diameter, hx)
+
+    st.subheader(":bar_chart: Kaplan-Meier Survival Curve")
+    fig = display_kaplan_meier(gene, age, sex)
+    st.pyplot(fig)
+
+    # Add references with clickable links
+    with st.expander("References & Sources"):
+        st.markdown("""
+        **Guidelines and Resources:**
+        <ul>
+            <li><a href="https://www.ahajournals.org/doi/10.1161/CIR.0000000000001106" target="_blank">2022 ACC/AHA Aortic Disease Guidelines</a></li>
+            <li><a href="https://www.clinicalgenome.org/" target="_blank">ClinGen</a></li>
+            <li><a href="https://www.ncbi.nlm.nih.gov/books/NBK1116/" target="_blank">GeneReviews</a></li>
+            <li><a href="https://www.marfan.org/" target="_blank">The Marfan Foundation</a></li>
+            <li><a href="https://ehlers-danlos.com/" target="_blank">The Ehlers-Danlos Society</a></li>
+        </ul>
+        
+        **Risk Calculations:**
+        <p>Risk calculations are based on published literature for specific genes and follow current consensus guidelines.</p>
+        """, unsafe_allow_html=True)
+
+    # Add disclaimer
+    st.warning("""
+    **DISCLAIMER:** This tool provides informational guidance only and does not replace clinical judgment. 
+    All recommendations should be reviewed by qualified healthcare providers familiar with the patient's complete history. 
+    The information is based on current guidelines but may not account for all individual factors.
+    """)
+
+    # Show history
+    with st.expander("Previous Sessions"):
+        if st.session_state.history:
+            for i, session in enumerate(st.session_state.history):
+                st.write(f"**Session {i+1}:** {session['timestamp']}")
+                st.write(f"Gene: {session['gene']}, Variant: {session['variant']}, Root: {session['root_diameter']}mm")
+                st.divider()
+        else:
+            st.write("No previous sessions")
