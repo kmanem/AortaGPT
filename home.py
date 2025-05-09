@@ -4,7 +4,7 @@ from dotenv import load_dotenv
 import os
 from openai import OpenAI
 import json
-from smolagents import CodeAgent, ToolCallingAgent, tool, LiteLLMModel
+from smolagents import LiteLLMModel  # smolagents imports retained for future use
 import threading
 from helper_functions import *
 
@@ -76,8 +76,13 @@ if 'selected_variant_info' not in st.session_state:
 if 'variant_cache' not in st.session_state:
     st.session_state.variant_cache = {}
 # Initialize other relevant details field
+# Initialize other relevant details and chat state
 if 'other_relevant_details' not in st.session_state:
     st.session_state.other_relevant_details = ""
+if 'chat_active' not in st.session_state:
+    st.session_state.chat_active = False
+if 'chat_history' not in st.session_state:
+    st.session_state.chat_history = []
 
 # Clinical history options
 clinical_options = [
@@ -106,38 +111,7 @@ GENE_OPTIONS = [
     "SLC2A10", "Other"
 ]
 
-# Tool to configure all parameters
-@tool
-def configure_all_params(config: dict) -> None:
-    """
-    Updates all patient input parameters in the Streamlit app based on a configuration dictionary.
 
-    Args:
-        config (dict): A dictionary where keys are the names of the parameters to configure and values are the corresponding inputs. Expected keys include:
-            - "age" (int): Patient age in years
-            - "sex" (str): "Male", "Female", or "Other"
-            - "gene" (str): Gene name, one of predefined or custom
-            - "variant" (str): Genetic variant description
-            - "root_diameter" (float): Aortic root diameter in millimeters
-            - "ascending_diameter" (float): Ascending aorta diameter in millimeters
-            - "z_score" (float): Z-score of aortic measurements
-            - "meds" (list of str): List of medications such as "Beta-blocker", "ARB", etc.
-            - [clinical history items] (bool): True/False values for each clinical history checkbox (see full list in `clinical_options`)
-
-    Behavior:
-        - Updates the values in `st.session_state`
-        - Triggers a rerun of the Streamlit app to reflect new values in the UI
-    """
-    for key, value in config.items():
-        if key in clinical_options:
-            st.session_state[key] = value
-        else:
-            st.session_state[key] = value
-    st.rerun()
-
-# Define the agent
-# Define the agent (unused for free-text; kept for compatibility)
-agent = CodeAgent(tools=[configure_all_params], model=gpt_4_1)
 
 # Function to interpret a free-text description via OpenAI Responses API and apply parameters
 def interpret_and_apply_params(description: str) -> None:
@@ -247,7 +221,6 @@ with st.sidebar:
                 vs = fetch_clinvar_variants(g)
                 st.session_state.variant_cache[f"variants_{g}"] = vs
             threading.Thread(target=_load_variants, args=(gene,), daemon=True).start()
-        # Use current cached list (empty or loaded)
         variants_list = st.session_state.variant_cache[cache_key]
         # Search/filter
         search_query = st.text_input("Search variants", value=variant, key="variant_search")
@@ -347,5 +320,47 @@ if st.session_state.selected_variant_info:
         <a href="{variant_info.get('clinvar_url', '#')}" target="_blank">View in ClinVar</a>
         """, unsafe_allow_html=True)
 
-# Generate output button
-submitted = st.sidebar.button("Generate AortaGPT Output", type="primary")
+# Initialize Chat button
+submitted = st.sidebar.button("Initialize Chat", type="primary")
+if submitted:
+    # Activate chat interface and seed context
+    st.session_state.chat_active = True
+    from helper_functions import build_patient_context
+    context = build_patient_context(st.session_state, clinical_options)
+    st.session_state.chat_history = [{"role": "system", "content": context}]
+
+# Chat interface activated?
+if st.session_state.chat_active:
+    st.header(":speech_balloon: AortaGPT Chat")
+    # Display past messages
+    for msg in st.session_state.chat_history:
+        if msg["role"] != "system":
+            st.chat_message(msg["role"]).write(msg["content"])
+    # Get user input
+    user_input = st.chat_input("Ask a question about this patient...")
+    if user_input:
+        st.session_state.chat_history.append({"role": "user", "content": user_input})
+        # Send through Responses API for structured chat
+        with st.spinner("AortaGPT is thinking..."):
+            response = client.responses.create(
+                model="gpt-4.1",
+                input=st.session_state.chat_history
+            )
+        # Parse assistant message
+        if hasattr(response, 'output_text') and response.output_text:
+            assistant_msg = response.output_text
+        else:
+            assistant_msg = ''
+            try:
+                for msg in response.output:
+                    for chunk in msg['content']:
+                        if chunk.get('type') == 'output_text':
+                            assistant_msg += chunk.get('text', '')
+                        elif chunk.get('type') == 'refusal':
+                            assistant_msg += chunk.get('refusal', '')
+            except Exception:
+                assistant_msg = '<Could not parse model response>'
+        st.session_state.chat_history.append({"role": "assistant", "content": assistant_msg})
+        # Re-run to display the assistant's message
+        st.rerun()
+

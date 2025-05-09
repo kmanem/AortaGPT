@@ -189,6 +189,42 @@ def filter_variants(variants, query):
         filtered.append("Enter custom variant")
         
     return filtered
+  
+def build_patient_context(session_state, clinical_options) -> str:
+    """
+    Construct a text summary of patient parameters for chat context.
+    """
+    parts = []
+    parts.append(f"Age: {session_state.get('age', '')} years")
+    parts.append(f"Sex: {session_state.get('sex', '')}")
+    gene = session_state.get('gene', '')
+    custom_gene = session_state.get('custom_gene', '')
+    if gene == 'Other' and custom_gene:
+        parts.append(f"Gene: {custom_gene}")
+    else:
+        parts.append(f"Gene: {gene}")
+    parts.append(f"Variant: {session_state.get('variant', '')}")
+    parts.append(f"Aortic Root Diameter: {session_state.get('root_diameter', '')} mm")
+    parts.append(f"Ascending Aorta Diameter: {session_state.get('ascending_diameter', '')} mm")
+    parts.append(f"Z-score: {session_state.get('z_score', '')}")
+    meds = session_state.get('meds', []) or []
+    parts.append(f"Medications: {', '.join(meds) if meds else 'None'}")
+    # Clinical history
+    hx = [opt for opt in clinical_options if session_state.get(opt, False)]
+    parts.append(f"Clinical History: {', '.join(hx) if hx else 'None'}")
+    other = session_state.get('other_relevant_details', '')
+    parts.append(f"Other Details: {other}")
+    return 'Patient Profile:\n' + '\n'.join(parts)
+  
+# Bulk-apply parsed parameters into Streamlit session
+def configure_all_params(config: dict) -> None:
+    """
+    Update Streamlit session_state with values from config dict and rerun the app.
+    """
+    for key, value in config.items():
+        st.session_state[key] = value
+    # Trigger rerun to apply changes in UI
+    st.rerun()
 
 # Validation and calculation functions
 def validate_measurements(root_diameter, ascending_diameter):
