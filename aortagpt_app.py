@@ -7,6 +7,7 @@ import json
 from smolagents import LiteLLMModel  # smolagents imports retained for future use
 import threading
 from helper_functions import *
+from vector_search import search_documents
 
 # Load environment variables
 load_dotenv()
@@ -98,6 +99,8 @@ if 'chat_active' not in st.session_state:
     st.session_state.chat_active = False
 if 'chat_history' not in st.session_state:
     st.session_state.chat_history = []
+if 'search_results' not in st.session_state:
+    st.session_state.search_results = []
 
 # Clinical history options
 clinical_options = [
@@ -190,6 +193,16 @@ def interpret_and_apply_params(description: str) -> None:
         print(response.output_text)
         raw = response.output_text
         config = json.loads(raw)
+        # Build a patient summary string for retrieval
+        context_str = build_patient_context(config, clinical_options)
+        # Perform vector search on summary context
+        results = search_documents(
+            query=context_str,
+            index_path="data/embeddings.pkl",
+            top_k=5,
+            snippet_length=200
+        )
+        st.session_state.search_results = results
     except Exception as e:
         st.error(f"Error parsing parameters: {e}")
         return
@@ -234,6 +247,8 @@ with st.sidebar:
             st.session_state.variant_cache[cache_key] = []
             def _load_variants(g):
                 vs = fetch_clinvar_variants(g)
+                if 'variant_cache' not in st.session_state:
+                    st.session_state.variant_cache = {}
                 st.session_state.variant_cache[f"variants_{g}"] = vs
             threading.Thread(target=_load_variants, args=(gene,), daemon=True).start()
         variants_list = st.session_state.variant_cache[cache_key]
@@ -327,14 +342,39 @@ with st.sidebar:
 submitted = st.sidebar.button("Initialize Chat", type="primary")
 tabs = st.tabs([":speech_balloon: Chat", ":page_facing_up: Report"])
 
+# RAG Pipeline
+
+
 with tabs[0]:
     # Chat setup
     if submitted:
         st.session_state.chat_active = True
-        context = build_patient_context(st.session_state, clinical_options)
-        st.session_state.chat_history = [{"role": "system", "content": context}]
+        # Build dynamic context from retrieved documents
+        docs = st.session_state.get("search_results", []) or []
+        context_lines = []
+        for doc in docs:
+            context_lines.append(
+                f"Source: {doc.get('file','Unknown')}"
+                f" (score: {doc.get('score',0):.3f})\n"
+                f"Snippet: {doc.get('snippet','')}"
+            )
+        dynamic_context = "\n\n".join(context_lines)
+        # Combine static system prompt with dynamic context
+        initial_prompt = system_prompt.strip() + "\n\n" + dynamic_context
+        st.session_state.chat_history = [{"role": "system", "content": initial_prompt}]
     if st.session_state.chat_active:
         st.header(":speech_balloon: AortaGPT Chat")
+        # Display retrieved context documents
+        with st.expander("📚 Retrieved Context Documents", expanded=False):
+            query_ctx = st.text_input("Search within context", key="context_search")
+            docs = st.session_state.get("search_results", []) or []
+            # Filter by search query in snippet or filename
+            if query_ctx:
+                docs = [d for d in docs if query_ctx.lower() in d.get('snippet','').lower() or query_ctx.lower() in d.get('file','').lower()]
+            for d in docs:
+                st.markdown(f"**{d.get('file','Unknown')}** (score: {d.get('score',0):.3f})")
+                st.write(d.get('snippet',''))
+        # Render chat history (skip system messages)
         for msg in st.session_state.chat_history:
             if msg["role"] != "system":
                 st.chat_message(msg["role"]).write(msg["content"])

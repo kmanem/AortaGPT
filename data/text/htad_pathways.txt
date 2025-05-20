@@ -1,0 +1,1024 @@
+European Journal of Medical Genetics 66 (2023) 104673
+Available online 29 November 2022
+1769-7212/© 2022 The Authors. Published by Elsevier Masson SAS. This is an open access article under the CC BY-NC-ND license
+(http://creativecommons.org/licenses/by-nc-nd/4.0/).
+HTAD patient pathway: Strategy for diagnostic work-up of patients and 
+families with (suspected) heritable thoracic aortic diseases (HTAD). A 
+statement from the HTAD working group of VASCERN 
+Maryanne Caruana
+a
+, Marieke J. Baars
+b
+, Evy Bashiardes
+c
+, Kalman Benke
+d
+, Erik Bj ¨orck
+e
+, 
+Andrei Codreanu
+f
+, Elena de Moya Rubio
+g
+, Julia Dumfarth
+h
+, Arturo Evangelista
+i
+, 
+Maarten Groenink
+b
+, Klaus Kallenbach
+f
+, Marlies Kempers
+j
+, Anna Keravnou
+c
+, Bart Loeys
+k
+, 
+Laura Mui ˜no-Mosquera
+l
+, Edit Nagy
+m
+, Olivier Milleron
+n
+, Stefano Nistri
+o
+, Guglielmina Pepe
+o
+, 
+Jolien Roos-Hesselink
+p
+, Zoltan Szabolcs
+d
+, Gisela Teixid ´o-Tura
+i
+, Janneke Timmermans
+j
+, 
+Ingrid Van de Laar
+p
+, Roland van Kimmenade
+j
+, Aline Verstraeten
+k
+, Yskert Von Kodolitsch
+q
+, 
+Julie De Backer
+l
+, Guillaume Jondeau
+n , * 
+a
+Department of Cardiology, Mater Dei Hospital, VASCERN HTAD Affiliated Partner Centre, Malta 
+b
+Department of Cardiology, Academic Medical Centre, Amsterdam, VASCERN HTAD European Reference Centre, the Netherlands 
+c
+Department of Cardiovascular Genetics and Laboratory of Forensic Genetics, The Cyprus Institute of Neurology and Genetics, Nicosia, VASCERN HTAD Affiliated 
+Partner Centre, Cyprus 
+d
+Semmelweis University Heart and Vascular Centre, Budapest, VASCERN HTAD European Reference Centre, Hungary 
+e
+Department of Clinical Genetics, Karolinska University Hospital, Stockholm, VASCERN HTAD European Reference Centre, Sweden 
+f
+Centre Hospitalier de Luxembourg, VASCERN HTAD Affiliated Partner Centre, Luxembourg 
+g
+Marfan Hilfe, VASCERN HTAD European Patient Advocacy Group, Spain 
+h
+Department of Cardiac Surgery, Medical University Innsbruck, Innsbruck, Austria, VASCERN HTAD Affiliated Partner Centre 
+i
+Hospital Universitari Vall d ’ Hebron, Barcelona, VASCERN HTAD European Reference Centre, Spain 
+j
+Department of Clinical Genetics, Radboud University Medical Center, Nijmegen, VASCERN HTAD European Reference Centre, the Netherlands 
+k
+Center of Medical Genetics, University Hospital of Antwerp, Antwerp, VASCERN HTAD European Reference Centre, Belgium 
+l
+Center for Medical Genetics, Ghent University Hospital, Ghent, VASCERN HTAD European Reference Centre, Belgium 
+m
+Karolinska University Hospital, Theme Heart and Vessels, Division of Valvular and Adult Congenital Heart Disease, SE-171 76, Stockholm, Sweden 
+n
+Centre de r ´ef ´erence pour le syndrome de Marfan et apparent ´es, Department of Cardiology, AP-HP, Universit ´e Paris Cit ´e, H ˆopital Bichat-Claude Bernard, Paris, 
+VASCERN HTAD European Reference Centre, France 
+o
+Regional Tuscany Reference Center for Marfan Syndrome and Related Disorders, Careggi Hospital, University of Florence, Florence, VASCERN HTAD European 
+Reference Centre, Italy 
+p
+Department of Clinical Genetics and Cardiology, Erasmus Medical Center, Rotterdam, VASCERN HTAD European Reference Centre, Spain 
+q
+University Hospital Hamburg-Eppendorf University Heart Centre, Hamburg, VASCERN HTAD European Reference Centre, Germany   
+ARTICLE INFO  
+Keywords: 
+Familial thoracic aortic aneurysm and 
+dissection 
+Loeys-dietz syndrome 
+Marfan syndrome 
+Thoracic aortic aneurysm 
+ABSTRACT  
+Heritable thoracic aortic diseases (HTAD) are rare pathologies associated with thoracic aortic aneurysms and 
+dissection, which can be syndromic or non-syndromic. They may result from genetic defects. Associated genes 
+identified to date are classified into those encoding components of the (a) extracellular matrix (b) TGF β pathway 
+and (c) smooth muscle contractile mechanism. Timely diagnosis allows for prompt aortic surveillance and 
+prophylactic surgery, hence improving life expectancy and reducing maternal complications as well as providing 
+reassurance to family members when a diagnosis is ruled out. This document is an expert opinion reflecting 
+strategies put forward by medical experts and patient representatives involved in the HTAD Rare Disease 
+Working Group of VASCERN. It aims to provide a patient pathway that improves patient care by diminishing 
+time to diagnosis, facilitating the establishment of a correct diagnosis using molecular genetics when possible, 
+excluding the diagnosis in unaffected persons through appropriate family screening and avoiding overuse of 
+resources. It is being recommended that patients are referred to an expert centre for further evaluation if they 
+* Corresponding author. Centre de r ´ef ´erence pour le syndrome de Marfan et apparent ´es, H ˆopital Bichat, 46 Rue Henri Huchard, 75018, Paris, France. 
+E-mail address: guillaume.jondeau@aphp.fr (G. Jondeau).  
+Contents lists available at ScienceDirect 
+European Journal of Medical Genetics 
+journal homepag e: www.else vier.com/loc ate/ejmg 
+https://doi.org/10.1016/j.ejmg.2022.104673 
+Received 29 September 2021; Received in revised form 6 November 2022; Accepted 27 November 2022   
+
+European Journal of Medical Genetics 66 (2023) 104673
+2
+meet at least one of the following criteria: (1) thoracic aortic dissection ( < 70 years if hypertensive; all ages if 
+non-hypertensive), (2) thoracic aortic aneurysm (all adults with Z score > 3.5 or 2.5 – 3.5 if non-hypertensive or 
+hypertensive and < 60 years; all children with Z score > 3), (3) family history of HTAD with/without a pathogenic 
+variant in a gene linked to HTAD, (4) ectopia lentis without other obvious explanation and (5) a systemic score of 
+> 5 in adults and > 3 in children. Aortic imaging primarily relies on transthoracic echocardiography with mag -
+netic resonance imaging or computed tomography as needed. Genetic testing should be considered in those with 
+a high suspicion of underlying genetic aortopathy. Though panels vary among centers, for patients with thoracic 
+aortic aneurysm or dissection or systemic features these should include genes with a definitive or strong asso -
+ciation to HTAD. Genetic cascade screening and serial aortic imaging should be considered for family screening 
+and follow-up. In conclusion, the implementation of these strategies should help standardise the diagnostic work- 
+up and follow-up of patients with suspected HTAD and the screening of their relatives.   
+1. Introduction 
+Heritable thoracic aortic diseases (HTAD) are rare pathologies 
+with an incidence of approximately 1 in 5000 ( Fletcher et al., 2020 ). 
+They are characterised by great variability in presentation and natural 
+history and are associated with a high risk of aortic dissection ( Milewicz 
+and Regalado, 1993 ). HTAD encompasses both syndromic and 
+non-syndromic entities associated with thoracic aortic aneurysms or 
+dissections that can in turn be sporadic or familial. These entities may be 
+caused by genetic defects. Most of these conditions demonstrate an 
+autosomal dominant inheritance pattern with incomplete penetrance, 
+with the latter being mainly observed in non-syndromic HTAD. There -
+fore, in addition to the known genetic defects, interplay between envi -
+ronmental factors and several modifier genes is suspected. Although the 
+number of genes involved in HTAD is steadily increasing, a significant 
+number of patients/families with HTAD have no identifiable pathogenic 
+variant, suggesting that other yet unknown disease genes and mecha -
+nisms exist. Genes identified to date can be broadly classified into three 
+categories: (1) genes encoding components of the extracellular matrix 
+(e.g. FBN1, MFAP5, LOX and COL3A1 ); (2) genes encoding components 
+of the TGF β pathway (e.g. TGFBR1/2, TGFB2/3, SMAD2/3 ); (3) genes 
+encoding components of the smooth muscle cell contractile mechanism 
+(e.g. ACTA2, MYH11, MYLK, PRKG1 ) ( Faggion Vinholo et al., 2019 ; 
+Milewicz and Regalado, 1993 ; Verstraeten et al., 2017 ). 
+In order to benefit from up-to-date professional care encompassing 
+aortic growth monitoring and prophylactic surgery to prevent dissec -
+tions/ruptures, a timely diagnosis is essential. This does not only in -
+crease life expectancy and quality of life, but also helps to avoid 
+maternal complications and adverse outcomes during pregnancy and 
+expedites access to specialists and adequate services and benefits. 
+Furthermore, family screening, facilitated by genetic testing, could help 
+identify other family members at risk and equally provide reassurance to 
+patients when the diagnosis is ruled out. 
+Due to the increase in knowledge over the last years, with the 
+recognition of many new entities, a need for a straightforward document 
+describing the optimal “ patient pathway ” defined by professionals in the 
+field throughout Europe was identified. At present, patient care is 
+diverse across Europe, and national specialized centers and networks are 
+not available everywhere. Hence, the aim of this document is to propose 
+such a pathway to:  
+(1) improve patient care by reducing time to diagnosis 
+(2) facilitate the establishment of a correct diagnosis, using molec -
+ular genetics, when possible, which can help achieve more 
+personalized treatment  
+(3) exclude the diagnosis in unaffected persons through family 
+screening  
+(4) avoid overuse of financial and personnel resources. 
+This document focuses on the initial evaluation of patients with a 
+suspicion of HTAD. It can be used both by non-specialized healthcare 
+providers (HCPs) to guide them in choosing who to refer to a specialized 
+center) as well as HCPs in specialized centers to aid in the 
+standardisation of care across Europe. 
+Comparable patient pathways that can be applied to patients pre -
+senting with diverse clinical manifestations have to our knowledge not 
+been published. Aortic disease oriented pathways can be found in 
+guideline documents ( Erbel et al., 2014 ; Isselbacher et al., 2022 ), which 
+have a more focused approach compared to this document. 
+This document is an expert opinion reflecting strategies put forward 
+by medical experts, and patient representatives, involved in the HTAD 
+Rare Disease Working Group of VASCERN. The HTAD Rare Disease 
+Working Group is one of the six Rare Disease working groups of the 
+European Reference Network on Rare Multisystemic Cardiovascular 
+Diseases ( VASCERN ), which covers a spectrum of syndromic and non- 
+syndromic clinical entities with aortic manifestations. A total of 14 
+healthcare providers representing 8 EU countries, 2 additional cooper -
+ating centers from 2 countries and one patient advocate, representing 
+the HTAD Patient Working Group, are members of the working group. 
+The full list can be found on the website ( www.vascern.eu ). This 
+pathway is a consensus at expert level. It was generated based on 
+available guidelines when possible. Discussion items were listed and, 
+where necessary, items were included in a questionnaire sent out for 
+voting and discussion over monthly teleconference calls. This pathway 
+describes what was considered an ideal pathway by the experts. How -
+ever, adhering to this pathway may not be possible in all countries. 
+Given the decreasing cost of genetic testing, it may become more easily 
+available. We propose that this pathway is used as a guide when 
+establishing local policies. It is available on the website of VASCERN 
+( www.vascern.eu ) and will be updated regularly. To the best of our 
+knowledge, no other patient pathway has been published on this topic. 
+That being said, it is worth emphasising that defining “ absolute 
+thresholds ” to decide whether or not to refer a patient for further eval -
+uation is an impossible task and that many clinical scenarios cannot be 
+captured in an algorithm or a pathway and will always require clinical 
+expertise. Factors impeding the design of recommendations for referral 
+of patients with a suspicion of HTAD include:  
+1. The age-dependent expression of many manifestations, rendering 
+evaluation in children very challenging  
+2. The variability of the phenotype, and, in particular, the notion that 
+syndromic manifestations are not necessarily required for a diagnosis 
+of HTAD  
+3. The fact that, to date, clearly defined diagnostic criteria only exist for 
+Marfan syndrome 
+Similarly, the expertise of people using these recommendations may 
+vary with their background, so that the proposed scheme may have to be 
+adapted to local expertise. 
+2. Pathway elements  
+(a) Thoracic aortic aneurysm (TAA) 
+Definition: TAA is defined as an aortic diameter at the level of the 
+root, ascending aorta, arch or descending aorta up to the level of the 
+M. Caruana et al.                                                                                                                                                                                                                               
+
+European Journal of Medical Genetics 66 (2023) 104673
+3
+diaphragm that exceeds the normal value. In the general population, 
+aortic diameters show a normal distribution. Hence, the probability of 
+having a diameter above a given value can be derived from the z-score, 
+which represents the number of standard deviations above the mean. 
+Application of the z-score considers several factors that influence aortic 
+diameter, namely patient age, sex, height, and weight. This is particu -
+larly relevant in childhood, but is also useful in adulthood to diagnose 
+abnormal aortic diameters in subjects of various body sizes. Given that 
+statistically only 2.3% of the general population is expected to have a z- 
+score above 2 (and only 0.13% of the population a z-score above 3), a 
+higher aortic z-score signifies a higher probability of an aortic abnor -
+mality that calls for further assessment. Different nomograms measuring 
+the aorta from leading edge to leading edge ( Campens et al., 2014 ; 
+Devereux et al., 2012 ; Gautier et al., 2010 ; Roman et al., 1989 ; Rutten 
+et al., 2021 ), or using an inner-to-inner diameter ( Cantinotti et al., 2017; 
+Lopez et al., 2010; Pettersen et al., 2008 ) have been proposed over the 
+years. To avoid over- or underestimation of the z-score, the nomogram 
+used for interpretation should match the method used for measurement. 
+As a general rule, we propose the adoption of the most recently proposed 
+method which covers children and adults and to use leading edge to 
+leading edge aortic measurements ( Campens et al., 2014 ). We also 
+recommend z-scores using height in patients who are severely under- or 
+overweight. ( Devereux et al., 2012 ). However, the presence of multiple 
+tools available underlines the imperfection of each of the calculations 
+proposed, and comparison of various results may be helpful in difficult 
+cases (online calculation https://www.marfan.fr/accueil/z-score-ca 
+lculus ). For follow-up purposes, it is recommended that, for a given 
+patient, the same method and nomogram is applied consistently. 
+Measurement of aortic diameter to detect aortic aneurysm: TAAs are 
+more frequent at the level of the aortic root or at the level of the tubular 
+portion of the ascending aorta than in the aortic arch or descending 
+thoracic aorta. Hence, views of both aortic root and ascending aortic 
+diameters should be obtained during screening. The reference thoracic 
+aortic measurement is usually acquired from a parasternal long-axis 
+view using two-dimensional echocardiography. Leading edge to lead -
+ing edge measurements in diastole are preferred ( Goldstein et al., 2015 ; 
+Lang et al., 2005 ). When a transverse view of the aortic root is obtained 
+(usually during magnetic resonance imaging (MRI) or computerised 
+tomography (CT)), the cusp-to-cusp measurement, which is the more 
+comparable measurement to that obtained during echocardiography, 
+should be used ( Amsallem et al., 2015 ; Rodríguez-Palomares et al., 
+2016 ). Cusp-to-commissure measurements tend to systematically lead to 
+lower values than echocardiographic measurements. For diagnosing 
+aortic root aneurysm, transthoracic echocardiography (TTE) remains 
+the preferred screening tool. However, the tubular aorta, arch and 
+descending aorta may not always be easily visible on TTE, and MRI or CT 
+might be required in these instances, with the choice of modality 
+depending on local availability and patients ’ preference. 
+The variability of the aortic measurements depending on the tech -
+nique used and the method of measurement is important to keep in mind 
+when considering the calculation of the z-score and defining aortic 
+dilatation, and also for evaluating progression of aortic root dilatation 
+over time ( Goldstein et al., 2015 ). When comparing serial studies to 
+analyse for progression of aortic dilatation over time, side-by-side 
+comparison of measurements using the same imaging modality and 
+assessment method is recommended. Only differences in excess of 3 mm 
+are to be considered significant. 
+Criteria for further investigation: The z-score threshold value above 
+which to consider a TAA to warrant further investigation differs between 
+adults and children. 
+For children, the proposed z-score threshold has been set at 3 in the 
+latest diagnostic criteria for Marfan syndrome (MFS) published in 2010 
+( Loeys et al., 2010 ), because small differences have larger impact on 
+z-score in children than in adults, and the observation that a moderate 
+aortic dilatation observed in early childhood is often not present later in 
+life ( Gautier et al., 2010 ). However, whether this is still true with the 
+more recent z-score nomograms remains unclear. We propose to use a 
+similar z-score threshold of 3 to consider aortic dilatation to be signifi -
+cant in children ( < 18 y.o.). However, a z-score of > 2 in a child with 
+other systemic manifestations or progression of the z-score over time, 
+should prompt referral to an expert centre. For those children with a 
+z-score between 2 and 3 and no other clinical manifestations, we pro -
+pose a repeated measurement after 1 – 2 years to evaluate progression or 
+normalization. 
+In adults, confounding factors such as hypertension and aging are 
+important, and can be independently responsible for aortic dilatation 
+mainly at the level of the tubular aorta ( Mori et al., 2019 ; Mul `e et al., 
+2017 ). It is our recommendation to pursue diagnostic evaluation for 
+HTAD in adults with an aortic z-score of 3.5 or higher irrespective of age 
+or presence of hypertension, given that the latter alone is not a sufficient 
+risk factor to explain such a degree of dilatation. When the z-score is 
+between 2.5 and 3.5 ( Campens et al., 2014 ), diagnostic evaluation is 
+recommended at all ages if normotensive, and for subjects < 60 years of 
+age if hypertension is present. 
+Although the patient pathway outlined in this manuscript is focused 
+on diagnosis, we want to point out that the criteria used to define 
+thresholds for surgery commonly use unadjusted absolute aortic root 
+diameters and not z-scores, which is related to the fact that studies about 
+aortic dissection risk mainly report absolute diameters ( Jondeau et al., 
+2012 ; Milleron et al., 2020 ). Z-scores do have significant advantages, 
+especially in the pediatric population, but sources of limitations 
+including measurement error, validity of nomograms, inconsistent use 
+of BSA equations and uncertainty of the natural history of z-scores need 
+to be taken into account ( Curtis et al., 2016 ).  
+(b) Thoracic aortic dissection (TAD) 
+Definition: There are two types of TAD, type A and B, and both are 
+rare entities. Type A has an incidence that ranges from 2.1 to 16.3/ 
+100,000 inhabitants ( Wundram et al., 2020 ). Type B dissections may be 
+slightly less frequent ( Acosta and Gotts ¨ater, 2019 ). The main risk factors 
+for aortic dissection are older age, hypertension and underlying genetic 
+aortopathy ( Evangelista et al., 2018 ). For the purpose of this document, 
+arterial hypertension is defined as blood pressure values exceeding 
+140/90 mmHg or patients treated with antihypertensive agents, in line 
+with international guidelines ( Williams et al., 2018 ). Hypertension 
+leading to aortic dilatation/dissection is usually longstanding, or not 
+well-controlled, and often unrecognised. TAD presenting in younger 
+patients is more likely to have a genetic origin and is less likely to be 
+linked to a history of hypertension or atherosclerosis ( Januzzi et al., 
+2004 ). Intramural hematoma and pseudoaneurysms are usually seen in 
+the setting of advanced atherosclerosis, with a lower risk of underlying 
+genetic aortopathy, and should follow referral rules set for aneur -
+ysm/dissection only in the absence of atheroma. 
+Criteria for further investigation: We propose further evaluation of all 
+patients with TAD if there is no history of hypertension and patients < 70 
+years of age in the presence of hypertension.  
+(c) Bicuspid aortic valve (BAV) 
+Definition: BAV is a common entity, with an estimated prevalence of 
+1 – 2% in the general population ( Braverman et al., 2005 ). In the absence 
+of aortic stenosis or regurgitation, it can often go unnoticed. BAV is 
+associated with a risk of earlier occurrence of aortic stenosis during late 
+adulthood as well as TAAs, predominantly at the level of the ascending 
+aorta, in approximately 50% of cases. The progression of these aneu -
+rysms remains unpredictable ( Detaint et al., 2014 ; Verma and Siu, 
+2014 ). Some cases of BAV are familial with family screening efforts 
+identifying BAV or TAA in approximately 10% of relatives ( Cozijnsen 
+et al., 2018 ; Galian-Gay et al., 2019 ; Massardier et al., 2020 ). Pathogenic 
+variants in genes encoding for components of the TGF β pathway have 
+been associated with more frequent occurrence of BAV ( Attias et al., 
+M. Caruana et al.                                                                                                                                                                                                                               
+
+European Journal of Medical Genetics 66 (2023) 104673
+4
+2009 ). The concomitant presence of BAV in patients with an FBN1 
+mutation has not been found to represent an additional aortic risk factor 
+in patients with MFS ( Milleron et al., 2019 ). 
+Criteria for further investigation: TAA in the presence of BAV should be 
+worked up further as per guidance set out above. Patients with BAV but 
+normal aortic calibre warrant further evaluation if they manifest addi -
+tional systemic features or if they are familial.  
+(d) Medium-sized artery (MSA) aneurysms/dissection 
+Diseases of multiple medium-to-large arteries or recurrent events, 
+even in the absence of TAA, should prompt referral to a specialized 
+center for diagnostic evaluation. This is discussed in more detail in a 
+dedicated pathway available at vascern.eu/expertise/rare-diseases- 
+wgs/medium-size-arteries-wg.  
+(e) Extravascular features 
+Syndromic HTAD entities typically present with a combination of 
+several extravascular features. Since some of these features may become 
+apparent prior to the development of aortic disease, their recognition 
+can be crucial to early referral to an expert centre for evaluation of 
+possible HTAD. 
+Definitions: 
+Mitral valve prolapse is prevalent in patients with FBN1 pathogenic 
+variants (including MFS) and to a lesser extent in patients harbouring 
+pathogenic variants in genes encoding for components of the TGF β 
+pathway (including Loeys-Dietz syndrome (LDS)) ( Mühlst ¨adt et al., 
+2019 ). 
+Ectopia lentis is most commonly associated with MFS ( Ad `es et al., 
+2004 ; Sadiq and Vanderveen, 2013 ), but can also be a feature of other 
+genetic disorders. A diagnosis of ectopia lentis should promptly trigger 
+echocardiographic and genetic testing of the patient and familial 
+ophthalmological screening. Equally, a suspicion of MFS or the presence 
+of an FBN1 pathogenic variant should prompt ophthalmological 
+assessment for ectopia lentis. 
+Facial features such as dolichocephaly, enophthalmos, down- 
+slanting palpebral fissures, malar hypoplasia, retrognathia and high- 
+arched palate are found in MFS ( Table 1 ). Characteristic features of 
+LDS include bifida uvula, cleft palate and hypertelorism. 
+Skeletal features are associated with some genes responsible for 
+HTAD. Pectus excavatum (and, the less common albeit more specific, 
+pectus carinatum, increased arm span, scoliosis (particularly with dou -
+ble curvature), arachnodactyly (positive wrist and thumb signs), flat 
+feet, spondylolisthesis, kyphosis, reduced elbow extension and dural 
+ectasia have been associated with MFS. Club feet and cervical spine 
+instability can be present in LDS. However, several of these features are 
+not specific to one condition. For example, scoliosis, pectus deformity, 
+dural ectasia and flat feet can also be encountered in LDS, and many of 
+these features can also be encountered in patients with genetic variants 
+in other HTAD genes. 
+Cutaneous features include striae, particularly of the shoulders 
+( Ledoux et al., 2011 ) for MFS and easy bruising, dystrophic scarring, 
+milia and translucent skin for LDS ( Loeys et al., 2006 ). 
+Recurrent pneumothorax: The estimated frequency of recurrent 
+pneumothorax in patients with MFS over the age of 12 years is 4 – 11% 
+( Arnaud et al., 2021 ; Boone et al., 2019 ). Although infrequent, it is seen 
+more commonly than in the general population where the estimated 
+prevalence is 0.01% ( Boone et al., 2019 ). The prevalence in LDS and 
+other HTAD is currently unknown. However, pneumothorax in the 
+absence of other features is rarely indicative of a diagnosis of HTAD and 
+current guidelines do not recommend referral of patients for further 
+evaluation of possible HTAD solely on the basis of a history of sponta -
+neous pneumothorax ( MacDuff et al., 2010 ; Schnell et al., 2018 ; 
+Tschopp et al., 2015 ). Therefore, it is our recommendation that a diag -
+nosis of MFS or related condition should only be looked for in patients 
+with a history of spontaneous pneumothorax that also manifest other 
+features suggestive of such genetic conditions. 
+Criteria for referral to a reference center: None of the above features 
+alone are specific. It is the association of various features, not usually 
+found in the general population, which carries a diagnostic value and 
+should prompt further referral. In keeping with this thinking, a scoring 
+system has been proposed in the latest Ghent nosology for diagnosing 
+MFS ( Loeys et al., 2010 ), and this is summarized in Table 1 . As shown in 
+this table, some features bear a higher weighting because they are more 
+specific to the diagnosis of MFS and should thus prompt a higher sus -
+picion. In the study by Mühlst ¨adt and colleagues, the average MFS 
+systemic score in adults was 6.6 ± 3.2 in MFS, 3.4 ± 3.8 in individuals 
+with a TGFBR1 mutation, 4.2 ± 3.7 in TGFBR2 mutation carriers, and 
+2.1 ± 2.1 in those with a SMAD3 variant ( Mühlst ¨adt et al., 2019 ). In 
+children, the systemic score is generally lower and early diagnosis might 
+be hampered by the absence of skeletal features at younger ages ( Sthe -
+neur et al., 2014 ). 
+Based on these findings, we propose that a MFS systemic score of > 5 
+in adults should trigger further investigation, while in children evalua -
+tion is indicated in the presence of a systemic score of > 3. However, 
+given that, as previously shown, patients carrying variants in one of the 
+genes of the TGF β pathway tend to have lower systemic scores than the 
+ones being proposed above, we recommend that the combination of 
+features specific for LDS like bifid uvula, craniosynostosis, hypertelorism 
+or osteoarthritis should equally prompt referral. Some scores or specific 
+features have been associated with TAA ( Faggion Vinholo et al., 2019 ), 
+such as the seven signs score for MFS ( Sheikhzadeh et al., 2012 ; von 
+Kodolitsch et al., 2015 ), and the so-called “ thumb-palm-test ” in 
+non-syndromic HTAD ( Blumel et al., 2021 ) and these may further help 
+with screening. Equally, there are some features not listed in the Ghent 
+nosology that have been separately associated with MFS ( von Kodolitsch 
+et al., 2015 ). Thus, the presence of intracerebral arterial aneurysms, 
+simple renal cysts at an early age, congenital mydriasis, or congenital 
+heart defects such as BAV, coarctation of the aorta and persistent ductus 
+arteriosus should also raise suspicion.  
+(f) Family history 
+A positive family history is defined as the presence of at least one first 
+or second-degree relative with a thoracic aortic aneurysm or dissection 
+below the age of 70 years or sudden death below the age of 45 years in 
+the absence of an alternative etiology. First-degree relatives of patient 
+with HTAD or sudden cardiac death should undergo TTE (as well as 
+other investigations in case of sudden death) and should be referred to 
+an expert center in case of a finding of aortic dilatation on imaging. TTE 
+Table 1 
+Scoring of systemic features in Marfan syndrome ( Loeys et al., 2010 ).  
+Systemic feature Score  
+● Wrist sign 1  
+● Thumb sign 1  
+● Wrist AND thumb signs 3  
+● Pectus carinatum deformity 2  
+● Pectus excavatum or chest asymmetry 1  
+● Hindfoot deformity 2  
+● Pes planus 1  
+● Pneumothorax 2  
+● Dural ectasia 2  
+● Protrusio acetabuli 2  
+● Reduced upper segment/lower segment ratio AND increased arm span/ 
+height AND severe scoliosis 
+1  
+● Scoliosis OR thoracolumbar kyphosis 1  
+● Reduced elbow extension 1  
+● Facial features (at least 3 of 5): dolichocephaly, enophthalmos, 
+downslanting palpebral fissures, malar hypoplastia, retrognathia 
+1  
+● Skin striae 1  
+● Myopia > 3 diopters 1  
+● Mitral valve prolapse (all types) 1  
+M. Caruana et al.                                                                                                                                                                                                                               
+
+European Journal of Medical Genetics 66 (2023) 104673
+5
+and referral of second-degree relatives can be considered on an indi -
+vidual basis if first degree relatives are not available for screening. 
+In summary, we are proposing that patients should be referred to an 
+expert centre for further evaluation of possible HTAD in the following 
+instances:  
+1) Thoracic aortic dissection  
+a. at age < 70 years with hypertension (age limit subject to 
+modification)  
+b. all ages in the absence of hypertension  
+2) Thoracic aortic aneurysm (aortic diameter at any level)  
+a. Z-score > 3.5 with or without hypertension  
+b. Z-score 2.5 – 3.5 without hypertension (or < 60 years old with 
+hypertension).  
+c. Z-score > 3, a z-score > 2 associated with other systemic features 
+or progression of z-score in children.  
+d. The same rules apply for TAA in the presence of BAV. 
+3) A first-degree family member with a HTAD with or without patho -
+genic variant in a gene known to cause HTAD  
+4) Ectopia lentis without other obvious explanation  
+5) A systemic score > 5 in adults and > 3 in children ( Table 1 )  
+6) A combination of features typical of LDS 
+The HTAD patient pathway is summarized in Fig. 1 . In Fig. 2 , we 
+provide some illustrations of the most typical clinical manifestations of 
+syndromic forms of HTAD. 
+3. Evaluation of the patient at the expert centre might include  
+(a) Cardiovascular imaging 
+TTE is the cornerstone diagnostic and screening imaging tool and is 
+indicated in all cases of suspected HTAD in whom the presenting feature 
+is not a TAA or TAD. Measurements should include the aortic root (si -
+nuses of Valsalva) and ascending aorta ( Goldstein et al., 2015 ; Lang 
+et al., 2005 ). Mitral valve morphology and function, aortic valve and left 
+ventricular function should also be evaluated and congenital heart de -
+fects should be looked for. 
+Complementary imaging of the vascular system by MRI or CT is 
+indicated in documented or high suspicion of TAA, to.  
+(i) obtain baseline imaging which can be used for comparison if 
+aneurysm growth is suspected during serial echocardiographic 
+monitoring. This is proposed in all patients aged > 18 years or 
+upon transitioning to adulthood  
+(ii) exclude aneurysms at locations beyond the proximal aorta and to 
+assess for arterial tortuosity ( Ciuric ˘a et al., 2019 ).  
+(iii) optimize visualization of the proximal aorta (particularly the 
+ascending aorta) when echocardiography is technically difficult 
+(e.g. in the presence of pectus deformities) 
+MRI and CT scanning should be used according to local facilities. 
+MRI is the preferred technique for follow-up in view of lack of cumu -
+lative radiation exposure, which is particularly relevant in younger pa -
+tients, but CT scanning is often more precise. Both modalities should be 
+used with ECG triggering to avoid motion artefacts and to facilitate 
+reliable measurements of the aortic root and ascending aorta in a double 
+oblique angulated fashion ( Goldstein et al., 2015 ).  
+(b) Ophthalmological assessment 
+This is indicated in case of a suspicion of classical MFS and should 
+include a slit lamp examination ( Ad `es et al., 2004 ; Gehle et al., 2017 ).  
+(c) Skeletal and facial evaluation 
+The skeletal features reported in Table 1 should be assessed in all 
+patients (features of MFS). Additionally, features of LDS should also be 
+assessed, including hypertelorism, bifid uvula/cleft palate and (history 
+of) club feet. Lastly, (history of) early onset and widespread osteoar -
+thritis should be looked for.  
+(d) Family history 
+A three-generation pedigree should be established with particular 
+attention for first and second-degree relatives with aortic dissection, 
+aortic aneurysm, including its location, left ventricular outflow tract 
+abnormality, and sudden death at young age ( < 45 years) by obtaining 
+medical records to validate the diagnosis.  
+(e) Multidisciplinary discussion 
+The results obtained from the clinical evaluations should be 
+Fig. 1. Heritable Thoracic Aortic Disease (HTAD) 
+patient pathway 
+Abbreviations: AOS = Aneurysm-osteoarthritis syn -
+drome; EL = Ectopia Lentis; HTAD = Heritable 
+Thoracic Aortic Diseases; HTN = arterial hyperten -
+sion; LDS: Loeys Dietz Syndrome; TAA/D = Thoracic 
+Aortic Aneurysm/Dissection; TTE = Transthoracic 
+Echocardiography. Z score calculation in accordance 
+with age, gender and technical method used by 
+Campens, Devereux & Gautier (online calculation 
+https://www.marfan.fr/accueil/z-score-calculus/ 
+).
+1
+Systemic score: see Table 1 (child with systemic 
+score 3 or 4: consider re-evaluation after 3 – 5yrs until 
+age 18yrs). 
+2
+LDS features: bifid uvula, cleft palate, 
+hypertelorism, clubfoot. 
+3
+Minimum of 1 first or 
+second-degree relative with: TAA/D (suspicion) <
+70yr or sudden death < 45yr.   
+M. Caruana et al.                                                                                                                                                                                                                               
+
+European Journal of Medical Genetics 66 (2023) 104673
+6
+discussed in a multidisciplinary setting at the HTAD specialized centre, 
+following which the indication for additional molecular genetic testing 
+is evaluated. Different specialists such as orthopaedic surgeons, oph -
+thalmologists, cardiologists, clinical geneticists and physiotherapists 
+should be included in the diagnostic and management team at expert 
+centers.  
+(e) Genetic testing 
+Genetic testing should be proposed when there is a high suspicion of 
+an underlying genetic aortopathy and includes:  
+- patients with a familial form with or without hypertension (2 first or 
+second-degree affected relatives) of thoracic aortic dissection or 
+aneurysm (TAA/TAD) ( Erhart et al., 2020 ; Wolford et al., 2019 ),  
+- sporadic TAA/TAD as defined above, at  
+• any age, in the absence of arterial hypertension, or  
+• < 70 years of age in presence of hypertension  
+- patients with non-traumatic ectopia lentis compatible with MFS  
+- patients with a combination of TAAD and syndromic features of 
+Marfan or LDS. 
+The decision to proceed with genetic testing should be initiated by 
+physicians with experience in HTAD. That being said, the indications for 
+genetic testing are largely dependent on local availability and are 
+constantly changing as a consequence of technical progress making 
+testing cheaper and hence more widely available. 
+Nowadays, multiple genes are tested within panels dedicated to 
+specific diseases. The genes tested may vary from one center to another 
+but should include the following:  
+- ectopia lentis: FBN1 ( Ad `es et al., 2004 ) (panel should also include 
+ADAMTSL4, LTBP2 (forms not related to HTAD)  
+- TAA or TAD or systemic features ( Renard et al., 2018 ): genes with a 
+definitive or strong association with HTAD: ACTA2, COL3A1, FBN1, 
+LOX, MYH11, MYLK, PRKG1, SMAD3, TGFB2, TGFBR1, TGFBR2. 
+This list is dynamic and will be updated regularly. The list of genes 
+presently used in the various centers is available on the website of 
+VASCERN. 
+The technical capacity to detect small intragenic copy number var -
+iants using NGS data is suboptimal, though algorithms have improved 
+considerably over the last few years. Additional high-resolution copy 
+number variant analysis should be considered in case of negative panels 
+in patients with a high suspicion. Furthermore, after multidisciplinary 
+discussion, in some specific cases, it may be necessary to consider whole 
+exome or genome sequencing for diagnosis since deep intronic variants 
+can be present, or other syndromes, like Alagille syndrome, Noonan 
+syndrome and neurofibromatosis type 1, can have TAA as a rare mani -
+festation. Despite this, a causative variant remains unidentified in many 
+(roughly 80%) non-syndromic HTAD patients. 
+4. Family screening and follow-up 
+In cases where the pathogenic variant is known, it is proposed that 
+family members undergo genetic cascade screening. Thereafter, only 
+patients carrying the pathogenic variant will need serial aortic imaging. 
+When the disease-causing pathogenic variant in the index patient is not 
+known, follow-up by imaging (mainly TTE) of first-degree relatives de -
+pends on how many first or second-degree relatives have a dilated aorta.  
+- In familial TAAs (at least 2 affected relatives), aortic imaging should 
+be performed yearly when the aorta is dilated and every 5 years 
+when aorta is not dilated in first-degree relatives ( Erbel et al., 2014 ). 
+Previous reports suggest the age of 25yrs to start screening ( Verha -
+gen et al., 2018 ) – we recommend starting at the age of 18yrs. More 
+frequent imaging may be necessary when the surgical threshold is 
+approaching, when the aorta is dilating, or in case of more than mild 
+aortic regurgitation.  
+- In sporadic TAAs (only one family member affected), only the 
+affected patient requires follow-up, and a single screening 
+Fig. 2. Typical clinical manifestations in syndromic forms of Heritable 
+Thoracic Aortic Disease: 
+A: Aortic root dilatation: common feature. B-E Features often observed in pa -
+tients with a FBN1 gene pathogenic variant (causal for Marfan syndrome): B: 
+ectopia lentis C: wrist sign, D flat feet with hindfoot deformity, E pectus 
+excavatum, F – H: Features often observed in patients with a pathogenic variant 
+in genes encoding for TGF β pathway components (causal for Loeys Dietz syn -
+drome) F: skin translucency with visible veins & wide scar G: bifid uvula H: 
+aortic tortuosity. 
+M. Caruana et al.                                                                                                                                                                                                                               
+
+European Journal of Medical Genetics 66 (2023) 104673
+7
+echocardiogram is deemed sufficient in adult relatives ( Erbel et al., 
+2014 ) unless the first test is performed before the age of 40 years, in 
+which case a further test after the age of 40 years could be considered 
+( Verhagen et al., 2018 ). In case the measured aortic diameter is 
+borderline, a second echocardiography after 5 years appears wise. 
+5. Conclusion 
+This referral pathway should help achieve standardisation of diag -
+nostic workup and follow-up of patients with suspected HTAD and the 
+screening of their relatives. It focuses on patients with both syndromic 
+and non-syndromic forms of heritable thoracic aortic diseases. It is 
+subject to updates over time with better recognition of new entities, and 
+with the technical progress and increased availability of genetic testing. 
+Funding 
+CHAFEA Specific Grant Agreement for Year 1 HP-ERN-SGA-2016 10 
+Project n
+◦
+769036 (from March 2017 to February 2018) 11 - CHAFEA 
+Specific Grant Agreement for Year 2 HP-ERN-SGA-2017 12 Project n
+◦
+811609 (from March 2018 to February 2019) 13 - CHAFEA Specific 
+Grant Agreement for Year 3 to 5 HP-ERN-SGA-2018 14 Project n
+◦
+847081 (from March 2019 to February 2022). 
+CRediT authorship contribution statement 
+Maryanne Caruana: Writing – original draft, Writing – review & 
+editing. Marieke J. Baars: Writing – review & editing. Evy Bashiardes: 
+Writing – review & editing. Kalman Benke: Writing – review & editing. 
+Erik Bj ¨orck: Writing – review & editing. Andrei Codreanu: Writing – 
+review & editing. Elena de Moya Rubio: Writing – review & editing. 
+Julia Dumfarth: Writing – review & editing. Arturo Evangelista: 
+Writing – review & editing. Maarten Groenink: Writing – review & 
+editing. Klaus Kallenbach: Writing – review & editing. Marlies Kem -
+pers: Writing – review & editing. Anna Keravnou: Writing – review & 
+editing. Bart Loeys: Writing – review & editing. Laura Mui ˜no-Mos -
+quera: Writing – review & editing. Edit Nagy: Writing – review & 
+editing. Olivier Milleron: Writing – review & editing. Stefano Nistri: 
+Writing – review & editing. Guglielmina Pepe: Writing – review & 
+editing. Jolien Roos-Hesselink: Writing – review & editing. Zoltan 
+Szabolcs: Writing – review & editing. Gisela Teixid ´o-Tura: Writing – 
+review & editing. Janneke Timmermans: Writing – review & editing. 
+Ingrid Van de Laar: Writing – review & editing. Roland van Kimme -
+nade: Writing – review & editing. Aline Verstraeten: Writing – review 
+& editing. Yskert Von Kodolitsch: Writing – review & editing. Julie De 
+Backer: Conceptualization, Writing – review & editing, Supervision, 
+Project administration. Guillaume Jondeau: Conceptualization, 
+Writing – original draft, Writing – review & editing, Supervision, Project 
+administration. 
+Data availability 
+No data was used for the research described in the article. 
+Acknowledgements 
+This work is generated within the European Reference Network on 
+Rare Multisystemic Vascular Diseases (VASCERN). 
+References 
+Acosta, S., Gotts ¨ater, A., 2019. Stable population-based incidence of acute type A and B 
+aortic dissection. Scand. Cardiovasc. J. 53, 274 – 279. https://doi.org/10.1080/ 
+14017431.2019.1642509 . 
+Ad `es, L.C., Holman, K.J., Brett, M.S., Edwards, M.J., Bennetts, B., 2004. Ectopia lentis 
+phenotypes and the FBN1 gene. Am. J. Med. Genet. 126A, 284 – 289. https://doi.org/ 
+10.1002/ajmg.a.20605 . 
+Amsallem, M., Ou, P., Milleron, O., Henry-Feugeas, M.-C., Detaint, D., Arnoult, F., 
+Vahanian, A., Jondeau, G., 2015. Comparative assessment of ascending aortic 
+aneurysms in Marfan patients using ECG-gated computerized tomographic 
+angiography versus trans-thoracic echocardiography. Int. J. Cardiol. 184, 22 – 27. 
+https://doi.org/10.1016/j.ijcard.2015.01.086 . 
+Arnaud, P., Milleron, O., Hanna, N., Ropers, J., Ould Ouali, N., Affoune, A., Langeois, M., 
+Eliahou, L., Arnoult, F., Renard, P., Michelon-Jouneaux, M., Cotillon, M., Gouya, L., 
+Boileau, C., Jondeau, G., 2021. Clinical relevance of genotype – phenotype 
+correlations beyond vascular events in a cohort study of 1500 Marfan syndrome 
+patients with FBN1 pathogenic variants. Genet. Med. 1 – 9. https://doi.org/10.1038/ 
+s41436-021-01132-x . 
+Attias, D., Stheneur, C., Roy, C., Collod-B ´eroud, G., Detaint, D., Faivre, L., Delrue, M.-A., 
+Cohen, L., Francannet, C., B ´eroud, C., Claustres, M., Iserin, F., Khau Van Kien, P., 
+Lacombe, D., Le Merrer, M., Lyonnet, S., Odent, S., Plauchu, H., Rio, M., Rossi, A., 
+Sidi, D., Steg, P.G., Ravaud, P., Boileau, C., Jondeau, G., 2009. Comparison of 
+clinical presentations and outcomes between patients with TGFBR2 and FBN1 
+mutations in Marfan syndrome and related disorders. Circulation 120, 2541 – 2549. 
+https://doi.org/10.1161/CIRCULATIONAHA.109.887042 . 
+Blumel, R., Patel, K., Rizzo, J.A., Mok, S., Barrett, A., Wu, J., Zafar, M.A., Ziganshin, B.A., 
+Elefteriades, J.A., 2021. Accuracy of the “ thumb-palm test ” for detection of 
+ascending aortic aneurysm. Am. J. Cardiol. 150, 114 – 116. https://doi.org/10.1016/ 
+j.amjcard.2021.03.041 . 
+Boone, P.M., Scott, R.M., Marciniak, S.J., Henske, E.P., Raby, B.A., 2019. The genetics of 
+pneumothorax. Am. J. Respir. Crit. Care Med. 199, 1344 – 1357. https://doi.org/ 
+10.1164/rccm.201807-1212CI . 
+Braverman, A.C., Güven, H., Beardslee, M.A., Makan, M., Kates, A.M., Moon, M.R., 2005. 
+The bicuspid aortic valve. Curr. Probl. Cardiol. 30, 470 – 522. https://doi.org/ 
+10.1016/j.cpcardiol.2005.06.002 . 
+Campens, L., Demulier, L., De Groote, K., Vandekerckhove, K., De Wolf, D., Roman, M.J., 
+Devereux, R.B., De Paepe, A., De Backer, J., 2014. Reference values for 
+echocardiographic assessment of the diameter of the aortic root and ascending aorta 
+spanning all age categories. Am. J. Cardiol. 114, 914 – 920. https://doi.org/10.1016/ 
+j.amjcard.2014.06.024 . 
+Cantinotti, M., Giordano, R., Scalese, M., Murzi, B., Assanta, N., Spadoni, I., Maura, C., 
+Marco, M., Molinaro, S., Kutty, S., Iervasi, G., 2017 Jan. Nomograms for two- 
+dimensional echocardiography derived valvular and arterial dimensions in 
+Caucasian children. J Cardiol 69 (1), 208 – 215. https://doi.org/10.1016/j. 
+jjcc.2016.03.010 . Epub 2016 Apr 24. PMID: 27118699.  
+Ciuric ˘a, S., Lopez-Sublet, M., Loeys, B.L., Radhouani, I., Natarajan, N., Vikkula, M., 
+Maas, A.H.E.M., Adlam, D., Persu, A., 2019. Arterial tortuosity. Hypertension 73, 
+951 – 960. https://doi.org/10.1161/HYPERTENSIONAHA.118.11647 . 
+Cozijnsen, L., van der Zaag-Loonen, H.J., Braam, R.L., Bakker-de Boo, M., Post, J.G., 
+Bouma, B.J., Mulder, B.J.M., 2018. Yield of family screening in patients with isolated 
+bicuspid aortic valve in a general hospital. Int. J. Cardiol. 255, 55 – 58. https://doi. 
+org/10.1016/j.ijcard.2017.12.046 . 
+Curtis, A.E., Smith, T.A., Ziganshin, B.A., Elefteriades, J.A., 2016 Aug 1. The Mystery of 
+the Z-Score. Aorta (Stamford) 4 (4), 124 – 130. https://doi.org/10.12945/j. 
+aorta.2016.16.014 . PMID: 28097194; PMCID: PMC5217729.  
+Detaint, D., Michelena, H.I., Nkomo, V.T., Vahanian, A., Jondeau, G., Sarano, M.E., 2014. 
+Aortic dilatation patterns and rates in adults with bicuspid aortic valves: a 
+comparative study with Marfan syndrome and degenerative aortopathy. Heart 100, 
+126 – 134. https://doi.org/10.1136/heartjnl-2013-304920 . 
+Devereux, R.B., de Simone, G., Arnett, D.K., Best, L.G., Boerwinkle, E., Howard, B.V., 
+Kitzman, D., Lee, E.T., Mosley, T.H., Weder, A., Roman, M.J., 2012. Normal limits in 
+relation to age, body size and gender of two-dimensional echocardiographic aortic 
+root dimensions in persons ≥ 15 years of age. Am. J. Cardiol. 110, 1189 – 1194. 
+https://doi.org/10.1016/j.amjcard.2012.05.063 . 
+Erbel, R., Aboyans, V., Boileau, C., Bossone, E., Bartolomeo, R.D., Eggebrecht, H., 
+Evangelista, A., Falk, V., Frank, H., Gaemperli, O., Grabenw ¨oger, M., Haverich, A., 
+Iung, B., Manolis, A.J., Meijboom, F., Nienaber, C.A., Roffi, M., Rousseau, H., 
+Sechtem, U., Sirnes, P.A., Allmen, R.S. von, Vrints, C.J.M., ESC Committee for 
+Practice Guidelines, 2014. 2014 ESC Guidelines on the diagnosis and treatment of 
+aortic diseases: document covering acute and chronic aortic diseases of the thoracic 
+and abdominal aorta of the adult. The Task Force for the Diagnosis and Treatment of 
+Aortic Diseases of the European Society of Cardiology (ESC). Eur. Heart J. 35, 
+2873 – 2926. https://doi.org/10.1093/eurheartj/ehu281 . 
+Erhart, P., Gieldon, L., Ante, M., K ¨orfer, D., Strom, T., Grond-Ginsbach, C., B ¨ockler, D., 
+2020. Acute Stanford type B aortic dissection-who benefits from genetic testing? 
+J. Thorac. Dis. 12, 6806 – 6812. https://doi.org/10.21037/jtd-20-2421 . 
+Evangelista, A., Isselbacher, E.M., Bossone, E., Gleason, T.G., Eusanio, M.D., Sechtem, U., 
+Ehrlich, M.P., Trimarchi, S., Braverman, A.C., Myrmel, T., Harris, K.M., 
+Hutchinson, S., O ’ Gara, P., Suzuki, T., Nienaber, C.A., Eagle, K.A., IRAD 
+Investigators, 2018. Insights from the international registry of acute aortic 
+dissection: a 20-year experience of collaborative clinical research. Circulation 137, 
+1846 – 1860. https://doi.org/10.1161/CIRCULATIONAHA.117.031264 . 
+Faggion Vinholo, T., Brownstein, A.J., Ziganshin, B.A., Zafar, M.A., Kuivaniemi, H., 
+Body, S.C., Bale, A.E., Elefteriades, J.A., 2019. Genes associated with thoracic aortic 
+aneurysm and dissection: 2019 update and clinical implications. Aorta (Stamford) 7, 
+99 – 107. https://doi.org/10.1055/s-0039-3400233 . 
+Fletcher, A.J., Syed, M.B.J., Aitman, T.J., Newby, D.E., Walker, N.L., 2020. Inherited 
+thoracic aortic disease. Circulation 141, 1570 – 1587. https://doi.org/10.1161/ 
+CIRCULATIONAHA.119.043756 . 
+Galian-Gay, L., Carro Hevia, A., Teixido-Tur `a, G., Rodríguez Palomares, J., Guti ´errez- 
+Moreno, L., Maldonado, G., Gonz `alez-Alujas, M.T., Sao-Aviles, A., Gallego, P., Calvo- 
+Iglesias, F., Bermejo, J., Robledo-Carmona, J., S ´anchez, V., Saura, D., Sevilla, T., 
+Burillo-Sanz, S., Guala, A., Garcia-Dorado, D., Evangelista, A., BICUSPID 
+M. Caruana et al.                                                                                                                                                                                                                               
+
+European Journal of Medical Genetics 66 (2023) 104673
+8
+investigators, 2019. Familial clustering of bicuspid aortic valve and its relationship 
+with aortic dilation in first-degree relatives. Heart 105, 603 – 608. https://doi.org/ 
+10.1136/heartjnl-2018-313802 . 
+Gautier, M., Detaint, D., Fermanian, C., Aegerter, P., Delorme, G., Arnoult, F., 
+Milleron, O., Raoux, F., Stheneur, C., Boileau, C., Vahanian, A., Jondeau, G., 2010. 
+Nomograms for aortic root diameters in children using two-dimensional 
+echocardiography. Am. J. Cardiol. 105, 888 – 894. https://doi.org/10.1016/j. 
+amjcard.2009.11.040 . 
+Gehle, P., Goergen, B., Pilger, D., Ruokonen, P., Robinson, P.N., Salchow, D.J., 2017. 
+Biometric and structural ocular manifestations of Marfan syndrome. PLoS One 12, 
+e0183370. https://doi.org/10.1371/journal.pone.0183370 . 
+Goldstein, S.A., Evangelista, A., Abbara, S., Arai, A., Asch, F.M., Badano, L.P., Bolen, M. 
+A., Connolly, H.M., Cu ´ellar-Cal `abria, H., Czerny, M., Devereux, R.B., Erbel, R.A., 
+Fattori, R., Isselbacher, E.M., Lindsay, J.M., McCulloch, M., Michelena, H.I., 
+Nienaber, C.A., Oh, J.K., Pepi, M., Taylor, A.J., Weinsaft, J.W., Zamorano, J.L., 
+Dietz, H., Eagle, K., Elefteriades, J., Jondeau, G., Rousseau, H., Schepens, M., 2015. 
+Multimodality imaging of diseases of the thoracic aorta in adults: from the American 
+society of echocardiography and the European association of cardiovascular 
+imaging: endorsed by the society of cardiovascular computed tomography and 
+society for cardiovascular magnetic resonance. J. Am. Soc. Echocardiogr. 28, 
+119 – 182. https://doi.org/10.1016/j.echo.2014.11.015 . 
+n.d. Isselbacher, E.M., Preventza, O., Hamilton Black, J., Augoustides, J.G., Beck, A.W., 
+Bolen, M.A., Braverman, A.C., Bray, B.E., Brown-Zimmerman, M.M., Chen, E.P., 
+Collins, T.J., DeAnda, A., Fanola, C.L., Girardi, L.N., Hicks, C.W., Hui, D.S., Schuyler 
+Jones, W., Kalahasti, V., Kim, K.M., Milewicz, D.M., Oderich, G.S., Ogbechie, L., 
+Promes, S.B., Gyang Ross, E., Schermerhorn, M.L., Singleton Times, S., Tseng, E.E., 
+Wang, G.J., Woo, Y.J., 2022. ACC/AHA guideline for the diagnosis and management 
+of aortic disease: a report of the American heart association/American college of 
+cardiology joint committee on clinical practice guidelines J. Am. Coll. Cardiol. 
+https://doi.org/10.1161/CIR.0000000000001106 . Circulation 0.  
+Januzzi, J.L., Isselbacher, E.M., Fattori, R., Cooper, J.V., Smith, D.E., Fang, J., Eagle, K. 
+A., Mehta, R.H., Nienaber, C.A., Pape, L.A., International Registry of Aortic 
+Dissection (IRAD), 2004. Characterizing the young patient with aortic dissection: 
+results from the International Registry of Aortic Dissection (IRAD). J. Am. Coll. 
+Cardiol. 43, 665 – 669. https://doi.org/10.1016/j.jacc.2003.08.054 . 
+Jondeau, G., Detaint, D., Tubach, F., Arnoult, F., Milleron, O., Raoux, F., Delorme, G., 
+Mimoun, L., Krapf, L., Hamroun, D., Beroud, C., Roy, C., Vahanian, A., Boileau, C., 
+2012. Aortic event rate in the Marfan population: a cohort study. Circulation 125, 
+226 – 232. https://doi.org/10.1161/CIRCULATIONAHA.111.054676 . 
+Lang, R.M., Bierig, M., Devereux, R.B., Flachskampf, F.A., Foster, E., Pellikka, P.A., 
+Picard, M.H., Roman, M.J., Seward, J., Shanewise, J.S., Solomon, S.D., Spencer, K.T., 
+Sutton, M.S.J., Stewart, W.J., Chamber Quantification Writing Group, American 
+Society of Echocardiography ’ s Guidelines and Standards Committee, European 
+Association of Echocardiography, 2005. Recommendations for chamber 
+quantification: a report from the American society of echocardiography ’ s guidelines 
+and standards committee and the chamber quantification writing group, developed 
+in conjunction with the European association of echocardiography, a branch of the 
+European society of cardiology. J. Am. Soc. Echocardiogr. 18, 1440 – 1463. https:// 
+doi.org/10.1016/j.echo.2005.10.005 . 
+Ledoux, M., Beauchet, A., Fermanian, C., Boileau, C., Jondeau, G., Saiag, P., 2011. 
+A case-control study of cutaneous signs in adult patients with Marfan disease: 
+diagnostic value of striae. J. Am. Acad. Dermatol. 64, 290 – 295. https://doi.org/ 
+10.1016/j.jaad.2010.01.032 . 
+Loeys, B.L., Dietz, H.C., Braverman, A.C., Callewaert, B.L., De Backer, J., Devereux, R.B., 
+Hilhorst-Hofstee, Y., Jondeau, G., Faivre, L., Milewicz, D.M., Pyeritz, R.E., 
+Sponseller, P.D., Wordsworth, P., De Paepe, A.M., 2010. The revised Ghent nosology 
+for the Marfan syndrome. J. Med. Genet. 47, 476 – 485. https://doi.org/10.1136/ 
+jmg.2009.072785 . 
+Loeys, B.L., Schwarze, U., Holm, T., Callewaert, B.L., Thomas, G.H., Pannu, H., De 
+Backer, J.F., Oswald, G.L., Symoens, S., Manouvrier, S., Roberts, A.E., Faravelli, F., 
+Greco, M.A., Pyeritz, R.E., Milewicz, D.M., Coucke, P.J., Cameron, D.E., 
+Braverman, A.C., Byers, P.H., De Paepe, A.M., Dietz, H.C., 2006. Aneurysm 
+syndromes caused by mutations in the TGF- β receptor. N. Engl. J. Med. 355, 
+788 – 798. https://doi.org/10.1056/NEJMoa055695 . 
+Lopez, L., Colan, S.D., Frommelt, P.C., Ensing, G.J., Kendall, K., Younoszai, A.K., Lai, W. 
+W., Geva, T., 2010 May. Recommendations for quantification methods during the 
+performance of a pediatric echocardiogram: a report from the Pediatric 
+Measurements Writing Group of the American Society of Echocardiography Pediatric 
+and Congenital Heart Disease Council. J Am Soc Echocardiogr 23 (5). https://doi. 
+org/10.1016/j.echo.2010.03.019 , 465-95; quiz 576-7 PMID: 20451803.  
+MacDuff, A., Arnold, A., Harvey, J., BTS Pleural Disease Guideline Group, 2010. 
+Management of spontaneous pneumothorax: British thoracic society pleural disease 
+guideline 2010. Thorax 65 (Suppl. 2), ii18 – 31. https://doi.org/10.1136/ 
+thx.2010.136986 . 
+Massardier, C., Desroches, F., Singbo, N., C ˆot ´e, J.-M., Drolet, C., Houde, C., Vaujois, L., 
+Chetaille, P., 2020. First-degree relatives screening of patients with bicuspid aortic 
+valve: effectiveness and feasibility in pediatric cardiology daily practice. Pediatr. 
+Cardiol. 41, 1645 – 1650. https://doi.org/10.1007/s00246-020-02423-x . 
+Milewicz, D.M., Regalado, E., 1993. In: Adam, M.P., Ardinger, H.H., Pagon, R.A., 
+Wallace, S.E., Bean, L.J., Mirzaa, G., Amemiya, A. (Eds.), Heritable Thoracic Aortic 
+Disease Overview, GeneReviews ® . University of Washington, Seattle, Seattle (WA .  
+Milleron, O., Ropers, J., Arnoult, F., Bouleti, C., Delorme, G., Langeois, M., 
+Tchitchinadze, M., Guien, C., Beroud, C., Boileau, C., Jondeau, G., 2019. Clinical 
+significance of aortic root modification associated with bicuspid aortic valve in 
+marfan syndrome. Circ Cardiovasc Imaging 12, e008129. https://doi.org/10.1161/ 
+CIRCIMAGING.118.008129 . 
+Milleron, O., Arnoult, F., Delorme, G., Detaint, D., Pellenc, Q., Raffoul, R., 
+Tchitchinadze, M., Langeois, M., Guien, C., Beroud, C., Ropers, J., Hanna, N., 
+Arnaud, P., Gouya, L., Boileau, C., Jondeau, G., 2020. Pathogenic FBN1 genetic 
+variation and aortic dissection in patients with marfan syndrome. J. Am. Coll. 
+Cardiol. 75, 843 – 853. https://doi.org/10.1016/j.jacc.2019.12.043 . 
+Mori, M., Bin Mahmood, S.U., Yousef, S., Shioda, K., Faggion Vinholo, T., Mangi, A.A., 
+Elefteriades, J.A., Geirsson, A., 2019. Prevalence of incidentally identified thoracic 
+aortic dilations: insights for screening criteria. Can. J. Cardiol. 35, 892 – 898. https:// 
+doi.org/10.1016/j.cjca.2019.03.023 . 
+Mühlst ¨adt, K., De Backer, J., von Kodolitsch, Y., Kutsche, K., Mui ˜no Mosquera, L., 
+Brickwedel, J., Girdauskas, E., Mir, T.S., Mahlmann, A., Tsilimparis, N., Staebler, A., 
+Schoof, L., Seidel, H., Berger, J., Bernhardt, A.M., Blankenberg, S., K ¨olbel, T., 
+Detter, C., Sz ¨ocs, K., Kaemmerer, H., 2019. Case-matched comparison of 
+cardiovascular outcome in loeys-dietz syndrome versus marfan syndrome. J. Clin. 
+Med. 8, E2079 https://doi.org/10.3390/jcm8122079 . 
+Mul `e, G., Nardi, E., Morreale, M., Castiglia, A., Geraci, G., Altieri, D., Cacciatore, V., 
+Schillaci, M., Vaccaro, F., Cottone, S., 2017. The relationship between aortic root 
+size and hypertension: an unsolved conundrum. Adv. Exp. Med. Biol. 956, 427 – 445. 
+https://doi.org/10.1007/5584_2016_86 . 
+Pettersen, M.D., Du, W., Skeens, M.E., Humes, R.A., 2008 Aug. Regression equations for 
+calculation of z scores of cardiac structures in a large cohort of healthy infants, 
+children, and adolescents: an echocardiographic study. J Am Soc Echocardiogr 21 
+(8). https://doi.org/10.1016/j.echo.2008.02.006 , 922-34 Epub 2008 Apr 11. PMID: 
+18406572.  
+Renard, M., Francis, C., Ghosh, R., Scott, A.F., Witmer, P.D., Ad `es, L.C., Andelfinger, G. 
+U., Arnaud, P., Boileau, C., Callewaert, B.L., Guo, D., Hanna, N., Lindsay, M.E., 
+Morisaki, H., Morisaki, T., Pachter, N., Robert, L., Van Laer, L., Dietz, H.C., Loeys, B. 
+L., Milewicz, D.M., De Backer, J., 2018. Clinical validity of genes for heritable 
+thoracic aortic aneurysm and dissection. J. Am. Coll. Cardiol. 72, 605 – 615. https:// 
+doi.org/10.1016/j.jacc.2018.04.089 . 
+Rodríguez-Palomares, J.F., Teixid ´o-Tura, G., Galuppo, V., Cu ´ellar, H., Laynez, A., 
+Guti ´errez, L., Gonz ´alez-Alujas, M.T., García-Dorado, D., Evangelista, A., 2016. 
+Multimodality assessment of ascending aortic diameters: comparison of different 
+measurement methods. J. Am. Soc. Echocardiogr. 29, 819 – 826. https://doi.org/ 
+10.1016/j.echo.2016.04.006 e4.  
+Roman, M.J., Devereux, R.B., Kramer-Fox, R., O ’ Loughlin, J., 1989. Two-dimensional 
+echocardiographic aortic root dimensions in normal children and adults. Am. J. 
+Cardiol. 64, 507 – 512. https://doi.org/10.1016/0002-9149(89)90430-x . 
+Rutten, D.W.E., Aarts-Janssen, I.J.H., Kempers, M.J.E., Reimer, A.G., Udink Ten Cate, F. 
+E.A., Loeys, B.L., Slieker, M.G., 2021. Comparability of different Z-score equations 
+for aortic root dimensions in children with Marfan syndrome. Cardiol. Young 1 – 7. 
+https://doi.org/10.1017/S1047951121001311 . 
+Sadiq, M.A., Vanderveen, D., 2013. Genetics of ectopia lentis. Semin. Ophthalmol. 28, 
+313 – 320. https://doi.org/10.3109/08820538.2013.825276 . 
+Schnell, J., Beer, M., Eggeling, S., Gesierich, W., Gottlieb, J., Herth, F., Hofmann, H.-S., 
+Jany, B., Kreuter, M., Ley-Zaporozhan, J., Scheubel, R., Walles, T., Wiesemann, S., 
+Worth, H., Stoelben, E., 2018. Management of spontaneous pneumothorax and 
+postinterventional pneumothorax: German S3-guideline. Zentralbl Chir 143, 
+S12 – S43. https://doi.org/10.1055/a-0588-4444 . 
+Sheikhzadeh, S., Kusch, M.L., Rybczynski, M., Kade, C., Keyser, B., Bernhardt, A.M., 
+Hillebrand, M., Mir, T.S., Fuisting, B., Robinson, P.N., Berger, J., Lorenzen, V., 
+Schmidtke, J., Blankenberg, S., von Kodolitsch, Y., 2012. A simple clinical model to 
+estimate the probability of Marfan syndrome. QJM 105, 527 – 535. https://doi.org/ 
+10.1093/qjmed/hcs008 . 
+Stheneur, C., Tubach, F., Jouneaux, M., Roy, C., Benoist, G., Chevallier, B., Boileau, C., 
+Jondeau, G., 2014. Study of phenotype evolution during childhood in Marfan 
+syndrome to improve clinical recognition. Genet. Med. 16, 246 – 250. https://doi. 
+org/10.1038/gim.2013.123 . 
+Tschopp, J.-M., Bintcliffe, O., Astoul, P., Canalis, E., Driesen, P., Janssen, J., Krasnik, M., 
+Maskell, N., Schil, P.V., Tonia, T., Waller, D.A., Marquette, C.-H., Cardillo, G., 2015. 
+ERS task force statement: diagnosis and treatment of primary spontaneous 
+pneumothorax. Eur. Respir. J. 46, 321 – 335. https://doi.org/10.1183/ 
+09031936.00219214 . 
+Verhagen, J.M.A., Kempers, M., Cozijnsen, L., Bouma, B.J., Duijnhouwer, A.L., Post, J.G., 
+Hilhorst-Hofstee, Y., Bekkers, S.C.A.M., Kerstjens-Frederikse, W.S., van Brakel, T.J., 
+Lambermon, E., Wessels, M.W., Loeys, B.L., Roos-Hesselink, J.W., van de Laar, I.M.B. 
+H., National Working Group on BAV & TAA, 2018. Expert consensus 
+recommendations on the cardiogenetic care for patients with thoracic aortic disease 
+and their first-degree relatives. Int. J. Cardiol. 258, 243 – 248. https://doi.org/ 
+10.1016/j.ijcard.2018.01.145 . 
+Verma, S., Siu, S.C., 2014. Aortic Dilatation in Patients with Bicuspid Aortic Valve. 
+https://doi.org/10.1056/NEJMra1207059 [WWW Document].  
+Verstraeten, A., Luyckx, I., Loeys, B., 2017. Aetiology and management of hereditary 
+aortopathy. Nat. Rev. Cardiol. 14, 197 – 208. https://doi.org/10.1038/ 
+nrcardio.2016.211 . 
+von Kodolitsch, Y., De Backer, J., Schüler, H., Bannas, P., Behzadi, C., Bernhardt, A.M., 
+Hillebrand, M., Fuisting, B., Sheikhzadeh, S., Rybczynski, M., K ¨olbel, T., Püschel, K., 
+Blankenberg, S., Robinson, P.N., 2015. Perspectives on the revised Ghent criteria for 
+the diagnosis of Marfan syndrome. Appl. Clin. Genet. 8, 137 – 155. https://doi.org/ 
+10.2147/TACG.S60472 . 
+Williams, B., Mancia, G., Spiering, W., Agabiti Rosei, E., Azizi, M., Burnier, M., 
+Clement, D.L., Coca, A., de Simone, G., Dominiczak, A., Kahan, T., Mahfoud, F., 
+Redon, J., Ruilope, L., Zanchetti, A., Kerins, M., Kjeldsen, S.E., Kreutz, R., 
+Laurent, S., Lip, G.Y.H., McManus, R., Narkiewicz, K., Ruschitzka, F., Schmieder, R. 
+E., Shlyakhto, E., Tsioufis, C., Aboyans, V., Desormais, I., ESC Scientific Document 
+Group, 2018. 2018 ESC/ESH Guidelines for the management of arterial 
+M. Caruana et al.                                                                                                                                                                                                                               
+
+European Journal of Medical Genetics 66 (2023) 104673
+9
+hypertension. Eur. Heart J. 39, 3021 – 3104. https://doi.org/10.1093/eurheartj/ 
+ehy339 . 
+Wundram, M., Falk, V., Eulert-Grehn, J.J., Herbst, H., Thurau, J., Leidel, B.A., G ¨oncz, E., 
+Bauer, W., Habazettl, H., Kurz, S.D., 2020 May 4. Incidence of acute type A aortic 
+dissection in emergency departments. Sci Rep 10 (1), 7434. https://doi.org/ 
+10.1038/s41598-020-64299-4 . PMID: 32366917; PMCID: PMC7198509.  
+Wolford, B.N., Hornsby, W.E., Guo, D., Zhou, W., Lin, M., Farhat, L., McNamara, J., 
+Driscoll, A., Wu, X., Schmidt, E.M., Norton, E.L., Mathis, M.R., Ganesh, S.K., 
+Douville, N.J., Brummett, C.M., Kitzman, J., Chen, Y.E., Kim, K., Deeb, G.M., 
+Patel, H., Eagle, K.A., Milewicz, D.M., J Willer, C., Yang, B., 2019. Clinical 
+implications of identifying pathogenic variants in individuals with thoracic aortic 
+dissection. Circ Genom Precis Med 12, e002476. https://doi.org/10.1161/ 
+CIRCGEN.118.002476 . 
+M. Caruana et al.                                                                                                                                                                                                                               

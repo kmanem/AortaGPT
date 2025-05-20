@@ -1,0 +1,729 @@
+European Journal of Internal Medicine 126 (2024) 1–15
+Available online 24 June 2024
+0953-6205/© 2024 The Author(s). Published by Elsevier B.V. on behalf of European Federation of Internal Medicine. This is an open access article under the CC
+BY-NC-ND license (http://creativecommons.org/licenses/by-nc-nd/4.0/).
+Practice Guidelines 
+2024 European Society of Hypertension clinical practice guidelines for the management of 
+arterial hypertension 
+Endorsed by the European Federation of Internal Medicine (EFIM), European Renal Association (ERA), and International Society of 
+Hypertension (ISH)  
+1. Introduction 
+The European Society of Hypertension (ESH) reported in 2023 its 
+current Guidelines for the management of arterial hypertension [ 1 ]. 
+Following their aim to summarize the best available evidence for all 
+aspects of hypertension management, the Task Force of the 2023 
+Guidelines generated a comprehensive document covering almost 200 
+pages including 1736 references [ 1 ]. This document thus provides a 
+valuable and comprehensive source of information for hypertension 
+management. However, due to the length of the text and its complexity, 
+not only primary care providers (e.g. family physicians, general phys -
+icians/internists), who represent the group of physicians that manages 
+the vast majority of patients, but also specialists may find it challenging 
+to navigate through the extensive guidelines with its numerous recom -
+mendations. Therefore, the ESH decided to provide with its 2024 Clin -
+ical Practice Guidelines a novel concise format that supports the 
+dissemination of the most important information of the Guidelines for 
+the management of the general hypertensive population and its imple -
+mentation into clinical practice. To this end, the ESH developed a 
+MASTER plan for the management of hypertension ( Fig. 1 ). For aspects 
+that are (intentionally) not covered in this document and for the sup -
+porting literature readers are referred to the full text of the 2023 ESH 
+Guidelines [ 1 ]. 
+2. Measure blood pressure – diagnose 
+The accurate measurement of blood pressure (BP) is the cornerstone 
+for the diagnosis and management of hypertension. The measurement of 
+BP to diagnose hypertension therefore represents the first pivotal step of 
+the ESH MASTER plan for the management of hypertension.  
+• Conventional attended office BP measurement (OBPM) is the 
+most well-studied method for assessing BP and the one by which the 
+diagnosis of hypertension, BP classification, the role of BP as a car -
+diovascular (CV) risk factor, the protective effect of antihypertensive 
+treatment and the BP thresholds and targets of therapeutic in -
+terventions have been established.  
+• Ambulatory BP monitoring (ABPM) and home BP monitoring 
+(HBPM) are important methods for out-of-office BP monitoring, that 
+provide important additional information for the management of 
+Abbreviations: ACEi, angiotensin-converting-enzyme inhibitor; ABPM, ambulatory blood pressure monitoring; ADL, activity of daily living; AF, atrial fibrillation; 
+ARB, angiotensin receptor blocker; ARNI, angiotensin receptor neprylisin inhibitor; BB, beta blocker; BP, blood pressure; BMI, body mass index; bpm, beats per 
+minute; BSA, body surface area; CCB, calcium channel blocker; CV, cardiovascular; CVD, cardiovascular disease; CKD, chronic kidney disease; COPD, chronic 
+obstructive pulmonary disease; COVID-19, Coronavirus Disease 2019 (COVID-19); COX-2, cyclooxygenase 2; DASH, dietary approaches to stop hypertension; DBP, 
+diastolic blood pressure; ECG, electrocardiogram; eGFR, estimated glomerular filtration rate; ESH, European Society of Hypertension; FU, follow-up; HbA1c, he -
+moglobin A
+1c
+; HBPM, home blood pressure monitoring; HDL, high density lipoprotein; HDP, hypertensive disorders in pregnancy; HF, heart failure; HFpEF, heart 
+failure with preserved ejection fraction; HFrEF, heart failure with reduced ejection fraction; HMOD, hypertension-mediated organ damage; ISH, isolated systolic 
+hypertension; LDL, low density lipoprotein; Lp(a), lipoprotien (a); LV, left ventricle; LVH, left ventricular hypertrophy; MMSE, mini mental state examination; MRA, 
+mineralocorticoid receptor antagonist; MRI, magnetic resonance imaging; NSAIDS, non-steroidal anti-inflammatory drugs; NsMRA, non-steroidal mineralocorticoid 
+receptor antagonist; OSA, obstructive sleep apnea; OBPM, office blood pressure monitoring; OTC, over the counter medications; PWV, pulse wave velocity; SCORE2, 
+Systematic COronary Risk Evaluation model 2; SCORE2-OP, Systematic COronary Risk Evaluation model 2 for Older People; SBP, systolic blood pressure; SPC, single 
+pill combination; SGLT2i, sodium-glucose cotransporter type 2 inhibitors; TIA, transient ischemic attack; T/TL-diuretic, thiazide/thiazide-like diuretic; UACR, 
+urinary albumin-creatinine ratio. 
+Contents lists available at ScienceDirect 
+European Journal of Internal Medicine 
+journal homepage: www.elsevi er.com/loc ate/ejim 
+https://doi.org/10.1016/j.ejim.2024.05.033 
+Received 8 May 2024; Accepted 28 May 2024   
+
+European Journal of Internal Medicine 126 (2024) 1–15
+2
+Fig. 1. The ESH MASTER plan for the management of hypertension.  
+Fig. 2. Recommendations and use of the different methods for BP measurement.  
+Practice Guidelines                                                                                                                                                                                                                              
+
+European Journal of Internal Medicine 126 (2024) 1–15
+3
+hypertensive patients. Important recommendations and details for 
+the use of the different methods for BP measurement are summarized 
+in Fig. 2 . 
+Clinical indications that support the use of HBPM or ABPM are 
+summarized in Table 1 . 
+3. Assess patient 
+A thorough patient work-up aims to gather essential information 
+about the patient ’ s personal and medical history, any other relevant 
+factors and co-morbidities that may impact their BP, CV risk and man -
+agement. This information is critical in determining the initiation of the 
+most appropriate treatment approach and the follow-up strategy. 
+3.1. Basic assessment 
+Due to the high prevalence of hypertension and thus the large 
+number of individuals that will be managed by primary care providers, it 
+is essential to prioritize the basic assessment to investigations that are 
+effective and feasible in this setting, allowing widespread implementa -
+tion. The recommended pathway shown in Fig. 3 should be adapted 
+according to the severity of hypertension, clinical circumstances and 
+individual needs of patients. 
+The basic assessment includes personal and medical history, physical 
+examination, lab tests and the recording of a 12-lead resting electro -
+cardiogram (ECG) ( Fig. 3 ). The recommended evaluation allows the 
+diagnosis and staging of chronic kidney disease (CKD), by assessing 
+estimated glomerular filtration rate (eGFR) and urinary albumin- 
+creatinine ratio (UACR), and of left ventricular hypertrophy (LVH) by 
+ECG (although with limited sensitivity). 
+An extended list of factors to be considered in the evaluation of pa -
+tient ’ s history is shown in Table 2 . 
+An extended list of factors that influence CV risk in patients with 
+hypertension is shown in Table 3 . 
+Further details for a comprehensive physical examination for pa -
+tients with hypertension are summarized in Table 4 . 
+The specific assessment of patients older than 80 years should 
+include the analysis of their functional capacities/autonomy status as 
+shown in Table 5 . 
+Table 6 shows selected basic and extended laboratory tests for 
+assessment of hypertensive patients 
+3.2. Extended assessment 
+The extended assessment of hypertension mediated organ damage 
+(HMOD) can be executed as deemed necessary and available to physi -
+cians ( Fig. 3 ). 
+3.3. When to refer a patient 
+Basic and extended assessment of patients should support decision 
+making about when a patient should be referred to a hypertension 
+specialist or a hospital (including the need for inpatient treatment). 
+Criteria that influence these decisions are summarized in Fig. 3 . Addi -
+tional information on the incidence of selected forms of secondary hy -
+pertension according to age that can guide clinical decision making 
+when to refer a patient with suspected secondary hypertension for 
+further work-up is shown in Fig. 4 . 
+4. Select therapy 
+4.1. General aspects 
+Lifestyle interventions have been shown to be effective in reducing 
+BP in hypertensive patients and can also have additional benefits, such 
+Table 1 
+Clinical indications for home and ambulatory BP monitoring * .  
+Conditions in which white-coat hypertension is more common, e.g. 
+• Grade I hypertension on office BP measurement 
+• Marked office BP elevation without HMOD 
+Conditions in which masked hypertension is more common, e.g. 
+• High-normal office BP 
+• Normal office BP in individuals with HMOD or at high total CV risk 
+In treated individuals 
+• Confirmation of uncontrolled and true resistant hypertension 
+• Evaluation of 24 h BP control (especially in high-risk patients) 
+• Evaluating symptoms suggestive of hypotension (especially in older patients) 
+Suspected postural or postprandial hypotension in treated patients 
+Exaggerated BP response to exercise 
+Considerable variability in office BP measurements 
+Specific indications for ABPM rather than HBPM 
+• Assessment of nocturnal BP and dipping status (e.g. sleep apnea, CKD, diabetes, endocrine hypertension, or autonomic dysfunction) 
+• Patients incapable or unwilling to perform reliable HBPM, or anxious with self-measurement 
+• Evaluation of patients considered for renal denervation  
+• Children 
+• Pregnancy 
+Specific indications for HBPM rather than ABPM 
+• Long-term follow-up of treated individuals to improve adherence with treatment and hypertension control 
+• Patients unwilling to perform ABPM, or with considerable discomfort during the recording 
+Indications for repeat out-of-office BP evaluation (same or alternative method – HBPM/ABPM) 
+• Confirmation of white-coat hypertension or masked hypertension in untreated or treated individuals  
+*
+Using validated devices (see https://www.stridebp.org/ ). 
+Adapted with permission from Wolters Kluwer Health, Inc.: [Mancia G, Kreutz R, Brunstrom M, Burnier M, Grassi G, Januszewicz A, et al. 2023 ESH Guidelines for 
+the management of arterial hypertension The Task Force for the management of arterial hypertension of the European Society of Hypertension: Endorsed by the 
+International Society of Hypertension (ISH) and the European Renal Association (ERA). Journal of hypertension 2023; 41:1874 – 2071. https://doi.org/10.1097/hjh 
+.0000000000003480 ]. 
+Practice Guidelines                                                                                                                                                                                                                              
+
+European Journal of Internal Medicine 126 (2024) 1–15
+4
+Fig. 3. Recommended assessment as adapted according to the severity of hypertension, clinical circumstances and individual needs of patients.  
+Practice Guidelines                                                                                                                                                                                                                              
+
+European Journal of Internal Medicine 126 (2024) 1–15
+5
+Table 2 
+Medical and family history
+a
+.  
+Personal history 
+• Time of the first diagnosis of hypertension, including records of any previous medical screening, hospitalization 
+• Stable or rapidly increasing BP 
+• Recordings of current and past HBPM values  
+• Current/past antihypertensive medications including their effectiveness and intolerance 
+• Adherence to therapy 
+• Previous hypertension in pregnancy/preeclampsia 
+Risk factors
+a 
+• Family history of hypertension, CVD, stroke or kidney disease 
+• Smoking history 
+• Dietary history, alcohol consumption 
+• High volume of sedentary behavior and lack of physical activity  
+• Weight gain or loss in the past 
+• History of erectile dysfunction 
+• Sleep history, snoring, sleep apnea (information also from partner) 
+• Stress 
+• Long-term cancer survivor 
+History, signs and symptoms of HMOD, CVD, stroke and kidney disease 
+• Brain and eyes: headache, vertigo, syncope, impaired vision, TIA, sensory or motor deficit, stroke, carotid revascularization, cognitive impairment, memory loss, dementia (in older 
+people) 
+• Heart: chest pain, shortness of breath, edema, myocardial infarction, coronary revascularization, syncope, history of palpitations, arrhythmias (especially AF), heart failure 
+• Kidney: thirst, polyuria, nocturia, hematuria, urinary tract infections 
+• Peripheral arteries: cold extremities, intermittent claudication, pain-free walking distance, pain at rest, ulcer or necrosis, peripheral revascularization 
+• Patient or family history of CKD (e.g. polycystic kidney disease) 
+History of possible secondary hypertension 
+• Young onset of grade 2 or 3 hypertension ( < 40 years), or sudden development of hypertension or rapidly worsening BP in older patients 
+• History of repetitive renal/urinary tract disease 
+• Repetitive episodes of sweating, headache, anxiety or palpitations, suggestive of pheochromocytoma 
+• History of spontaneous or diuretic-provoked hypokalemia, episodes of muscle weakness and tetany (hyperaldosteronism) 
+• Symptoms suggestive of thyroid disease or hyperparathyroidism 
+• History of or current pregnancy, postmenopausal status and oral contraceptive use or hormonal substitution 
+Drug treatments or use (other than antihypertensive drugs) 
+• Recreational drug/substance abuse, concurrent therapies including nonprescription drugs, e.g. glucocorticoids, NSAIDs/COX-2 inhibitors, paracetamol (acetaminophen), 
+immunosuppressive drugs, anticancer drugs, nasal decongestants  
+a
+Additional factors to be considered are listed in Table 3 
+Adapted with permission from Wolters Kluwer Health, Inc.: [Mancia G, Kreutz R, Brunstrom M, Burnier M, Grassi G, Januszewicz A, et al. 2023 ESH Guidelines for 
+the management of arterial hypertension The Task Force for the management of arterial hypertension of the European Society of Hypertension: Endorsed by the 
+International Society of Hypertension (ISH) and the European Renal Association (ERA). Journal of hypertension 2023; 41:1874 – 2071. https://doi.org/10.1097/hjh 
+.0000000000003480 ]. 
+Practice Guidelines                                                                                                                                                                                                                              
+
+European Journal of Internal Medicine 126 (2024) 1–15
+6
+Table 3 
+Factors that influence CV risk in patients with hypertension.  
+Parameter for risk stratification, which are included in SCORE2 and SCORE2-OP 
+Sex (men > women) 
+Age 
+Level of SBP
+a 
+Smoking – current or past history 
+Non-HDL cholesterol 
+Established and suggested novel factors 
+Family or parental history of early onset hypertension 
+Personal history of malignant hypertension 
+Family history of premature CVD (men aged < 55 years; women aged < 65 years) 
+Heart rate (resting values > 80 bpm) 
+Low birth weight 
+Sedentary lifestyle 
+Overweight or Obesity 
+Diabetes 
+Dyslipidemia 
+Lp(a) 
+Uric acid 
+Adverse outcomes of pregnancy (recurrent pregnancy loss, preterm delivery, hypertensive disorders, gestational diabetes) 
+Early-onset menopause 
+Frailty, functional capacities and autonomy status 
+Psychosocial and socioeconomic factors 
+Migration 
+Environmental exposure to air pollution or noise 
+Additional clinical conditions or comorbidities 
+True resistant hypertension 
+Sleep disorders (including OSA) 
+COPD 
+Gout 
+Chronic inflammatory diseases 
+Metabolic dysfunction-associated fatty liver disease 
+Chronic infections (including long COVID-19) 
+Migraine 
+Depressive syndromes 
+Erectile dysfunction 
+Hypertension-mediated organ damage (HMOD) 
+Increased large artery stiffness 
+Pulse pressure (in older people) ≥ 60 mmHg 
+Carotid – femoral PWV > 10 m/s in middle-aged people 
+Presence of non-hemodynamically significant atheromatous plaque (stenosis) on imaging 
+ECG LVH (Sokolow – Lyon index > 35 mm, or R in aVL ≥ 11 mm; Cornell voltage-duration product ( + 6 mm in women) > 2440 mm*ms, or Cornell voltage > 28 mm in men or > 20 mm 
+in women) 
+Echocardiographic LVH (LV mass index: men > 50 g/m
+2.7
+; women > 47 g/m
+2.7 
+( m = height in meters); indexation for BSA may be used in normal-weight patients: > 115 g/m
+2 
+in men 
+and > 95/m
+2 
+in women 
+Moderate increase of albuminuria 30 – 300 mg/24 h or elevated UACR (preferably in morning spot urine) 30 – 300 mg/g 
+CKD stage 3 with eGFR 30 – 59 ml/min/1.73 m
+2 
+Ankle – brachial index < 0.9 
+Advanced retinopathy: hemorrhages or exudates, papilledema 
+Established cardiovascular and kidney disease 
+Cerebrovascular disease: ischemic stroke, cerebral hemorrhage, TIA 
+Coronary artery disease: myocardial infarction, angina, myocardial revascularization 
+Presence of hemodynamically significant atheromatous plaque (stenosis) on imaging 
+Heart failure 
+Peripheral artery disease 
+Atrial fibrillation 
+Severe albuminuria > 300 mg/24 h or UACR (preferably in morning spot urine) > 300 mg/g 
+CKD stage 4 and 5, eGFR < 30 mL/min/1.73m
+2  
+a
+DBP is not included in the SCORE2/SCORE2-OP tool to estimate CV risk. 
+Adapted with permission from Wolters Kluwer Health, Inc.: [Mancia G, Kreutz R, Brunstrom M, Burnier M, Grassi G, Januszewicz A, et al. 2023 ESH Guidelines for 
+the management of arterial hypertension The Task Force for the management of arterial hypertension of the European Society of Hypertension: Endorsed by the 
+International Society of Hypertension (ISH) and the European Renal Association (ERA). Journal of hypertension 2023; 41:1874 – 2071. https://doi.org/10.1097/hjh 
+.0000000000003480 ]. 
+Practice Guidelines                                                                                                                                                                                                                              
+
+European Journal of Internal Medicine 126 (2024) 1–15
+7
+as increasing the efficacy of BP-lowering therapy, improving overall CV 
+health and reducing the risk of other chronic diseases. They are 
+important in the prevention of hypertension and may control BP when 
+used alone already in a fraction of patients, i.e. in patient with mildly 
+elevated grade 1 hypertension with systolic BP (SBP) and diastolic BP 
+(DBP) < 150/95 mmHg and low CV risk. However, most patients with 
+hypertension should be treated with a combination of both lifestyle in -
+terventions and pharmacological treatment. The strategy for the initial 
+management of hypertension with the aim to control BP within 3 
+months according to the risk of patients is shown in Fig. 5 . 
+The initial management as well as follow-up strategies should be 
+executed according to the risk of patients as summarized in Fig. 6 . 
+4.2. Lifestyle interventions 
+The recommended lifestyle interventions together with their rele -
+vance and prescribing patterns are shown in Fig. 7 . 
+4.3. Pharmacological treatment 
+The general treatment strategy for patients with hypertension is 
+shown in Fig. 8 . The recommended major BP-lowering drug classes 
+include angiotensin-converting enzyme inhibitors (ACEi), angiotensin 
+receptor blockers (ARB), beta-blockers (BB), calcium channel blockers 
+(CCB) and thiazide/thiazide-like diuretics (T/TL-diuretics). Additional 
+therapies can be considered in patients with true resistant hypertension, 
+heart failure and CKD as shown. Furthermore, renal denervation can be 
+considered in true-resistant hypertension ( Fig. 8 ) and in patients who 
+have uncontrolled BP despite the use of antihypertensive drug combi -
+nation therapy, or if drug treatment elicits serious side effects and poor 
+quality of life (if eGFR > 40 ml/min/1.73m
+2
+). 
+The general strategy for pharmacological treatment shown in Fig. 8 
+applies to a large number of patients including patients with diabetes, 
+after a stroke or with peripheral artery disease. Further specific treat -
+ment algorithms for true resistant hypertension and important co- 
+morbidities including coronary heart disease, heart failure with pre -
+served ejection fraction, atrial fibrillation, and CKD are shown in suppl. 
+Figs. 1 – 5. 
+The general BP treatment targets for office SBP and DBP are also 
+shown in Fig. 8 along with additional comments that indicate the need to 
+adjust these targets, e.g. in certain patient populations. 
+The recommended strategy in older persons according to their 
+functional capacities/autonomy status is summarized in Fig. 9 . 
+5. Evaluate response 
+It is important to evaluate the BP response after treatment initiation 
+(3 months) as well as during short-term and long-term follow-up in 
+patients with hypertension in order to monitor the effectiveness of the 
+treatment and make any necessary adjustments. To aim first for BP 
+control with SBP and DBP below 140 and 80 mmHg in most patients in 
+the general hypertensive population and subsequently for optimal BP 
+control achieving the individual BP targets is the important goal that 
+should be evaluated ( Fig. 8 ). However, the evaluation of possible side 
+effects (tolerability) and safety parameters, e.g. eGFR and serum po -
+tassium levels, in response to treatment and changes in the risk factor 
+Table 5 
+Assessment of functional capacities/autonomy status in hypertensive patients 
+older than 80 years.   
+Group 1 Group 2 Group 3 
+Characteristics Fit Slowed but 
+autonomous for 
+most activities 
+Severely 
+dependent  
+Diagnosis -ADL (Katz) ≥ 5 
+and 
+-absence of clinically 
+significant dementia 
+(MMSE > 20) 
+and 
+-routine walking 
+activities 
+-Profile between 
+Groups 1 and 3 
+-ADL (Katz): 
+≤ 2 
+or 
+-severe 
+dementia 
+(MMSE 
+≤ 10) 
+or 
+chronic 
+bedridden 
+or 
+-end of life 
+ADL: Activities of Daily Living (Katz Index) scaled rated from 0 (completely 
+dependent) to 6 (completely autonomous). 
+This scale comprises 6 ADL: Bathing, Dressing, Toileting, Transferring, Feeding 
+and Continence. 
+For each ADL ‘0 ′ means that the person is unable to do it without assistance, 0.5 
+need of some assistance, 1 no need of any assistance. 
+MMSE: Mini mental state examination. Score 0 – 30, 30 best, 0 – 10 severe de -
+mentia, 11 – 20 moderate dementia, 21 – 30 absence of clinically significant de -
+mentia. The assessment is used to guide treatment as shown in Fig. 9 . 
+Adapted with permission from Wolters Kluwer Health, Inc.: [Mancia G, Kreutz R, 
+Brunstrom M, Burnier M, Grassi G, Januszewicz A, et al. 2023 ESH Guidelines for 
+the management of arterial hypertension The Task Force for the management of 
+arterial hypertension of the European Society of Hypertension: Endorsed by the 
+International Society of Hypertension (ISH) and the European Renal Association 
+(ERA). Journal of hypertension 2023; 41:1874 – 2071. https://doi.org/10.10 
+97/hjh.0000000000003480 ]. 
+Table 4 
+Comprehensive physical examination for hypertension
+a
+.  
+Body habitus 
+• Weight and height measured on a calibrated scale, with calculation of BMI 
+• Waist circumference 
+Signs of hypertension-mediated organ damage 
+• Neurological examination and cognitive status 
+• Fundoscopic examination for hypertensive retinopathy in emergencies 
+• Auscultation of heart and carotid arteries 
+• Palpation of carotid and peripheral arteries 
+• Ankle – brachial index 
+Signs of secondary hypertension 
+• Skin inspection: cafe-au-lait patches of neurofibromatosis (pheochromocytoma) 
+• Kidney palpation for signs of renal enlargement in polycystic kidney disease 
+• Auscultation of heart and renal arteries for murmurs or bruits indicative of aortic coarctation, or renovascular hypertension 
+• Signs of Cushing ’ s disease or acromegaly 
+• Signs of thyroid disease  
+a
+Can be adapted according to the clinical circumstance. 
+Adapted with permission from Wolters Kluwer Health, Inc.: [Mancia G, Kreutz R, Brunstrom M, Burnier M, Grassi G, Januszewicz A, et al. 2023 ESH Guidelines for 
+the management of arterial hypertension The Task Force for the management of arterial hypertension of the European Society of Hypertension: Endorsed by the 
+International Society of Hypertension (ISH) and the European Renal Association (ERA). Journal of hypertension 2023; 41:1874 – 2071. https://doi.org/10.1097/hjh 
+.0000000000003480 ]. 
+Practice Guidelines                                                                                                                                                                                                                              
+
+European Journal of Internal Medicine 126 (2024) 1–15
+8
+Table 6 
+Selected standard laboratory tests for work-up of hypertensive patients
+a
+.  
+Blood (serum/plasma) 
+• Hemoglobin and/or hematocrit 
+• Fasting blood glucose and HbA1c 
+• Lipids: total cholesterol, LDL cholesterol, HDL cholesterol, triglycerides 
+• Potassium and sodium 
+• Uric acid 
+• Creatinine (and/or cystatin C) for estimating GFR with eGFR formulas 
+• Calcium 
+Urine 
+• Multicomponent dipstick test, UACR (preferably early morning spot urine), microscopic examination in selected patients  
+a
+Can be adapted according to the clinical circumstance. 
+Adapted with permission from Wolters Kluwer Health, Inc.: [Mancia G, Kreutz R, Brunstrom M, Burnier M, Grassi G, Januszewicz A, et al. 2023 ESH Guidelines for 
+the management of arterial hypertension The Task Force for the management of arterial hypertension of the European Society of Hypertension: Endorsed by the 
+International Society of Hypertension (ISH) and the European Renal Association (ERA). Journal of hypertension 2023; 41:1874 – 2071. https://doi.org/10.1097/hjh 
+.0000000000003480 ]. 
+Fig. 4. Incidence of selected forms of secondary hypertension according to age. 
+Reproduced with permission from Wolters Kluwer Health, Inc.: [Mancia G, Kreutz R, Brunstrom M, Burnier M, Grassi G, Januszewicz A, et al. 2023 ESH Guidelines 
+for the management of arterial hypertension The Task Force for the management of arterial hypertension of the European Society of Hypertension: Endorsed by the 
+International Society of Hypertension (ISH) and the European Renal Association (ERA). Journal of hypertension 2023; 41:1874 – 2071. https://doi.org/10.1097/hjh 
+.0000000000003480 ]. 
+Practice Guidelines                                                                                                                                                                                                                              
+
+European Journal of Internal Medicine 126 (2024) 1–15
+9
+Fig. 5. Strategy of the initial management of hypertension with the aim to control BP within 3 months according to the risk of patients. 
+Adapted with permission from Wolters Kluwer Health, Inc.: [Mancia G, Kreutz R, Brunstrom M, Burnier M, Grassi G, Januszewicz A, et al. 2023 ESH Guidelines for 
+the management of arterial hypertension The Task Force for the management of arterial hypertension of the European Society of Hypertension: Endorsed by the 
+International Society of Hypertension (ISH) and the European Renal Association (ERA). Journal of hypertension 2023; 41:1874 – 2071. https://doi.org/10.1097/hjh 
+.0000000000003480 ]. 
+Practice Guidelines                                                                                                                                                                                                                              
+
+European Journal of Internal Medicine 126 (2024) 1–15
+10
+Fig. 6. Risk stratification according to grade and stage of hypertension. 
+Adapted with permission from Wolters Kluwer Health, Inc.: [Mancia G, Kreutz R, Brunstrom M, Burnier M, Grassi G, Januszewicz A, et al. 2023 ESH Guidelines for 
+the management of arterial hypertension The Task Force for the management of arterial hypertension of the European Society of Hypertension: Endorsed by the 
+International Society of Hypertension (ISH) and the European Renal Association (ERA). Journal of hypertension 2023; 41:1874–2071. https://doi.org/10.1097/hjh 
+.0000000000003480]. 
+Practice Guidelines                                                                                                                                                                                                                              
+
+European Journal of Internal Medicine 126 (2024) 1–15
+11
+Fig. 7. Recommended lifestyle interventions together with their relevance and prescribing patterns.  
+Practice Guidelines                                                                                                                                                                                                                              
+
+European Journal of Internal Medicine 126 (2024) 1–15
+12
+Fig. 8. The general treatment strategy for patients with hypertension. 
+Adapted with permission from Wolters Kluwer Health, Inc.: [Mancia G, Kreutz R, Brunstrom M, Burnier M, Grassi G, Januszewicz A, et al. 2023 ESH Guidelines for 
+the management of arterial hypertension The Task Force for the management of arterial hypertension of the European Society of Hypertension: Endorsed by the 
+International Society of Hypertension (ISH) and the European Renal Association (ERA). Journal of hypertension 2023; 41:1874 – 2071. https://doi.org/10.1097/hjh 
+.0000000000003480 ]. 
+Practice Guidelines                                                                                                                                                                                                                              
+
+European Journal of Internal Medicine 126 (2024) 1–15
+13
+Fig. 9. Recommended strategy in older persons according to their functional capacities/autonomy status.  
+Practice Guidelines                                                                                                                                                                                                                              
+
+European Journal of Internal Medicine 126 (2024) 1–15
+14
+profile, HMOD or co-morbidities is also important. Fig. 10 summarizes 
+important aspects that should be evaluated and considered during the 
+initiation phase, short-term and long-term follow up. 
+6. Conclusions 
+The successful implementation of the guideline recommendations for 
+the treatment of hypertension depends on many factors, including na -
+tional/regional opportunities and challenges in healthcare systems. The 
+ESH hopes that this MASTER plan will make a meaningful contribution 
+to the further development and improvement of hypertension care. 
+Declaration of competing interest 
+The conflict of interest declaration of authors are compiled into one 
+file that can be found on the ESH website: https://www.eshonline.or 
+g/guidelines/2023-guidelines/ . ESH received no financial support for 
+the generation of this guidelines. 
+Acknowledgements 
+We wish to sincerely thank Mandy Elgner (ESH coordinator) for her 
+assistance, Joan Tycko (Certified Medical Illustrator) for excellent sup -
+port in the preparation of the Figures of the MASTER plan and Medycyna 
+Praktuczna Publishers for additional graphical support. 
+Supplementary materials 
+Supplementary material associated with this article can be found, in 
+the online version, at doi:10.1016/j.ejim.2024.05.033 . 
+Reference 
+[1] Mancia G, Kreutz R, Brunstrom M, Burnier M, Grassi G, Januszewicz A, et al. 2023 
+ESH Guidelines for the management of arterial hypertension The Task Force for the 
+management of arterial hypertension of the European Society of Hypertension: 
+endorsed by the International Society of Hypertension (ISH) and the European Renal 
+Association (ERA). J Hypertens 2023;41:1874 – 2071 . 
+Fig. 10. Summary of important aspects that should be evaluated and considered during the initiation phase, short-term and long-term follow up.  
+Practice Guidelines                                                                                                                                                                                                                              
+
+European Journal of Internal Medicine 126 (2024) 1–15
+15
+Reinhold Kreutz
+a , 1 , *
+, Mattias Brunstr ¨om
+b
+, Michel Burnier
+c
+, 
+Guido Grassi
+d
+, Andrzej Januszewicz
+e
+, Maria Lorenza Muiesan
+f
+, 
+Konstantinos Tsioufis
+g
+, Rosa Maria de Pinho
+h
+, Fabio Lucio Albini
+i , j
+, 
+Jean-Marc Boivin
+k , l
+, Michalis Doumas
+m
+, J ´anos Nemcsik
+n
+, 
+Enrique Rodilla
+o
+, Enrico Agabiti-Rosei
+p
+, Engi Abd Elhady Algharably
+a
+, 
+Giancarlo Agnelli
+q
+, Athanase Benetos
+r
+, Jana Brguljan Hitij
+s
+, 
+Renata Cífkov ´a
+t , u
+, V ´eronique Cornelissen
+v
+, A.H. Jan Danser
+w
+, 
+Christian Delles
+x
+, Ricardo G ´omez Huelgas
+y , z
+, Zolt ´an J ´arai
+aa
+, 
+Paolo Palatini
+ab
+, Atul Pathak
+ac
+, Alexandre Persu
+ad
+, Jorge Polonia
+ae
+, 
+Pantelis Sarafidis
+af
+, George Stergiou
+ag
+, Costas Thomopoulos
+ah
+, 
+Christoph Wanner
+ai
+, Thomas Weber
+aj
+, Bryan Williams
+ak
+, Sverre 
+E. Kjeldsen
+al
+, Giuseppe Mancia
+am , 1 
+a
+Charit ´e – Universit ¨atsmedizin Berlin, Corporate Member of Freie Universit ¨at 
+Berlin and Humboldt-Universit ¨at zu Berlin, Institute of Clinical 
+Pharmacology and Toxicology, Berlin, Germany 
+b
+Department of Public Health and Clinical Medicine, Umeå University, 
+Umeå, Sweden 
+c
+Faculty of Biology and Medicine, University of Lausanne, Lausanne, 
+Switzerland 
+d
+Clinica Medica, University Milano-Bicocca, Milan, Italy 
+e
+Department of Hypertension, National Institute of Cardiology, Warsaw, 
+Poland 
+f
+UOC 2 Medicina, ASST Spedali Civili di Brescia, Department of Clinical 
+and Experimental Sciences, University of Brescia, Brescia, Italy 
+g
+First Department of Cardiology, Medical School, University of Athens, 
+Hippokration Hospital, Athens, Greece 
+h
+General and Family Doctor, ULS Entre Douro e Vouga, S ˜ao Jo ˜ao da 
+Madeira, Portugal 
+i
+Centro Ipertensione e Protezione Cardiovascolare, Milano-Nord, Italy 
+j
+ATS-Milano Citt `a Metropolitana, Milan, Italy 
+k
+Department of Family Medicine, Lorraine University, Nancy, France 
+l
+ESH Hypertension Excellence Center Coordinator, Nancy, France 
+m
+2nd Prop Department of Internal Medicine, Aristotle University, 
+Thessaloniki, Greece 
+n
+Department of Family Medicine, Semmelweis University, Budapest, 
+Hungary 
+o
+Hypertension Unit, Hospital de Sagunto, Universidad Cardenal Herrera- 
+CEU, CEU Universities, Valencia, Spain 
+p
+Department of Clinical and Experimental Sciences, University of Brescia, 
+Italy 
+q
+Istituti Clinici Scientifici Maugeri, IRCCS, University of Perugia, Perugia, 
+Italy 
+r
+Department of Geriatric Medicine and INSERM DCAC, CHRU-Nancy, 
+Universit ´e de Lorraine, Nancy, France 
+s
+Department of Hypertension, University Medical Centre Ljubljana, Medical 
+University Ljubljana, Ljubljana, Slovenia 
+t
+Center for Cardiovascular Prevention, Charles University in Prague, First 
+Faculty of Medicine and Thomayer University Hospital, Prague, Czech 
+Republic 
+u
+Department of Medicine II, Charles University in Prague, First Faculty of 
+Medicine, Prague, Czech Republic 
+v
+Department of Rehabilitation Sciences, KU Leuven, Leuven, Belgium 
+w
+Division of Pharmacology and Vascular Medicine, Department of Internal 
+Medicine, Erasmus MC, University Medical Center Rotterdam, the 
+Netherlands 
+x
+School of Cardiovascular and Metabolic Health, University of Glasgow, 
+Glasgow, UK 
+y
+Clinical Management Unit of Internal Medicine, Hospital Regional 
+Universitario de M ´alaga, Instituto de Investigaci ´on Biom ´edica de M ´alaga, 
+University of M ´alaga, M ´alaga, Spain 
+z
+CIBER Fisiopatología de la Obesidad y la Nutrici ´on, Instituto de Salud 
+Carlos III, Madrid, Spain 
+aa
+South-Buda Center Hospital St. Imre University Hospital, Budapest & 
+Semmelweis University, Budapest, Hungary 
+ab
+Studium Patavinum, Department of Medicine, University of Padova, 
+Padova, Italy 
+ac
+Princess Grace Hospital Monaco (Centre Hospitalier Princesse Grace, 
+CHPG), Monaco 
+ad
+Division of Cardiology, Department of Cardiovascular Diseases, Cliniques 
+Universitaires Saint-Luc and Pole of Cardiovascular Research, Institut de 
+Recherche Exp ´erimentale et Clinique, Universit ´e Catholique de Louvain, 
+Brussels, Belgium 
+ae
+Faculty of Medicine of Porto, CINTESIS, Portugal 
+af
+1st Department of Nephrology, Hippokration Hospital, Aristotle University 
+of Thessaloniki, Greece 
+ag
+Hypertension Center STRIDE-7, School of Medicine, Third Department of 
+Medicine, Sotiria Hospital, National and Kapodistrian University of Athens, 
+Athens, Greece 
+ah
+Department of Cardiology, General Hospital of Athens “ Laiko ” , Greece 
+ai
+Division of Nephrology, Wuerzburg University Clinic, Wuerzburg, 
+Germany 
+aj
+Cardiology Department, Klinikum Wels-Grieskirchen, Wels, Austria 
+ak
+Institute of Cardiovascular Sciences, University College London (UCL), 
+National Institute for Health Research UCL Hospitals Biomedical Research 
+Centre, London, UK 
+al
+Departments of Cardiology and Nephrology, Institute for Clinical 
+Medicine, and Ullevål Hospital, University of Oslo, Oslo, Norway 
+am
+University of Milano-Bicocca, Milan, Italy 
+*
+Corresponding author. 
+E-mail address: reinhold.kreutz@charite.de (R. Kreutz). 
+1
+Chairpersons of the Guidelines. 
+Practice Guidelines                                                                                                                                                                                                                              

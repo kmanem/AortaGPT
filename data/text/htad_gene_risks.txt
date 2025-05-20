@@ -1,0 +1,1228 @@
+ORIGINAL INVESTIGATIONS
+Comparative Risks of Initial Aortic Events
+Associated With Genetic Thoracic
+Aortic Disease
+Ellen S. Regalado, PHD,a Shaine A. Morris, MD, MPH,b Alan C. Braverman, MD,c Ellen M. Hostetler, BA,a
+Julie De Backer, MD, PHD,d,e Ruosha Li, PHD,f Reed E. Pyeritz, MD, PHD,g Anji T. Yetman, MD,h Elena Cervi, MD,i
+Sherene Shalhub, MD,j Richmond Jeremy, MB, BS, PHD,k Scott LeMaire, MD,l Maral Ouzounian, MD, PHD,m
+Arturo Evangelista, MD,e,n Catherine Boileau, PHD,e,o Guillaume Jondeau, MD, PHD,e,o Dianna M. Milewicz, MD, PHDa
+ABSTRACT
+BACKGROUND Pathogenic variants in 11 genes predispose individuals to heritable thoracic aortic disease (HTAD), but
+limited data are available to stratify the risk for aortic events associated with these genes.
+OBJECTIVES This study sought to compare the risk ofﬁrst aortic event, speciﬁcally thoracic aortic aneurysm surgery or
+an aortic dissection, among 7 HTAD genes and variant types within each gene.
+METHODS A retrospective cohort of probands and relatives with rare variants in 7 genes for HTAD (n¼ 1,028) was
+assessed for the risk ofﬁrst aortic events based on the gene altered, pathogenic variant type, sex, proband status, and
+location of recruitment.
+RESULTS Signiﬁcant differences in aortic event risk were identiﬁed among the smooth muscle contraction genes
+(ACTA2, MYLK, andPRKG1; P ¼ 0.002) and among the genes for Loeys-Dietz syndrome, which encode proteins in the
+transforming growth factor (TGF)-b pathway (SMAD3, TGFB2, TGFBR1,and TGFBR2; P< 0.0001). Cumulative incidence
+of type A aortic dissection was higher than elective aneurysm surgery in patients with variants inACTA2, MYLK, PRKG1,
+and SMAD3; in contrast, patients withTGFBR2 variants had lower cumulative incidence of type A aortic dissection than
+elective aneurysm surgery. Cumulative incidence of type B aortic dissection was higher forACTA2, PRKG1, and TGFBR2
+than other genes. After adjusting for proband status, sex, and recruitment location, speciﬁc variants inACTA2 and
+TGFBR2 were associated with substantially higher risk of aortic event with childhood onset.
+CONCLUSIONS Gene- and variant-speciﬁc data on aortic events in individuals with HTAD support personalized aortic
+surveillance and clinical management. (J Am Coll Cardiol 2022;80:857–869) © 2022 The Authors. Published by Elsevier
+on behalf of the American College of Cardiology Foundation. This is an open access article under the CC BY-NC-ND license
+(http://creativecommons.org/licenses/by-nc-nd/4.0/).
+ISSN 0735-1097 https://doi.org/10.1016/j.jacc.2022.05.054
+From the aDepartment of Internal Medicine, McGovern Medical School, University of Texas Health Science Center at Houston
+(UTHealth), Houston, Texas, USA;bDivision of Pediatric Cardiology, Baylor College of Medicine, Houston, Texas, USA;cCardio-
+vascular Division, Department of Medicine, Washington University School of Medicine, St Louis, Missouri, USA;dDepartment of
+Cardiology and Center for Medical Genetics, Ghent University Hospital, Ghent, Belgium;eEuropean Reference Network for Rare
+Multisystemic Vascular Disease (VASCERN), Heritable Thoracic Aortic Disease Working Group;fDepartment of Biostatistics and
+Data Science, School of Public Health, UTHealth, Houston, Texas, USA;gDepartments of Medicine and Genetics, Perelman School
+of Medicine at the University of Pennsylvania, Philadelphia, Pennsylvania, USA;hDivision of Pediatric Cardiology, Children’s
+Hospital & Medical Center, University of Nebraska Medical Center, Omaha, Nebraska, USA;iCentre for Inherited Cardiovascular
+Diseases, Great Ormond Street Hospital for Children NHS Foundation Trust, London, United Kingdom;jDepartment of Vascular
+Surgery, University of Washington, Seattle, Washington, USA;kSydney Medical School, University of Sydney, Sydney, New South
+Listen to this manuscript’s
+audio summary by
+Editor-in-Chief
+Dr Valentin Fuster on
+www.jacc.org/journal/jacc.
+JOURNAL OF THE AMERICAN COLLEGE OF CARDIOLOGY VOL. 80, NO. 9, 2022
+ª 2022 THE AUTHORS. PUBLISHED BY ELSEVIER ON BEHALF OF THE AMERICAN
+COLLEGE OF CARDIOLOGY FO UNDATION. THIS IS AN OPEN ACCESS ARTICLE UNDER
+THE CC BY-NC-ND LICENSE ( http://creativecommons.o rg/licenses/by-nc-nd/4.0/ ).
+
+A
+s thoracic aortic aneurysms progres-
+sively enlarge, the risk for life-
+threatening type A aortic dissections
+increases. These dissections are preventable
+if at-risk individuals are identiﬁed early and
+aneurysms surgically repaired in a timely
+manner.
+1,2 Less deadly type B aortic dissec-
+tions are also part of the thoracic aortic dis-
+ease spectrum, but typically occur with
+little or no prior enlargement.
+3 Pathogenic
+variants in both FBN1 and the genes encod-
+ing proteins involved in the canonical trans-
+forming growth factor (TGF)-
+b signaling
+pathway predispose to highly penetrant
+thoracic aortic disease in patients with Mar-
+fan syndrome (MFS) and Loeys-Dietz syn-
+drome (LDS), respectively.
+4-8 Importantly,
+up to 20% of patients with thoracic aortic
+disease, but without syndromic features,
+have a family history of the disease.
+9
+Although both FBN1 and TGFb gene patho-
+genic variants can be responsible for nonsyndromic
+heritable thoracic aortic disease (HTAD) in families,
+additional genes have been identi ﬁed that cause
+HTAD without MFS or LDS systemic features.
+10-13
+Eleven genes have a de ﬁnitive association with
+HTAD, and based on protein function, these genes
+are FBN1, LOX, and COL3A1 (extracellular matrix pro-
+teins), TGFBR1, TGFBR2, SMAD3, and TGFB2 (pro-
+teins involved in TGF b signaling pathway), and
+ACTA2, MYH11, PRKG1, and MYLK (proteins involved
+in smooth muscle contraction [SMC]).14,15
+Clinical management of thoracic aortic disease in
+patients with MFS has progressively improved over
+the past 60 years. The initial reports of patients with
+LDS and pathogenic variants in TGFBR1 or TGFBR2
+represented the severe end of the phenotypic spec-
+trum and led to more aggressive aortic disease man-
+agement recommendations than those for patients
+with MFS.
+7,16 The Montalcino Aortic Consortium
+(MAC) was established to de ﬁne the natural history
+associated with the full spectrum of pathogenic var-
+iants in novel HTAD genes. The MAC initially
+assembled data on individuals with TGFBR1 and
+TGFBR2 pathogenic variants
+17 followed by data on
+SMAD3 variants, 18 a n du s e dt h e s ed a t at or eﬁne rec-
+ommendations for management of aortic disease in
+these patients. The MAC has also examined risk and
+made management recommendations for individuals
+with pathogenic variants in ACTA2 and MYLK.
+19,20 In
+this study, we directly compared the risk ofﬁrst aortic
+event (ie, elective aortic aneurysm surgery or acute
+aortic dissection) among 7 HTAD genes, and speciﬁc
+variants within these genes, to more accurately
+compare and contrast the associated aortic disease
+risk.
+METHODS
+STUDY POPULATION. Genotype and clinical data
+from cohorts of patients and their relatives with rare
+variants in ACTA2 , MYLK, PRKG1, TGFBR1 , TGFBR2 ,
+SMAD3, and TGFB2 were combined for these ana-
+lyses. Patient recruitment, data collection, and sites
+were previously described.
+17,18 This study was
+reviewed and approved by the Institutional Review
+Boards of UTHealth and the sites of recruitment.
+Informed consent and/or authorization to use de-
+identi ﬁed data for research were obtained by
+participating instituti ons. Detailed methods are
+available in the Supplemental Appendix .
+STATISTICAL METHODS. First aortic event, de ﬁned
+as any elective aortic aneurysm surgery or any aortic
+dissection, was the primary outcome. Individual ﬁrst
+aortic events of elective aortic aneurysm surgery,
+Stanford type A or type B aortic dissection, and un-
+speci ﬁed thoracic aortic dissection were examined as
+secondary outcomes. Variables were summarized by
+median, IQR, and minimum-maximum values or fre-
+quency. Sex distribution was compared using a z test
+SEE PAGE 870
+ABBREVIATIONS
+AND ACRONYMS
+HTAD = heritable thoracic
+aortic disease
+LDS = Loeys-Dietz syndrome
+MAC = Montalcino Aortic
+Consortium
+MFS = Marfan syndrome
+PTC-NMD = variant that leads
+to premature truncation of
+translation and nonsense-
+mediated decay of the
+transcript
+PTC-nonNMD = variant that
+leads to premature truncation
+of translation but not
+nonsense-mediated decay of
+the transcript
+SMC = smooth muscle
+contraction
+TGF = transforming growth
+factor
+Wales, Australia; lDivision of Cardiothoracic Surgery, Michael E. DeBakey Department of Surgery, Baylor College of Medicine,
+Houston, Texas, USA;mDivision of Cardiovascular Surgery, Peter Munk Cardiac Centre, University of Toronto, Toronto, Ontario,
+Canada; nDepartment of Cardiology, Hospital Vall d’Hebron, Vall d’Hebron Research Institute, CIBER-CV, Barcelona, Spain; and
+the oCRMR Syndrome de Marfan et apparentés, Department of Cardiology, AP-HP, INSERM U1148, Hopital Bichat, Université de
+Paris, Paris, France.
+Kim Eagle, MD, served as Guest Associate Editor for this paper. Javed Butler, MD, MPH, MBA, served as Guest Editor-in-Chief for
+this paper.
+The authors attest they are in compliance with human studies committees and animal welfare regulations of the authors’
+institutions and Food and Drug Administration guidelines, including patient consent where appropriate. For more information,
+visit theAuthor Center.
+Manuscript received March 11, 2022; revised manuscript received April 26, 2022, accepted May 20, 2022.
+Regalado et al JACC VOL. 80, NO. 9, 2022
+Risk of Thoracic Aortic Disease Genes AUGUST 30, 2022:857 – 869
+858
+
+for one sample proportion. Cumulative probability of
+the primary outcome was calculated using the
+Kaplan-Meier method and compared between groups
+by univariable Cox regression with adjustment for
+family clustering. Cumulat ive incidence of individual
+ﬁrst aortic events were calculated using a competing
+risks analysis and compare d between groups using
+t h em e t h o do fF i n ea n dG r a yw i t ha d j u s t m e n tf o r
+family clustering. Variables with a P value <0.20 by
+the univariable analysis were included in the multi-
+variable model. Multivariable analyses of any ﬁrst
+aortic event associated with variant subtypes were
+performed using Cox regression, strati ﬁed by gene
+a n da d j u s t e df o rp r o b a n ds t a t u s ,s e x ,a n dg e o g r a p h i c
+location of recruitment, and intrafamilial correlation
+using the clustered robust method. Statistical anal-
+ysis was performed using the Stata statistical package
+version 16.1.
+RESULTS
+Data from 1,028 individuals from 376 families with
+218 unique variants in 7 HTAD genes were used for
+this analysis. Patients with ACTA2 variants repre-
+sented 30% of the cohort, followed byTGFBR2 (23%),
+SMAD3 (20%), TGFBR1 (14%), MYLK (5%), PRKG1
+(4%), and TGFB2 (4%) (Table 1, Supplemental Table 1).
+Of the 1,028, 456 (44%) had their ﬁrst aortic event,
+deﬁned as presentation with an acute thoracic aortic
+dissection (214 type A, 66 type B, and 25 unspeciﬁed
+thoracic aortic dissection) or elective surgical repair
+of an aortic aneurysm (n ¼ 151), at median age of 36
+years (IQR: 24-48 years). Only 2 of the ﬁrst elective
+aortic aneurysm surgeries involved the abdominal
+aorta. Median age at last follow-up, without an aortic
+event, was 29 years (IQR: 16-50 years). Eighteen
+percent (n ¼ 187) were deceased at median age of 45
+years (IQR: 29-56 years). Fifty-one percent of cases
+were male. By location of recruitment, 60% of cases
+were recruited in the United States and Canada, 35%
+in Europe, and 5% in Australia and Japan.
+CUMULATIVE PROBABILITY OF COMPOSITE FIRST
+AORTIC EVENT ASSOCIATED WITH HTAD GENES.
+Kaplan-Meier estimates of cumulative risk of com-
+posite ﬁrst aortic event by grouping genes based on
+the function of the corresponding protein found that
+the cumulative risk ofﬁrst aortic event did not differ
+between patients with variants in the TGF
+b genes (ie,
+LDS genes, TGFBR2 , TGFBR1 , SMAD3, and TGFB2)a n d
+those with variants in the SMC genes (ACTA2 , MYLK,
+and PRKG1)( Figure 1, Supplemental Table 2). Among
+patients with variants in the SMC genes, cumulative
+risks of aortic event were signi ﬁcantly different
+(P ¼ 0.002) and highest among patients with PRKG1,
+followed by those with ACTA2 and MYLK variants.
+Similarly, cumulative risks of aortic event differed
+signi ﬁcantly among patients with variants in the
+TGF
+b genes (P < 0.0001), with the highest and lowest
+risk observed for TGFBR2 and SMAD3 ,r e s p e c t i v e l y .
+Overall, cumulative risk of composite aortic event
+at age 65 years was 70% (95% CI: 66.0– 74.5). Risk of
+TABLE 1 Characteristics of the Study Population W ith Rare Variants in the 7 Genes for HTAD
+Total
+(N ¼ 1,028)
+ACTA2
+(n ¼ 306)
+MYLK
+(n ¼ 55)
+PRKG1
+(n ¼ 37)
+SMAD3
+(n ¼ 211)
+TGFB2
+(n ¼ 42)
+TGFBR1
+(n ¼ 141)
+TGFBR2
+(n ¼ 236)
+No. of unique variants 218 43 7 1 52 12 41 62
+No. of probands 376 (37) 100 (33) 7 (13) 4 (11) 60 (28) 14 (33) 72 (51) 119 (50)
+Type of variant
+Missense substitution 795 (78) 306 (100) 12 (22) 37 (100) 99 (47) 14 (33) 144 (100) 186 (79)
+PTC-NMD 128 (12) 0 (0) 40 (73) 0 (0) 71 (34) 17 (40) 0 (0) 0 (0)
+PTC-nonNMD 89 (9) 0 (0) 0 (0) 0 (0) 28 (13) 11 (26) 0 (0) 50 (21)
+IF small deletion 7 (1) 0 (0) 0 (0) 0 (0) 7 (3) 0 (0) 0 (0) 0 (0)
+CNV deletion 9 (1) 0 (0) 3 (5) 0 (0) 6 (3) 0 (0) 0 (0) 0 (0)
+Median age, y 33 (19-49) 34 (20-49) 46 (29-64) 32 (21-46) 42 (28-53) 36 (26-49) 27 (16-44) 25 (15-38)
+Sex
+Female 502 (49) 143 (47) 27 (49) 22 (60) 90 (43) 17 (40) 81 (57) 122 (52)
+Male 526 (51) 163 (53) 28 (51) 15 (40) 121 (57) 25 (60) 60 (43) 114 (48)
+Location of recruitment
+North America 618 (60) 267 (87) 35 (64) 37 (100) 103 (49) 31 (74) 55 (39) 90 (38)
+Europe 351 (34) 31 (10) 20 (36) 0 (0) 108 (51) 11 (26) 62 (44) 119 (50)
+Australia 35 (3) 5 (2) 0 (0) 0 (0) 0 (0) 0 (0) 16 (11) 14 (6)
+Japan 24 (2) 3 (1) 0 (0) 0 (0) 0 (0) 0 (0) 8 (6) 13 (6)
+Values are n, n (%), or median (IQR).
+CNV ¼ copy number variant (exon or whole gene); IF¼ in-frame; PTC-NMD ¼ truncating variants that result in a premature termination codon and nonsense mediated decay; PTC-
+nonNMD ¼ truncating variants that result in a premature termination codon and escape nonsense mediated decay.
+JACC VOL. 80, NO. 9, 2022 Regalado et al
+AUGUST 30, 2022:857 – 869 Risk of Thoracic Aortic Disease Genes
+859
+
+FIGURE 1 Cumulative Risks for Aortic Event Based on Genes and Variants
+SMC Genes
+Cumulative Probability
+0.00
+0.25
+0.50
+0.75
+1.00
+0 20 40 60
+Age (Years)
+80
+306 231 127 31 4
+55 51 34 17 1
+37
+ACTA2
+Number at risk
+MYLK
+PRKG1 30 12 2 0
+SMC vs TGFβ
+Cumulative Probability
+0.00
+0.25
+0.50
+0.75
+1.00
+0 20 40 60
+Age (Years)
+80
+398 312 173 50 5
+630 459 230 58 3
+SMC
+Number at risk
+TGFβ
+SMC TGF-Beta
+ACTA2 MYLK PRKG1
+TGFβ Genes
+Cumulative Probability
+0.00
+0.25
+0.50
+0.75
+1.00
+0 20 40 60
+Age (Years)
+80
+211 182 113 28 1
+42 34 18 5 0
+SMAD3
+Number at risk
+TGFB2
+141TGFBR1 92 44 11 0
+236TGFBR2 151 55 14 2
+SMAD3 TGFB2 TGFBR1 TGFBR2
+Kaplan-Meier graphs of the cumulative risks of compositeﬁrst aortic event (elective aortic aneurysm surgery, type A and type B aortic dissection) based on
+groups of genes for heritable thoracic aortic disease, the individual genes, and variant types within each gene.Upper panels show the graphs of genes
+grouped together based on the function of the corresponding protein (smooth muscle contraction [SMC] and transforming growth factor [TGF]b) and the
+individual genes within these groups. The middle and bottom panels show graphs of variant types within the individual genes (Supplemental Table 2).
+PTC-NMD ¼ variant that leads to premature truncation of translation and nonsense-mediated decay of the transcript; PTC-nonNMD¼ variant that leads
+to premature truncation of translation but not nonsense-mediated decay of the transcript; TGF¼ transforming growth factor.
+Continued on the next page
+Regalado et al JACC VOL. 80, NO. 9, 2022
+Risk of Thoracic Aortic Disease Genes AUGUST 30, 2022:857 – 869
+860
+
+composite aortic event at age 25 years (Table 2)w a s
+15% to 27% forACTA2 , PRKG1, TGFBR1, and TGFBR2 ,
+but much lower, 1% to 6%, for MYLK, SMAD3, and
+TGFB2 . At age 65 years, cumulative risk was higher
+than average for PRKG1 , TGFB2 , TGFBR1, and
+TGFBR2 ,a n dl o w e ro na v e r a g ef o rMYLK and SMAD3 .
+CUMULATIVE INCIDENCE OF INDIVIDUAL FIRST
+AORTIC EVENTS ASSOCIATED WITH HTAD GENES.
+The cumulative incidence of individual ﬁrst aortic
+events (elective aortic aneurysm surgery, acute type
+A or type B aortic dissection) was compared using a
+competing risks analysis of all probands and relatives,
+and relatives only ( Figure 2, Supplemental Table 3 )
+( t h o r a c i ca o r t i cd i s s e c t i o n so fu n s p e c iﬁed location
+were excluded). There are markedly different pat-
+terns of aortic disease presentation among the HTAD
+genes, with the cumulative incidence of type A aortic
+dissection higher than elective aortic aneurysm sur-
+gery among patients with variants in ACTA2 , MYLK,
+FIGURE 1 Continued
+SMAD3 Variants
+Cumulative Probability
+0.00
+0.25
+0.50
+0.75
+1.00
+0 20 40 60
+Age (Years)
+80
+PTC-NMD
+Ala112
+PTC-NonNMD
+Gly245
+Arg279
+Other Variants
+MYLK Variants
+Cumulative Probability
+0.00
+0.25
+0.50
+0.75
+1.00
+0 20 40 60
+Age (Years)
+80
+PTC-NMD Missense
+ACTA2 Variants
+Cumulative Probability
+0.00
+0.25
+0.50
+0.75
+1.00
+0 20 40 60
+Age (Years)
+80
+Arg212 Other Variants
+Arg149 Arg179 Arg258
+Arg39 Arg118 Gly160
+Continued on the next page
+JACC VOL. 80, NO. 9, 2022 Regalado et al
+AUGUST 30, 2022:857 – 869 Risk of Thoracic Aortic Disease Genes
+861
+
+PRKG1,a n dSMAD3 . In contrast, a lower incidence of
+type A aortic dissection than elective aortic aneurysm
+surgery was observed in patients with TGFBR2 and
+TGFB2 variants, whereas the cumulative incidence of
+these events did not differ in patients with TGFBR1
+variants. When relatives only were analyzed, these
+patterns persisted for ACTA2 , PRKG1, MYLK, TGFB2,
+and TGFBR1 ; however, cumulative incidences of
+type A dissection and elective aneurysm surgery
+were similar in relatives with SMAD3 and
+TGFBR2 variants.
+The cumulative incidences of individualﬁrst aortic
+events at age 25 and 65 years and P values of
+comparison tests with adjustment for family clus-
+tering are shown inTable 2.
+21 Compared with ACTA2 ,
+cumulative incidence of any ﬁrst aortic event at age
+65 years was lower forMYLK (P ¼ 0.019) and SMAD3
+(P ¼ 0.001), but not signiﬁcantly different for PRKG1,
+TGFB2 , TGFBR1, and TGFBR2 . Similarly, cumulative
+incidence of type A aortic dissection at age 65 years
+was signi ﬁcantly higher for ACTA2 compared with
+TGFBR2 (P ¼ 0.049) but was not statistically different
+compared with the other genes. There was a signiﬁ-
+cant incidence of type B aortic dissection at ages 25
+and 65 years in patients with ACTA2 , PRKG1, and
+TGFBR2 variants, and relatively few type B
+FIGURE 1 Continued
+TGFBR1 Variants
+Cumulative Probability
+0.00
+0.25
+0.50
+0.75
+1.00
+0 20 40 60
+Age (Years)
+80
+TGFB2 Variants
+Cumulative Probability
+0.00
+0.25
+0.50
+0.75
+1.00
+0 20 40 60
+Age (Years)
+80
+PTC-NMD PTC-NonNMD Missense Arg487 Gly312 Other Variants
+TGFBR2 Variants
+Cumulative Probability
+0.00
+0.25
+0.50
+0.75
+1.00
+0 20 40 60
+Age (Years)
+80
+Arg537Arg460
+PTC-NonNMD
+Arg528
+Other Variants
+Regalado et al JACC VOL. 80, NO. 9, 2022
+Risk of Thoracic Aortic Disease Genes AUGUST 30, 2022:857 – 869
+862
+
+dissections as the presenting event in patients with
+variants in other HTAD genes.
+ADJUSTED AND UNADJUSTED RISK OF COMPOSITE
+FIRST AORTIC EVENT BY VARIANT TYPE. The risk of
+ﬁrst aortic event associat ed with different variant
+types, within the individual genes, was examined by
+analysis of subgroups of 10 or more individuals
+(related and unrelated) carrying variants predicted to
+result in a similar effect on the protein, speci ﬁcally
+haploinsuf ﬁciency (entire gene deletion, exon de-
+letions and truncating variants resulting in premature
+truncation and nonsense-mediated decay [PTC-
+NMD]), truncated proteins (PTC-nonNMD), missense
+substitutions, and recurrent missense variants dis-
+rupting the same amino acid. A list of variants and
+variant types, as well as median age at ﬁrst aortic
+event or last follow-up without an event, are shown in
+Supplemental Table 1 .W eh a v ep r e v i o u s l yr e p o r t e d
+differences in event rates with age for speciﬁcv a r i a n t s
+or variant types in ACTA2 , MYLK, and SMAD3.
+14– 16
+Here, we show different event rates with age for spe-
+ciﬁcv a r i a n tt y p e si nTGFBR2 , including Arg528 sub-
+stitutions associated with highly penetrant events in
+childhood and Arg537 substitutions associated with
+complete penetrance and intermediate age of onset
+c o m p a r e dw i t hA r g 5 2 8a n do t h e rv a r i a n tt y p e si n
+TGFBR2 (Figure 1). In addition, Arg487 substitutions in
+TGFBR1 conferred a higher risk for aortic events.
+Comparison of variant types by univariable Cox
+regression identi ﬁed variant type(s) with signiﬁcantly
+different risks than the reference ( Table 3 ). Multi-
+variable analysis con ﬁrmed that some variant types
+were associated with signi ﬁcantly different aortic
+event risks after adjusting for sex, proband status,
+and location of recruitment (Table 3). For ACTA2,r i s k
+of Arg179 missense substitutions was signi ﬁcantly
+higher (HR: 5.89; 95% CI: 3.02 – 11.48), whereas the
+Arg118 (HR: 0.52; 95% CI: 0.34– 0.79) and other vari-
+a n t s( H R :0 . 4 3 ;9 5 %C I :0 . 2 6– 0.72) were signiﬁcantly
+lower compared with the reference variant type,
+Arg149 missense substitutions. Similarly, risk of
+aortic event was signi ﬁcantly higher for missense
+variants in TGFB2 (2.23; 95% CI: 1.11– 4.50) and lower
+for PTC-nonNMD variant s (HR: 0.32; 95% CI: 0.12 –
+0.86) compared with the reference, PTC-NMD vari-
+ants. Among the SMAD3 variant types, only Arg279
+was signiﬁcantly different from the reference, PTC-
+NMD variants, with HR: 1.76 (95% CI: 1.01 – 3.06).
+Adjusted risk of aortic event of TGFBR1 Arg487 sub-
+stitutions was signiﬁcantly higher than all other var-
+iants in TGFBR1 . Last, adjusted risks of aortic event
+associated with TGFBR2 Arg528 and Arg537 sub-
+stitutions (HR: 11.76; 95% CI: 6.17– 22.40 and HR: 1.95;
+95% CI: 1.03 – 3.69, respectively) were signi ﬁcantly
+higher compared with the reference, Arg460 sub-
+stitutions, but all other TGFBR2 variants, including
+PTC-nonNMD variants, were not signi ﬁcantly
+different from the Arg460 g roup. Other variants in
+TGFBR2 and TGFBR1 (Figure 1,
+Supplemental Table 1)
+may be associated with childhood events and higher
+than average risks but could not be analyzed sepa-
+rately because of the small numbers of cases.
+ADJUSTED RISK OF AORTIC EVENT BY SEX AND
+LOCATION OF RECRUITMENT. Analysis of sex and
+TABLE 2 Cumulative Incidence of First Aortic Eve nt (Composite and Individual Events)
+for the 7 HTAD Genes
+Gene No. Events
+Cumulative
+Incidence at
+2 5y ,%( 9 5 %C I )
+Cumulative
+Incidence at
+6 5y ,%( 9 5 %C I )P Valuea
+Composite aortic event
+ACTA2 141 15 (11.4 –20.4) 69 (61.3 –76.1) reference
+MYLK 23 4 (1.0 –14.4) 47 (31.8 –65.4) 0.019
+PRKG1 26 27 (14.8 –45.0) 86 (69.7 –96.3) 0.051
+SMAD3 78 1 (0.1 –3.7) 66 (55.8 –75.6) 0.001
+TGFB2 20 6 (1.5 –21.5) 81 (58.9 –95.9) 0.959
+TGFBR1 60 19 (12.8 –27.8) 73 (61.0 –83.2) 0.53
+TGFBR2 108 25 (19.1 –31.4) 76 (67.2 –84.7) 0.1
+Elective aneurysm surgery
+ACTA2 18 3 (1.4 –5.7) 8 (4.9 –12.9) reference
+MYLK 3 0 (0-0) 9 (2.3 –22.4) 0.741
+PRKG1 6 3 (0.2 –14.0) 25 (10.3 –42.2) 0.018
+SMAD3 24 1 (0.0 –2.7) 20 (13.1 –28.3) 0.035
+TGFB2 11 3 (0.2 –13.0) 51 (27.0 –71.4) <0.001
+TGFBR1 31 10 (5.1 –16.0) 40 (28.0 –51.2) <0.001
+TGFBR2 58 16 (11.5 –21.7) 38 (29.7 –46.8) <0.001
+Type A aortic dissection
+ACTA2 77 6 (3.8 –9.9) 39 (31.3 –45.9) reference
+MYLK 17 2 (0.2 –9.1) 33 (18.1 –48.4) 0.846
+PRKG1 12 12 (3.8 –25.3) 39 (22.0 –55.4) 0.458
+SMAD3 42 0 (0-0) 36 (26.3 –44.9) 0.098
+TGFB2 5 3 (0.2 –13.0) 17 (6.0 –32.0) 0.141
+TGFBR1 26 9 (4.8 –15.9) 29 (19.3 –38.7) 0.531
+TGFBR2 35 7 (3.6 –11.0) 26 (18.3 –34.9) 0.049
+Type B aortic dissection
+ACTA2 30 5 (2.8 –8.1) 14 (9.3 –18.5) reference
+MYLK 3 2 (0.2 –8.6) 5 (0.8 –15.4) 0.096
+PRKG1 7 11 (3.6 –24.2) 19 (7.6 –34.8) 0.009
+SMAD3 7 0 (0-0) 7 (2.6 –13.0) 0.01
+TGFB2 1 0 (0-0) 0 (0-0) 0.105
+TGFBR1 3 0 (0-0) 4 (1.1 –10.8) 0.017
+TGFBR2 15 2 (0.5 –4.6) 12 (6.7 –18.8) 0.35
+Unspeciﬁed thoracic
+aortic dissection
+ACTA2 16 1 (0.2 –2.7) 8 (4.7 –13.3) reference
+PRKG1 1 0 (0.0 –0.0) 4 (0.3 –15.7) 0.455
+SMAD3 5 0 (0.0 –0.0) 4 (1.2 –8.3) 0.109
+TGFB2 3 0 (0.0 –0.0) 13 (3.2 –30.7) 0.586
+aP values from Cox or competing risk regression with adjustment for family clustering are shown for each gene
+compared with the reference gene group (ACTA2).
+JACC VOL. 80, NO. 9, 2022 Regalado et al
+AUGUST 30, 2022:857 – 869 Risk of Thoracic Aortic Disease Genes
+863
+
+FIGURE 2 Cumulative Incidence and Type of Aortic Event Based on Gene
+SMAD3
+0
+.2
+.4
+.6
+.8TGFB2
+ACTA2
+Cumulative Incidence
+0
+.2
+.4
+.6
+.8
+0
+.2
+.4
+.6
+.8
+A
+B
+0 20 40 60 80
+TGFBR1
+MYLK
+0
+.2
+.4
+.6
+.8
+0
+.2
+.4
+.6
+.8
+0 20 40 60 80
+TGFBR2
+PRKG1
+0
+.2
+.4
+.6
+.8
+0
+.2
+.4
+.6
+.8
+0 20 40 60 80 0 20 40 60 80
+SMAD3
+0
+.2
+.4
+.6
+.8
+Cumulative Incidence
+ACTA2
+TGFB2
+0
+.2
+.4
+.6
+.8
+0
+.2
+.4
+.6
+.8
+0 20 40 60 80
+MYLK
+TGFBR1
+0
+.2
+.4
+.6
+.8
+0
+.2
+.4
+.6
+.8
+0 20 40 60 80
+PRKG1
+TGFBR2
+0
+.2
+.4
+.6
+.8
+0
+.2
+.4
+.6
+.8
+0 20 40 60 80 0 20 40 60 80
+Age (Years)
+Age (Years)
+Aneurysm Surgery Type A Dissection Type B Dissection
+Aneurysm Surgery Type A Dissection Type B Dissection
+Cumulative incidence of individualﬁrst aortic events using a competing risks analysis in patients with rare variants in the 7 genes for heritable thoracic
+aortic disease. Graphs of the data from both probands and relatives (A;n ¼ 1,028) and data from relatives only (B;n ¼ 652) (Supplemental Table 3).
+Regalado et al JACC VOL. 80, NO. 9, 2022
+Risk of Thoracic Aortic Disease Genes AUGUST 30, 2022:857 – 869
+864
+
+location of recruitment showed these factors in ﬂu-
+enced risk of aortic event with variable effects
+depending on the gene. Adjusted risk of aortic event
+was signiﬁcantly higher in male than female patients,
+as previously reported for ACTA2 and TGFBR1 ,b u t
+also for TGFB2 (HR: 3.49; 95% CI: 1.41 – 8.64) and
+TGFBR2 (HR: 1.53; 95% CI: 1.04 – 2.23). Location of
+recruitment also appeared to signi ﬁcantly inﬂuence
+risk of aortic event, particularly in patients with
+MYLK or SMAD3 variants who had a higher and lower
+risk of aortic events, respectively, when recruited in
+Europe compared with North America.
+DISCUSSION
+These data from the Montalcino Aortic Consortium
+illustrate the intergenic and intragenic variability of
+both risk for and type ofﬁrst aortic events associated
+with 7 genes for HTAD, information critical for the
+clinical management of these patients ( Central
+Illustration ). For example, the results delineate
+individuals with early-onset and aggressive thoracic
+aortic disease and, conversely, individuals at risk for
+late-onset, low-penetrant aortic disease. Initial de-
+scriptions of LDS were of children and young adults
+with TGFBR1 and TGFBR2 pathogenic variants at the
+severe end of the phenotypic spectrum, with marked
+syndromic features and aggressive aortic disease
+associated with a high risk of dissection.
+16 The MAC
+sought to de ﬁne the broader spectrum of disease
+associated with all HTAD g enes. This study shows
+that pathogenic variants in SMC and TGF b genes
+confer a similar risk for ﬁrst aortic event. Surpris-
+ingly, SMC genes are associated with a signi ﬁcantly
+higher risk for aortic dissections than TGF b genes,
+with thePRKG1 group associated with the highest risk
+for any aortic dissection or aortic event. ACTA2 ,
+MYLK, and PRKG1 variants have a higher risk of pre-
+senting with type A aortic dissections than elective
+aneurysm surgery, regardless of proband status. At
+t h es a m et i m e ,TGFBR1 and TGFBR2 groups have the
+highest burden of childhood-onset aortic events.
+CENTRAL ILLUSTRATION Gene-Speci ﬁc Thoracic Aortic Risk Models From the Montalcino Aortic Consortium
+Regalado ES, et al. J Am Coll Cardiol. 2022;80(9):857–869.
+The international Montalcino Aortic Consortium (MAC) collects patient data to generate gene- and pathogenic variant-speciﬁc risk models to improve outcomes for
+individuals with heritable thoracic aortic disease (HTAD).
+JACC VOL. 80, NO. 9, 2022 Regalado et al
+AUGUST 30, 2022:857 – 869 Risk of Thoracic Aortic Disease Genes
+865
+
+There were few childhood-onset events associated
+with ACTA2 (mostly due to the Arg179 variant) and
+only rare childhood aortic events associated with
+TGFB2, SMAD3, PRKG1, and MYLK.
+The higher risk for dissections associated with SMC
+genes could be because of type A dissections occur-
+ring without signiﬁcant enlargement of the aorta. The
+PRKG1 pathogenic variant is associated with dissec-
+tions at signi ﬁcantly younger ages than aneurysm
+repair as well as type A dissections occurring with
+minimal to no aortic enlargement.
+11 Similarly, type A
+dissections in MYLK mutation carriers can also occur
+with little to no enlargement of the aorta. 20 In
+contrast, most ACTA2 mutation carriers have dilation
+of the aorta before type A dissections, raising the
+alternative hypothesis that a lack of syndromic fea-
+t u r e si sd e l a y i n gt h ed i a g n o s i so fH T A Da n dl e a d i n gt o
+dissections.
+19,22 Further supporting this alternative
+hypothesis is the fact that the SMAD3 group had a
+higher incidence of presentation with type A dissec-
+tions and lower elective aneurysm surgery than the
+other LDS genes, and the individuals with SMAD3
+variants have fewer LDS features and instead have
+atypical complications not observed with other LDS
+genes, including early-onset osteoarthritis and age-
+related Charcot-Marie-Tooth-like neuropathy.
+23,24
+Also, TGFB2 pathogenic variants are associated with
+signi ﬁcant MFS features, 6 and the TGFB2 cases less
+commonly presented with type A dissections. These
+data emphasize that in the absence of syndromic
+features, a family history of thoracic aortic disease is
+the only clinical ﬁnding that identi ﬁes individuals
+who have a high risk for aortic dissections due to
+HTAD.
+There was a signiﬁcantly higher incidence of pre-
+senting with type B aortic dissections in patients with
+ACTA2 , PRKG1, and TGFBR2 variants when compared
+w i t ht h eo t h e rg e n e s ,a n dw h e nc o m p a r e dw i t ht y p eB
+dissections incidence in patients with MFS.
+25 Impor-
+tantly, type B aortic dissections inPRKG1 and ACTA2
+cases occurred at younger ages than type A dissec-
+tions. Type B dissections are associated with lower
+acute mortality than type A dissections, but they do
+cause increased long-term morbidity and mortality.
+26
+Because the proximal descending aortic diameter
+does not predict type B dissections, clinical markers
+are limited for predicting these dissections.
+27 Based
+on these data, treatment with b-adrenergic blocking
+agents should be considered in children >10 years of
+age with ACTA2, MYLK, and PRKG1 pathogenic vari-
+a n t s ,e v e ni nt h ea b s e n c eo fe n l a r g e m e n to ft h e
+ascending aorta or hypertension, to reduce the risk of
+both type A and B aortic dissections.
+1,28
+We found signiﬁcant differences in the cumulative
+risk of aortic events among the TGF b genes, thus
+questioning the classi ﬁcation of these genes as a
+single syndrome. Systemic c omplications also differ
+among these genes, for example, craniosynostosis is
+associated with TGFBR1 and TGFBR2 variants and
+peripheral neuropathy and severe osteoarthritis with
+SMAD3 variants. 5,23 Other observations further
+complicate the classi ﬁcation of disorders associated
+with variants in TGF b genes: these genes trigger
+aortic disease in the absence of systemic features 29;
+individuals with TGF b gene variants can meet diag-
+nostic criteria for MFS,4,29-31 and pathogenic variants
+in another TGFb gene, TGFB3, a r ea s s o c i a t e dw i t ha
+TABLE 3 Cox Regression Analysis of First Aortic Event by Variant Type and Stratiﬁed by
+HTAD Gene
+Univariable Analysis Multivariable Analysis a
+n
+Unadjusted
+HR (95% CI) P Value
+Adjusted
+HR (95% CI) P Value
+ACTA2
+Variant typea
+Arg149 71 reference reference
+Arg179 35 15.72 (8.26 –29.93) <0.001 5.89 (3.02 –11.48) <0.001
+Arg258 23 1.85 (0.91 –3.75) 0.09 1.20 (0.58 –2.47) 0.63
+Arg39 30 0.85 (0.49 –1.48) 0.56 0.94 (0.56 –1.58) 0.83
+Arg118 17 0.67 (0.42 –1.09) 0.11 0.52 (0.34 –0.79) 0.002
+Gly160 11 0.48 (0.12 –1.87) 0.29 0.43 (0.13 –1.50) 0.19
+Arg212 17 1.00 (0.53 –1.89) 0.99 0.88 (0.38 –2.02) 0.76
+Other variants 102 0.79 (0.47 –1.33) 0.37 0.43 (0.26 –0.72) 0.001
+Proband 100 4.90 (3.43 –6.98) <0.001 5.18 (3.36 –7.98) <0.001
+Male 163 1.47 (1.07 –2.01) 0.02 1.64 (1.12 –2.40) 0.01
+MYLK
+Variant type
+PTC-NMD 43 reference reference
+Missense 12 2.93 (1.57 –5.46) 0.001 2.33 (1.03 –5.28) 0.04
+Proband 7 2.23 (0.57 –8.81) 0.25
+Male 28 1.16 (0.58 –2.31) 0.67
+Location of recruitment
+b
+North America 35 reference reference
+Europe 20 2.51 (1.13 –5.56) 0.02 2.01 (1.01 –3.99) 0.05
+PRKG1
+Proband 4 0.76 (0.41 –1.43) 0.40
+Male 15 1.24 (0.46 –3.33) 0.67
+SMAD3
+Variant type
+PTC-NMD 77 reference reference
+PTC-nonNMD 28 0.95 (0.55 –1.63) 0.84 1.51 (0.74 –1.78) 0.53
+Arg279 15 1.47 (0.86 –2.51) 0.16 1.76 (1.01 –3.06) 0.04
+Ala112 16 0.40 (0.09 –1.82) 0.24 0.50 (1.06 –2.38) 0.38
+Gly245 12 0.51 (0.41 –0.64) <0.001 1.00 (0.62 –1.60) 0.99
+Other variants 63 1.41 (0.90 –2.23) 0.14 1.52 (0.94 –2.47) 0.09
+Proband 60 3.43 (2.28 –5.14) <0.001 4.05 (2.64 –6.22) <0.001
+Male 121 1.28 (0.84 –1.94) 0.25
+Location of recruitment
+North America 103 reference reference
+Europe 108 0.60 (0.38 –0.92) 0.02 0.52 (0.32 –0.85) 0.01
+Continued on the next page
+Regalado et al JACC VOL. 80, NO. 9, 2022
+Risk of Thoracic Aortic Disease Genes AUGUST 30, 2022:857 – 869
+866
+
+low penetrant risk for aortic events and unique sys-
+temic manifestations. 32 Thus, the systematic desig-
+nation of LDS to all patients with pathogenic variants
+in genes that encode proteins involved in canonical
+TGF
+b signaling fails to communicate important gene-
+speci ﬁc vascular and systemic complications. The
+systemic features of LDS have been associated with
+increased aortic risk in patients with pathogenic
+variants in TGFBR1 or TGFBR2 and therefore may
+inform vascular risk.
+16,17 These observations empha-
+size that the diagnosis of individuals with HTAD
+should be based both on the disease-causing gene and
+the clinical phenotype of the patient, a dyadic clas-
+siﬁcation recently recommended for all Mendelian
+disorders.
+33 Thus, a patient with a pathogenic
+TGFBR2 variant could be diagnosed with TGFBR2 -
+related LDS, TGFBR2 -related MFS, or TGFBR2 -related
+HTAD based on the presence or absence of other
+systemic features of LDS and MFS.
+Ak e yﬁnding of this study is that the age of onset
+of aortic events can be variable among patients who
+harbor the same or different pathogenic variants in
+the same gene. Our data support regular, compre-
+hensive aortic surveillance, beginning in childhood,
+for individuals with ACTA2 Arg179, TGFBR2 Arg537
+and Arg528, as well as TGFBR1 Arg487 variants. The
+signi ﬁcant burden of aortic events in childhood for
+individuals with TGFBR1 and TGFBR2 variants in-
+dicates that aortic surveillance should begin in the
+ﬁrst decade of life. Although there were no events in
+childhood in the TGFB2 and SMAD3 group, an
+inherited SMAD3 mutation associated with adult-
+onset aortic disease was identiﬁed in a neonate with
+massive aortic enlargement, most likely because of an
+unidenti ﬁed second genetic hit.
+34 Thus, imaging of
+the aorta should be pursued at the time of genetic
+diagnosis no matter the age. Follow-up aortic sur-
+veillance should be based on the initial scan, the
+aortic event risk associated with the HTAD gene or
+the speciﬁc variant in the gene, the presence of extra-
+aortic LDS features, and the family history.
+Data from 1,575 patients with FBN1 pathogenic
+variants (mean age 34.1 /C6 17.8 years) similarly found
+that speciﬁc variant types, as well as location of the
+variant in the gene, predicted a differential risk of
+aortic events. There were variable effects of gender
+based on genotype, that is, male sex was associated
+with higher aortic event risk for all variant types
+examined, with the exception of cysteine altering
+variants. Based on 455 aortic events reported in this
+population with FBN1 variants, the risk of any ﬁrst
+aortic event was 8% (95% CI: 6.2% – 9.4%) and 64%
+(95% CI: 59.3% – 69.1%) at ages 25 and 65 years,
+respectively, which is intermediate when compared
+with the gene-speci ﬁc risks reported in this study
+(Table 2) (G. Jondeau, written communication, 2021).
+35
+STUDY LIMITATIONS. A limitation of this study is the
+fact that probands were ascertained after presenting
+with either syndromic features or an aortic event and
+tend to be more severely affected, particularly in
+cases with de novo mutations. Thus, analysis of rel-
+atives may provide a closer approximation of the
+disease risk in familial cases. Furthermore, studies
+TABLE 3 Continued
+Univariable Analysis Multivariable Analysis a
+n
+Unadjusted
+HR (95% CI) P Value
+Adjusted
+HR (95% CI) P Value
+TGFB2
+Variant type
+PTC-NMD 17 reference reference
+PTC-nonNMD 11 0.66 (0.24 –1.78) 0.41 0.32 (0.12 –0.86) 0.02
+Missense 14 2.62 (0.96 –6.53) 0.06 2.23 (1.11 –4.50) 0.02
+Proband 14 2.30 (0.51 –10.34) 0.28
+Male 25 2.27 (1.39 –3.71) 0.001 3.49 (1.41 –8.64) 0.01
+Location of recruitment
+North America 31 reference reference
+Europe 11 0.42 (0.14 –1.30) 0.13 0.34 (0.10 –1.17) 0.09
+TGFBR1
+Variant type
+Arg487 46 reference reference
+Gly312 14 0.06 (0.03 –0.11) <0.001 0.09 (0.04 –0.20) <0.001
+Other variants 81 0.60 (0.32 –1.14) 0.12 0.58 (0.31 –1.06) 0.08
+Proband 72 2.52 (1.27 –5.01) 0.01 2.01 (1.12 –3.62) 0.02
+Male 60 2.79 (1.74 –4.49) <0.001 2.77 (1.53 –5.00) 0.001
+Location of recruitment
+North America 55 reference reference
+Europe 62 0.66 (0.27 –1.59) 0.35 0.62 (0.27 –1.40) 0.25
+Australia 16 1.40 (0.66 –2.96) 0.38 1.31 (0.50 –3.40) 0.58
+Japan 8 2.12 (0.97 –4.64) 0.06 1.69 (0.81 –3.56) 0.16
+TGFBR2
+Variant type
+Arg460 57 reference reference
+Arg537 29 3.62 (2.11 –6.22) <0.001 1.95 (1.03 –3.69) 0.04
+Arg528 15 22.67 (9.99 –51.42) <0.001 11.76 (6.17 –22.40) <0.001
+PTC-nonNMD 50 1.11 (0.38 –3.22) 0.84 0.96 (0.46 –2.03) 0.92
+Other variants 85 2.82 (1.53 –5.20) 0.001 1.67 (0.91 –3.08) 0.10
+Proband 119 6.69 (3.65
+–12.26) <0.001 5.05 (2.85 –8.95) <0.001
+Male 114 1.38 (1.00 –1.92) 0.05 1.53 (1.04 –2.23) 0.03
+Location of recruitment
+North America 90 reference reference
+Europe 119 0.73 (0.34 –1.55) 0.41 0.63 (0.36 –1.10) 0.11
+Australia 14 3.13 (1.32 –7.40) 0.01 2.21 (0.91 –5.38) 0.08
+Japan 13 3.24 (1.43 –7.33) 0.01 1.53 (0.74 –3.18) 0.25
+aCategorization of variant type is shown inSupplemental Table 1. bLocation of recruitment was included in the
+model when the patients were recruited from different sites.
+JACC VOL. 80, NO. 9, 2022 Regalado et al
+AUGUST 30, 2022:857 – 869 Risk of Thoracic Aortic Disease Genes
+867
+
+are needed to examine the role of additional risk
+factors in predicting aortic events, such as family
+history of aortic dissections, degree of vascular tor-
+tuosity, systemic features of LDS, medications, co-
+morbid conditions, and imaging biomarkers (ie, aortic
+size, stiffness, and compliance).
+17,36
+CONCLUSIONS
+Our ﬁndings demonstrate the value of the multisite
+Montalcino Aortic Consortium to characterize the risk
+of aortic disease associated with rare variants in
+HTAD genes with adjustments for geographic differ-
+ences in recruitment and clinical management. These
+data emphasize the utility of genetic testing, not only
+to identify family members at risk for aortic disease,
+but also in stratifying aortic disease risk and tailoring
+aortic surveillance and surgical management. The
+accumulating data on gene- and variant-speci ﬁc
+aortic outcomes for HTAD genes may be used to
+develop algorithms for incorporating molecular
+diagnosis, along with clinical features and family
+history, into medical decision-making to improve
+outcomes and minimize costs for the care of patients
+with HTAD.
+ACKNOWLEDGMENTS T h ea u t h o r sa r eg r a t e f u lt ot h e
+patients and families participating in these studies,
+along with Josipa Paska and Ludmilla Temerty for
+their continued support of the Montalcino Aortic
+Consortium.
+FUNDING SUPPORT AND AUTHOR DISCLOSURES
+These studies were funded by the National Institutes of Health (NIH)
+(NIH R01HL109942 to Dr Milewicz DMM and K23HL127266 to Dr
+Morris), Genetic Aortic Disorders Association Canada, Temerty Family
+Foundation, and the John Ritter Foundation. Dr LeMaire serves as a
+consultant for Terumo Aortic and Cerus; and serves as a principal
+investigator for clinical studies sponsored by Terumo Aortic and
+CytoSorbents. Dr Morris is on the scienti ﬁca d v i s o r yb o a r df o r
+vascular Ehlers Danlos syndrome clinical trial for Aytu Biopharma. Dr
+Regalado is an employee and shareholder of Invitae. All other authors
+have reported that they have no relationships relevant to the con-
+tents of this paper to disclose.
+ADDRESS FOR CORRESPONDENCE: Dr Dianna M.
+Milewicz, McGovern Medical School, UTHealth,
+Houston, Texas 77030, USA. E-mail: Dianna.M.
+Milewicz@uth.tmc.edu .T w i t t e r :@DiannaMilewicz .
+REFERENCES
+1. Hiratzka LF, Bakris GL, Beckman JA, et al. 2010
+ACCF/AHA/AATS/ACR/ASA/SCA/SCAI/SIR/STS/SVM
+guidelines for the diagnosis and management of
+patients with thoracic aortic disease: a report of
+the American College of Cardiology Foundation/
+American Heart Association Task Force on Practice
+Guidelines, American Association for Thoracic
+Surgery, American College of Radiology, American
+Stroke Association, Society of Cardiovascular An-
+esthesiologists, Society for Cardiovascular Angi-
+ography and Interventions, Society of
+Interventional Radiology, Society of Thoracic Sur-
+geons, and Society for Vascular Medicine. JA m
+Coll Cardiol. 2010;55:e27–e129.
+2. Erbel R, Aboyans V, Boileau C, et al. 2014 ESC
+guidelines on the diagnosis and treatment of
+aortic diseases: document covering acute and
+chronic aortic diseases of the thoracic and
+abdominal aorta of the adult. The Task Force for
+the Diagnosis and Treatment of Aortic Diseases of
+the European Society of Cardiology (ESC). Eur
+Heart J. 2014;35:2873–2926.
+3. Nienaber CA, Kische S, Rousseau H, et al.
+Endovascular repair of type B aortic dissection:
+long-term results of the randomized investigation
+of stent grafts in aortic dissection trial.Circ Car-
+diovasc Interv. 2013;6:407–416.
+4. Mizuguchi T, Collod-Beroud G, Akiyama T, et al.
+Heterozygous TGFBR2 mutations in Marfan syn-
+drome. Nat Genet. 2004;36:855–860.
+5. Loeys BL, Schwarze U, Holm T, et al. Aneurysm
+syndromes caused by mutations in the TGF-beta
+receptor. N Engl J Med. 2006;355:788–798.
+6. Boileau C, Guo DC, Hanna N, et al. TGFB2 mu-
+tations cause familial thoracic aortic aneurysms
+and dissections associated with mild systemic
+features of Marfan syndrome.Nat Genet. 2012;44:
+916–921.
+7. MacCarrick G, Black JH 3rd, Bowdin S 3rd, et al.
+Loeys-Dietz syndrome: a primer for diagnosis and
+management. Genet Med. 2014;16:576–587.
+8. Pyeritz RE. Marfan syndrome: improved clinical
+history results in expanded natural history.Genet
+Med. 2019;21:1683–1690.
+9. Biddinger A, Rocklin M, Coselli J, Milewicz DM.
+Familial thoracic aortic dilatations and dissections:
+a case control study. J Vasc Surg. 1997;25:506–
+511.
+10. Guo DC, Pannu H, Papke CL, et al. Mutations in
+smooth muscle alpha-actin (ACTA2) lead to
+thoracic aortic aneurysms and dissections. Nat
+Genet. 2007;39:1488–1493.
+11. Guo DC, Regalado E, Casteel DE, et al. Recur-
+rent gain-of-function mutation in PRKG1 causes
+thoracic aortic aneurysms and acute aortic dis-
+sections. Am J Hum Genet. 2013;93:398–
+404.
+12. Barbier M, Gross MS, Aubart M, et al. MFAP5
+loss-of-function mutations underscore the
+involvement of matrix alteration in the patho-
+genesis of familial thoracic aortic aneurysms and
+dissections. Am J Hum Genet. 2014;95:736–743.
+13. Guo DC, Regalado ES, Gong L, et al. LOX mu-
+tations predispose to thoracic aortic aneurysms
+and dissections.Circ Res. 2016;118:928–934.
+14. Milewicz DM, Trybus KM, Guo DC, et al. Altered
+smooth muscle cell force generation as a driver of
+thoracic aortic aneurysms and dissections. Arte-
+rioscler Thromb Vasc Biol. 2017;37:26–34.
+15. Pinard A, Jones GT, Milewicz DM. Genetics of
+thoracic and abdominal aortic diseases.Circ Res.
+2019;124:588–606.
+PERSPECTIVES
+COMPETENCY IN MEDICAL KNOWLEDGE:The
+risk of thoracic aortic aneurysm and dissection in pa-
+tients with pathogenic variants in 7 genes associated
+with heritable thoracic aortic disease, along with
+recurrent variants in each gene, can be used to stratify
+risk and predict type ofﬁrst aortic event.
+TRANSLATIONAL OUTLOOK:Further research is
+needed to clarify algorithms for surveillance and
+management of patients with pathogenic variants in
+these genes.
+Regalado et al JACC VOL. 80, NO. 9, 2022
+Risk of Thoracic Aortic Disease Genes AUGUST 30, 2022:857 – 869
+868
+
+16. Loeys BL, Chen J, Neptune ER, et al.
+A syndrome of altered cardiovascular, craniofacial,
+neurocognitive and skeletal development caused
+by mutations in TGFBR1 or TGFBR2. Nat Genet.
+2005;37:275–281.
+17. Jondeau G, Ropers J, Regalado E, et al. Inter-
+national registry of patients carrying TGFBR1 or
+TGFBR2 mutations: results of the MAC (Mon-
+talcino Aortic Consortium).Circ Cardiovasc Genet.
+2016;9:548–558.
+18. Hostetler EM, Regalado ES, Guo DC, et al.
+SMAD3 pathogenic variants: risk for thoracic aortic
+disease and associated complications from the
+Montalcino Aortic Consortium. J Med Genet .
+2019;56:252–260.
+19. Regalado ES, Guo DC, Prakash S, et al. Aortic
+disease presentation and outcome associated with
+ACTA2 mutations. Circ Cardiovasc Genet. 2015;8:
+457–464.
+20. Wallace SE, Regalado ES, Gong L, et al. MYLK
+pathogenic variants aortic disease presentation,
+pregnancy risk, and characterization of pathogenic
+missense variants.Genet Med. 2019;21:144–151.
+21. Fine JP, Gray RJ. A proportional hazards model
+for the subdistribution of a competing risk.JA m
+Stat Assoc. 1999;94:14.
+22. Attias D, Stheneur C, Roy C, et al. Comparison
+of clinical presentations and outcomes between
+patients with TGFBR2 and FBN1 mutations in
+Marfan syndrome and related disorders. Circula-
+tion. 2009;120:2541–2549.
+23. van de Laar IM, Oldenburg RA, Pals G, et al.
+Mutations in SMAD3 cause a syndromic form of
+aortic aneurysms and dissections with early-onset
+osteoarthritis. Nat Genet. 2011;43:121–126.
+24. Aubart M, Gobert D, Aubart-Cohen F, et al.
+Early-onset osteoarthritis, Charcot-Marie-Tooth
+like neuropathy, autoimmune features, multiple
+arterial aneurysms and dissections: an unrecog-
+nized and life threatening condition. PLoS One.
+2014;9:e96387.
+25. Faivre L, Collod-Beroud G, Loeys BL, et al.
+Effect of mutation type and location on clinical
+outcome in 1,013 probands with Marfan syndrome
+or related phenotypes and FBN1 mutations: an
+international study. Am J Hum Genet. 2007;81:
+454–466.
+26. Ades LC, Holman KJ, Brett MS, et al. Ectopia
+lentis phenotypes and the FBN1 gene.Am J Med
+Genet A. 2004;126:284–289.
+27. Luebke T, Brunkwall J. Type B aortic dissec-
+tion: a review of prognostic factors and meta-
+analysis of treatment options.
+Aorta (Stamford).
+2014;2:265–278.
+28. Hagan PG, Nienaber CA, Isselbacher EM, et al.
+The International Registry of Acute Aortic Dissec-
+tion (IRAD): new insights into an old disease.
+JAMA. 2000;283:897–903.
+29. Guo DC, Hostetler EM, Fan Y, et al. Heritable
+thoracic aortic disease genes in sporadic aortic
+dissection. J Am Coll Cardiol. 2017;70:2728–2730.
+30. Pannu H, Fadulu V, Chang J, et al. Mutations in
+transforming growth factor-beta receptor type II
+cause familial thoracic aortic aneurysms and dis-
+sections. Circulation. 2005;112:513–520.
+31. Tran-Fadulu V, Pannu H, Kim DH, et al. Anal-
+ysis of multigenerational families with thoracic
+aortic aneurysms and dissections due to TGFBR1 or
+TGFBR2 mutations. J Med Genet. 2009;46:607–
+613.
+32. Rienhoff HY Jr, Yeo CY, Morissette R, et al.
+A mutation in TGFB3 associated with a syndrome
+of low muscle mass, growth retardation, distal
+arthrogryposis and clinical features overlapping
+with Marfan and Loeys-Dietz syndrome.Am J Med
+Genet A. 2013;161A:2040–2046.
+33. Biesecker LG, Adam MP, Alkuraya FS, et al.
+A dyadic approach to the delineation of diagnostic
+entities in clinical genomics. Am J Hum Genet .
+2021;108:8–15.
+34. Wischmeijer A, van Laer L, Tortora G, et al.
+Thoracic aortic aneurysm in infancy in aneurysms-
+osteoarthritis syndrome due to a novel SMAD3
+mutation: further delineation of the phenotype.
+Am J Med Genet A. 2013;161A:1028–1035.
+35. Arnaud P, Milleron O, Hanna N, et al. Clin-
+ical relevance of genotype-phenotype correla-
+tions beyond vascular events in a cohort study
+of 1500 Marfan syndrome patients with FBN1
+pathogenic variants. Genet Med. 2021;23:1296–
+1304.
+36. Morris SA, Orbach DB, Geva T, et al. Increased
+vertebral artery tortuosity index is associated with
+adverse outcomes in children and young adults
+with connective tissue disorders. Circulation.
+2011;124:388–396.
+KEY WORDS aortic dissection, Loeys-Dietz
+syndrome, pathogenic variant, precision
+m e d i c i n e ,t h o r a c i ca o r t i ca n e u r y s m
+APPENDIX For supplemental material and
+tables, please see the online version of this
+paper.
+JACC VOL. 80, NO. 9, 2022 Regalado et al
+AUGUST 30, 2022:857 – 869 Risk of Thoracic Aortic Disease Genes
+869
