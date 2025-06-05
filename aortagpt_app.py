@@ -8,6 +8,9 @@ from smolagents import LiteLLMModel  # smolagents imports retained for future us
 import threading
 from helper_functions import *
 from vector_search import search_documents
+from text_interpretation import TextInterpretationManager
+from report_generator import ReportGenerator
+from chat_prompt import chat_system_prompt
 
 # Load environment variables
 load_dotenv()
@@ -72,36 +75,6 @@ st.markdown("""
 # Title
 st.title(":anatomical_heart: AortaGPT: Clinical Decision Support Tool")
 
-
-# Initialize session state
-if 'history' not in st.session_state:
-    st.session_state.history = []
-if 'selected_variant_info' not in st.session_state:
-    st.session_state.selected_variant_info = None
-if 'variant_cache' not in st.session_state:
-    st.session_state.variant_cache = {}
-if 'search_query' not in st.session_state:
-    st.session_state.search_query = ""
-if 'filtered_variants' not in st.session_state:
-    st.session_state.filtered_variants = []
-# Initialize session state
-if 'selected_variant_info' not in st.session_state:
-    st.session_state.selected_variant_info = None
-# Initialize variant cache in session state
-# Initialize variant cache in session state
-if 'variant_cache' not in st.session_state:
-    st.session_state.variant_cache = {}
-# Initialize other relevant details field
-# Initialize other relevant details and chat state
-if 'other_relevant_details' not in st.session_state:
-    st.session_state.other_relevant_details = ""
-if 'chat_active' not in st.session_state:
-    st.session_state.chat_active = False
-if 'chat_history' not in st.session_state:
-    st.session_state.chat_history = []
-if 'search_results' not in st.session_state:
-    st.session_state.search_results = []
-
 # Clinical history options
 clinical_options = [
     "Diagnosis of Aortic Aneurysm and/or Dissection",
@@ -129,96 +102,36 @@ GENE_OPTIONS = [
     "SLC2A10", "Other"
 ]
 
+# Initialize ALL session state variables in one place
+if 'history' not in st.session_state:
+    st.session_state.history = []
+if 'selected_variant_info' not in st.session_state:
+    st.session_state.selected_variant_info = None
+if 'variant_cache' not in st.session_state:
+    st.session_state.variant_cache = {}
+if 'search_query' not in st.session_state:
+    st.session_state.search_query = ""
+if 'filtered_variants' not in st.session_state:
+    st.session_state.filtered_variants = []
+if 'other_relevant_details' not in st.session_state:
+    st.session_state.other_relevant_details = ""
+if 'chat_active' not in st.session_state:
+    st.session_state.chat_active = False
+if 'chat_history' not in st.session_state:
+    st.session_state.chat_history = []
+if 'search_results' not in st.session_state:
+    st.session_state.search_results = []
+# Note: Text interpretation state is now managed by TextInterpretationManager
 
-
-# Function to interpret a free-text description via OpenAI Responses API and apply parameters
-def interpret_and_apply_params(description: str) -> None:
-    """
-    Parse a free-form patient description using the OpenAI Responses API and update session state.
-    """
-    # Build a simple system/user messages sequence
-    system_msg = (
-        "You are a helpful assistant that extracts patient parameters from a free-form description. "
-        "Also populate 'other_relevant_details' with any additional clinically relevant details."
-    )
-    user_msg = description
-    # Narrow gene choices based on description to reduce options
-    candidates = [g for g in GENE_OPTIONS if g != "Other" and g.lower() in description.lower()]
-    gene_enum = candidates + ["Other"] if candidates else GENE_OPTIONS.copy()
-    # Build JSON schema for structured output
-    schema = {
-        "type": "object",
-        "properties": {
-            "age": {"type": "integer"},
-            "sex": {"type": "string", "enum": ["Male", "Female", "Other"]},
-            "gene": {"type": "string", "enum": gene_enum},
-            "custom_gene": {"type": "string"},
-            "variant": {"type": "string"},
-            "root_diameter": {"type": "number"},
-            "ascending_diameter": {"type": "number"},
-            "z_score": {"type": "number"},
-            "meds": {"type": "array", "items": {"type": "string"}},
-        },
-        "required": [
-            "age", "sex", "gene", "custom_gene", "variant",
-            "root_diameter", "ascending_diameter", "z_score", "meds"
-        ],
-        "additionalProperties": False
-    }
-    # add clinical history booleans
-    for opt in clinical_options:
-        schema["properties"][opt] = {"type": "boolean"}
-        schema["required"].append(opt)
-    # include free-text field for any other relevant details
-    schema["properties"]["other_relevant_details"] = {"type": "string"}
-    schema["required"].append("other_relevant_details")
-    # Call the Responses API with structured output
-    try:
-        response = client.responses.create(
-            model="gpt-4.1-nano",
-            input=[
-                {"role": "system",  "content": system_msg},
-                {"role": "user",    "content": user_msg}
-            ],
-            text={
-                "format": {
-                    "type": "json_schema",
-                    "name": "patient_config",
-                    "schema": schema,
-                    "strict": True
-                }
-            }
-        )
-        # Extract the JSON output text and parse
-        print(response.output_text)
-        raw = response.output_text
-        config = json.loads(raw)
-        # Build a patient summary string for retrieval
-        context_str = build_patient_context(config, clinical_options)
-        # Perform vector search on summary context
-        results = search_documents(
-            query=context_str,
-            index_path="data/embeddings.pkl",
-            top_k=5,
-            snippet_length=200
-        )
-        st.session_state.search_results = results
-    except Exception as e:
-        st.error(f"Error parsing parameters: {e}")
-        return
-    # Apply via existing tool (this will rerun)
-    configure_all_params(config)
+# Initialize text interpretation manager
+interpretation_manager = TextInterpretationManager(client, GENE_OPTIONS, clinical_options)
 
 # Sidebar input panel
 with st.sidebar:
     st.header("Patient Input Parameters")
 
-    # Free-text agent input
-    with st.expander("\U0001F5E3 Set Parameters from Text"):
-        user_prompt = st.text_area("Describe the patient")
-        if st.button("Interpret & Apply Parameters"):
-            with st.spinner("Interpreting parameters..."):
-                interpret_and_apply_params(user_prompt)
+    # Free-text agent input using new architecture
+    interpretation_manager.render_ui()
 
     # Demographics
     st.subheader("Demographics")
@@ -339,45 +252,158 @@ with st.sidebar:
     )
 
 ## Main content tabs
-submitted = st.sidebar.button("Initialize Chat", type="primary")
-tabs = st.tabs([":speech_balloon: Chat", ":page_facing_up: Report"])
+
+tabs = st.tabs(["📋 Report", "💬 Chat"])
 
 # RAG Pipeline
 
 
+# Report tab (first tab)
 with tabs[0]:
-    # Chat setup
-    if submitted:
-        st.session_state.chat_active = True
-        # Build dynamic context from retrieved documents
-        docs = st.session_state.get("search_results", []) or []
-        context_lines = []
-        for doc in docs:
-            context_lines.append(
-                f"Source: {doc.get('file','Unknown')}"
-                f" (score: {doc.get('score',0):.3f})\n"
-                f"Snippet: {doc.get('snippet','')}"
+    st.header("📋 Comprehensive Clinical Report")
+    
+    # Initialize report generator
+    report_generator = ReportGenerator(client)
+    
+    # Initialize report state
+    if 'generated_report' not in st.session_state:
+        st.session_state.generated_report = None
+    if 'report_timestamp' not in st.session_state:
+        st.session_state.report_timestamp = None
+    
+    # Generate Report button
+    col1, col2, col3 = st.columns([2, 1, 1])
+    with col1:
+        if st.button("🚀 Generate Comprehensive Report", type="primary", use_container_width=True):
+            # Generate the report
+            report_data = report_generator.generate_report(st.session_state, clinical_options)
+            
+            if report_data:
+                st.session_state.generated_report = report_data
+                st.session_state.report_timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+                st.success("✅ Report generated successfully!")
+                st.rerun()
+    
+    # Display existing report if available
+    if st.session_state.generated_report:
+        with col2:
+            # Export button
+            patient_info = {
+                'age': age,
+                'sex': sex,
+                'gene': gene,
+                'variant': variant,
+                'root_diameter': root_diameter,
+                'ascending_diameter': ascending_diameter
+            }
+            export_text = report_generator.export_report(st.session_state.generated_report, patient_info)
+            
+            st.download_button(
+                label="📥 Download Report",
+                data=export_text,
+                file_name=f"AortaGPT_Report_{datetime.now().strftime('%Y%m%d_%H%M%S')}.md",
+                mime="text/markdown",
+                use_container_width=True
             )
-        dynamic_context = "\n\n".join(context_lines)
-        # Combine static system prompt with dynamic context
-        initial_prompt = system_prompt.strip() + "\n\n" + dynamic_context
-        st.session_state.chat_history = [{"role": "system", "content": initial_prompt}]
-    if st.session_state.chat_active:
-        st.header(":speech_balloon: AortaGPT Chat")
-        # Display retrieved context documents
-        with st.expander("📚 Retrieved Context Documents", expanded=False):
-            query_ctx = st.text_input("Search within context", key="context_search")
+        
+        with col3:
+            if st.button("🔄 Regenerate", use_container_width=True):
+                st.session_state.generated_report = None
+                st.session_state.report_timestamp = None
+                st.rerun()
+        
+        # Show generation timestamp
+        st.caption(f"Generated: {st.session_state.report_timestamp}")
+        st.divider()
+        
+        # Display the structured report
+        report_generator.display_structured_report(st.session_state.generated_report)
+        
+        # Add disclaimer
+        st.warning("""
+        **DISCLAIMER:** This report provides informational guidance only and does not replace clinical judgment. 
+        All recommendations should be reviewed by qualified healthcare providers familiar with the patient's complete history. 
+        The information is based on current guidelines but may not account for all individual factors.
+        """)
+    else:
+        # Show placeholder when no report is generated
+        st.info("""
+        Click the **Generate Comprehensive Report** button above to create a detailed clinical report based on the patient parameters you've entered.
+        
+        The report will include:
+        - Initial workup recommendations
+        - Risk stratification with modifier score
+        - Surgical thresholds
+        - Imaging surveillance schedule
+        - Lifestyle guidelines
+        - Pregnancy/peripartum management
+        - Genetic counseling recommendations
+        - Blood pressure targets
+        - Medication management
+        - Gene/variant interpretation
+        
+        All recommendations will be evidence-based and include specific citations to approved clinical sources.
+        """)
+
+# Chat tab (second tab)
+with tabs[1]:
+    st.header("💬 AortaGPT Chat")
+    
+    # Initialize Chat button
+    col1, col2, col3 = st.columns([2, 1, 1])
+    with col1:
+        if st.button("🚀 Initialize Chat", type="primary", use_container_width=True, key="init_chat_button"):
+            st.session_state.chat_active = True
+            
+            # Perform vector search based on current patient context
+            with st.spinner("Searching relevant medical literature..."):
+                try:
+                    # Build patient context from current session state
+                    context_str = build_patient_context(st.session_state, clinical_options)
+                    
+                    # Perform vector search
+                    results = search_documents(
+                        query=context_str,
+                        index_path="data/embeddings.pkl",
+                        top_k=5,
+                        snippet_length=200
+                    )
+                    st.session_state.search_results = results
+                except Exception as e:
+                    st.error(f"Error searching documents: {e}")
+                    st.session_state.search_results = []
+            
+            # Build dynamic context from retrieved documents
             docs = st.session_state.get("search_results", []) or []
-            # Filter by search query in snippet or filename
-            if query_ctx:
-                docs = [d for d in docs if query_ctx.lower() in d.get('snippet','').lower() or query_ctx.lower() in d.get('file','').lower()]
-            for d in docs:
-                st.markdown(f"**{d.get('file','Unknown')}** (score: {d.get('score',0):.3f})")
-                st.write(d.get('snippet',''))
+            context_lines = []
+            for doc in docs:
+                context_lines.append(
+                    f"Source: {doc.get('file','Unknown')}"
+                    f" (score: {doc.get('score',0):.3f})\n"
+                    f"Snippet: {doc.get('snippet','')}"
+                )
+            dynamic_context = "\n\n".join(context_lines)
+            
+            # Build patient context string for the chat
+            patient_context = build_patient_context(st.session_state, clinical_options)
+            
+            # Combine chat system prompt with patient info and dynamic context
+            initial_prompt = (
+                chat_system_prompt.strip() + 
+                "\n\n## CURRENT PATIENT INFORMATION:\n" + 
+                patient_context + 
+                "\n\n## RETRIEVED MEDICAL CONTEXT:\n" + 
+                dynamic_context
+            )
+            st.session_state.chat_history = [{"role": "system", "content": initial_prompt}]
+            st.rerun()
+    
+    if st.session_state.chat_active:
         # Render chat history (skip system messages)
         for msg in st.session_state.chat_history:
             if msg["role"] != "system":
                 st.chat_message(msg["role"]).write(msg["content"])
+        
         user_input = st.chat_input("Ask a question about this patient...")
         if user_input:
             st.session_state.chat_history.append({"role": "user", "content": user_input})
@@ -398,71 +424,16 @@ with tabs[0]:
                             assistant_msg += chunk.get('refusal', '')
             st.session_state.chat_history.append({"role": "assistant", "content": assistant_msg})
             st.rerun()
-
-with tabs[1]:
-    # Save to history
-    current_session = {
-        'timestamp': datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
-        'gene': gene,
-        'variant': variant,
-        'root_diameter': root_diameter,
-        'age': age,
-        'sex': sex
-    }
-    st.session_state.history.append(current_session)
-
-    # Display sections
-    st.subheader(":chart_with_upwards_trend: Risk Stratification")
-    display_risk_stratification(gene, variant, root_diameter, z_score, hx)
-
-    st.subheader("🏥 Surgical Thresholds")
-    display_surgical_thresholds(gene, root_diameter)
-
-    st.subheader("🩻 Imaging Surveillance")
-    display_imaging_surveillance(gene, root_diameter, ascending_diameter, hx)
-
-    st.subheader("🏃 Lifestyle & Activity Guidelines")
-    display_lifestyle_guidelines(gene, sex, hx)
-
-    st.subheader(":family: Genetic Counseling")
-    display_genetic_counseling(gene, variant, sex, hx)
-
-    st.subheader(":rotating_light: Red Flag Alerts")
-    display_red_flag_alerts(gene, root_diameter, ascending_diameter, hx)
-
-    st.subheader(":bar_chart: Kaplan-Meier Survival Curve")
-    fig = display_kaplan_meier(gene, age, sex)
-    st.pyplot(fig)
-
-    # Add references with clickable links
-    with st.expander("References & Sources"):
-        st.markdown("""
-        **Guidelines and Resources:**
-        <ul>
-            <li><a href="https://www.ahajournals.org/doi/10.1161/CIR.0000000000001106" target="_blank">2022 ACC/AHA Aortic Disease Guidelines</a></li>
-            <li><a href="https://www.clinicalgenome.org/" target="_blank">ClinGen</a></li>
-            <li><a href="https://www.ncbi.nlm.nih.gov/books/NBK1116/" target="_blank">GeneReviews</a></li>
-            <li><a href="https://www.marfan.org/" target="_blank">The Marfan Foundation</a></li>
-            <li><a href="https://ehlers-danlos.com/" target="_blank">The Ehlers-Danlos Society</a></li>
-        </ul>
+    else:
+        # Show placeholder when chat is not initialized
+        st.info("""
+        Click the **Initialize Chat** button above to start a conversation with AortaGPT.
         
-        **Risk Calculations:**
-        <p>Risk calculations are based on published literature for specific genes and follow current consensus guidelines.</p>
-        """, unsafe_allow_html=True)
-
-    # Add disclaimer
-    st.warning("""
-    **DISCLAIMER:** This tool provides informational guidance only and does not replace clinical judgment. 
-    All recommendations should be reviewed by qualified healthcare providers familiar with the patient's complete history. 
-    The information is based on current guidelines but may not account for all individual factors.
-    """)
-
-    # Show history
-    with st.expander("Previous Sessions"):
-        if st.session_state.history:
-            for i, session in enumerate(st.session_state.history):
-                st.write(f"**Session {i+1}:** {session['timestamp']}")
-                st.write(f"Gene: {session['gene']}, Variant: {session['variant']}, Root: {session['root_diameter']}mm")
-                st.divider()
-        else:
-            st.write("No previous sessions")
+        The chat will:
+        - Search relevant medical literature based on patient parameters
+        - Provide context-aware responses specific to this patient
+        - Reference evidence-based guidelines and research
+        - Maintain conversation history throughout the session
+        
+        You can ask questions about diagnosis, treatment options, risk assessment, and clinical management.
+        """)
