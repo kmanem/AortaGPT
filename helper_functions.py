@@ -608,7 +608,7 @@ def display_kaplan_meier(gene, age, sex):
         accel_age = 40
         y = np.where(x < accel_age, 
                     1 - np.exp(-baseline * x**1.5),
-                    1 - np.exp(-baseline * accel_age**1.5) * np.exp(-baseline * 3 * (x - accel_age)**1.2))
+                    1 - np.exp(-baseline * accel_age**1.5) * np.exp(-baseline * 3 * np.maximum(x - accel_age, 0)**1.2))
         title = "Marfan Syndrome (FBN1)"
     elif gene == "TGFBR1" or gene == "TGFBR2":
         baseline = 0.0003
