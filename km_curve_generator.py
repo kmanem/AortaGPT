@@ -155,7 +155,7 @@ Use the medical literature in the vector store to inform realistic survival patt
     def _create_km_plot(self, survival_data: Dict[str, Any], gene: str, variant: str, 
                         age: int, sex: str) -> plt.Figure:
         """
-        Create Kaplan-Meier plot using lifelines with the extracted survival data.
+        Create cumulative incidence plot using lifelines with the extracted survival data.
         """
         # Extract data
         event_ages = survival_data['event_ages']
@@ -170,38 +170,47 @@ Use the medical literature in the vector store to inform realistic survival patt
         kmf.fit(all_ages, event_observed=event_observed, label=f"{gene} {variant}")
         
         # Create figure
-        fig, ax = plt.subplots(figsize=(10, 6))
+        fig, ax = plt.subplots(figsize=(10, 7))
         
-        # Plot KM curve with confidence intervals
-        kmf.plot_survival_function(ax=ax, ci_show=True, linewidth=2.5, color="crimson")
+        # Plot CUMULATIVE INCIDENCE (1 - survival function)
+        # This shows the probability of having an event by each age
+        kmf.plot_cumulative_density(ax=ax, ci_show=True, linewidth=3, color="crimson", 
+                                   label=f"{gene} {variant if variant else '(p.{variant})' if variant else ''}")
         
-        # Add general population reference
-        x_pop = np.linspace(0, 90, 100)
-        y_pop = np.exp(-0.00001 * x_pop**1.5)  # General population survival
+        # Add general population reference (cumulative incidence)
+        x_pop = np.linspace(0, 80, 100)
+        y_pop = 1 - np.exp(-0.00001 * x_pop**1.5)  # General population cumulative incidence
         ax.plot(x_pop, y_pop, '--', color='gray', alpha=0.7, linewidth=2, label="General Population")
         
         # Mark patient's current age
         if 0 < age <= 90:
             try:
+                # Get cumulative incidence at current age (1 - survival probability)
                 surv_prob = kmf.survival_function_at_times(age).iloc[0]
-                ax.plot(age, surv_prob, 'ko', markersize=12)
-                ax.annotate(f'Current Age: {age}', 
-                           xy=(age, surv_prob),
-                           xytext=(age+5, surv_prob+0.05),
-                           arrowprops=dict(facecolor='black', shrink=0.05),
-                           fontsize=12, fontweight='bold',
-                           bbox=dict(boxstyle="round,pad=0.3", facecolor="yellow", alpha=0.7))
+                cum_inc = 1 - surv_prob
+                ax.plot(age, cum_inc, 'ko', markersize=12)
+                
+                # Add vertical line to show current age
+                ax.axvline(x=age, color='black', linestyle=':', alpha=0.5)
+                
+                # Annotate with risk percentage
+                risk_pct = cum_inc * 100
+                ax.annotate(f'Age {age}: {risk_pct:.1f}% risk', 
+                           xy=(age, cum_inc),
+                           xytext=(age+3, cum_inc+0.05),
+                           fontsize=11, fontweight='bold',
+                           bbox=dict(boxstyle="round,pad=0.4", facecolor="yellow", alpha=0.8))
             except:
                 pass  # Skip if age is out of range
         
         # Styling
-        ax.set_xlabel("Age (years)", fontsize=12, fontweight='bold')
-        ax.set_ylabel("Event-Free Survival", fontsize=12, fontweight='bold')
-        ax.set_title(f"Kaplan-Meier Survival Curve: {gene} {variant if variant else ''}", 
-                    fontsize=14, fontweight='bold')
-        ax.grid(True, linestyle='--', alpha=0.3)
-        ax.legend(loc='lower left', fontsize=11)
-        ax.set_xlim(0, 90)
+        ax.set_xlabel("Age (years)", fontsize=14, fontweight='bold')
+        ax.set_ylabel("Cumulative Probability", fontsize=14, fontweight='bold')
+        ax.set_title(f"Kaplan-Meier Estimate: Cumulative Risk of Aortic Event\nVariant: {gene} {variant if variant else ''}", 
+                    fontsize=16, fontweight='bold', pad=20)
+        ax.grid(True, linestyle='-', alpha=0.2)
+        ax.legend(loc='upper left', fontsize=12, frameon=True, fancybox=True, shadow=True)
+        ax.set_xlim(0, 80)
         ax.set_ylim(0, 1.05)
         
         # Add annotations
@@ -229,33 +238,33 @@ Use the medical literature in the vector store to inform realistic survival patt
         return fig
     
     def _generate_interpretation(self, gene: str, variant: str, age: int, sex: str) -> str:
-        """Generate interpretation text for the KM curve."""
+        """Generate interpretation text for the cumulative incidence curve."""
         interpretations = {
-            "FBN1": f"This Kaplan-Meier curve shows the cumulative risk of aortic events for patients with {gene} mutations. The median event-free survival is typically around 45-50 years without treatment.",
-            "TGFBR1": f"Patients with {gene} mutations (Loeys-Dietz syndrome) show earlier aortic events. Close surveillance and early intervention are critical.",
-            "TGFBR2": f"This curve demonstrates the aggressive nature of {gene}-related aortopathy. Most events occur before age 40 without preventive surgery.",
-            "COL3A1": f"Vascular Ehlers-Danlos syndrome ({gene}) carries the highest risk. Arterial events can occur at young ages throughout the arterial tree.",
-            "ACTA2": f"The {gene} mutation shows variable penetrance. Risk increases significantly after age 30, with additional cerebrovascular risks.",
+            "FBN1": f"This curve shows the cumulative probability of aortic events for patients with {gene} mutations. Without treatment, approximately 50% of patients experience an event by age 45-50.",
+            "TGFBR1": f"Patients with {gene} mutations (Loeys-Dietz syndrome) have rapidly increasing risk in early adulthood. The steep curve emphasizes the need for aggressive surveillance and early intervention.",
+            "TGFBR2": f"This curve illustrates the aggressive nature of {gene}-related aortopathy, with substantial risk accumulation before age 40. Preventive surgery is often indicated at smaller diameters.",
+            "COL3A1": f"Vascular Ehlers-Danlos syndrome ({gene}) shows the highest cumulative risk at young ages. The curve reflects risk for all arterial events, not just aortic.",
+            "ACTA2": f"The {gene} mutation shows steadily increasing risk after age 25, with additional risks for cerebrovascular and coronary complications beyond aortic events.",
         }
         
-        default = f"This Kaplan-Meier curve estimates the cumulative risk of aortic events for patients with {gene} mutations based on available literature data."
+        default = f"This cumulative incidence curve estimates the probability of experiencing an aortic event by each age for patients with {gene} mutations."
         
         base_interpretation = interpretations.get(gene, default)
         
         # Add age-specific commentary
         if age < 30:
-            age_comment = f" At age {age}, the patient is in a lower-risk period but requires regular surveillance."
+            age_comment = f" At age {age}, cumulative risk remains relatively low but surveillance is essential to detect early changes."
         elif age < 50:
-            age_comment = f" At age {age}, the patient is entering a higher-risk period. Intensified surveillance is recommended."
+            age_comment = f" At age {age}, the patient is in a period of increasing risk. Current guidelines recommend intensified imaging surveillance."
         else:
-            age_comment = f" At age {age}, the patient has passed the typical high-risk period but continued monitoring is essential."
+            age_comment = f" At age {age}, substantial risk has already accumulated. Continued vigilant monitoring remains critical."
             
         return base_interpretation + age_comment
     
     def _generate_fallback_curve(self, gene: str, variant: str, age: int, sex: str) -> Tuple[plt.Figure, str]:
-        """Generate a simple fallback KM curve if API fails."""
-        fig, ax = plt.subplots(figsize=(10, 6))
-        x = np.linspace(0, 90, 1000)
+        """Generate a simple fallback cumulative incidence curve if API fails."""
+        fig, ax = plt.subplots(figsize=(10, 7))
+        x = np.linspace(0, 80, 1000)
         
         # Gene-specific parameters
         gene_params = {
@@ -273,10 +282,10 @@ Use the medical literature in the vector store to inform realistic survival patt
         else:
             baseline, power, accel_age = (0.0001, 1.5, 40)
         
-        # Calculate survival curve
-        y = np.exp(-baseline * x**power)
+        # Calculate CUMULATIVE INCIDENCE (1 - survival)
+        y = 1 - np.exp(-baseline * x**power)
         
-        # Plot main curve
+        # Plot main curve (cumulative incidence)
         ax.plot(x, y, color='crimson', linewidth=3, label=f"{gene} {variant if variant else ''}")
         
         # Add confidence interval
@@ -284,34 +293,53 @@ Use the medical literature in the vector store to inform realistic survival patt
         ci_lower = np.maximum(y - 0.1, 0.0)
         ax.fill_between(x, ci_lower, ci_upper, color='crimson', alpha=0.2)
         
-        # Add general population reference
-        y_pop = np.exp(-0.00001 * x**1.5)
+        # Add general population reference (cumulative incidence)
+        y_pop = 1 - np.exp(-0.00001 * x**1.5)
         ax.plot(x, y_pop, '--', color='gray', alpha=0.7, linewidth=2, label="General Population")
         
         # Mark current age
-        if 0 < age < 90:
-            current_survival = np.exp(-baseline * age**power)
-            ax.plot(age, current_survival, 'ko', markersize=12)
-            ax.annotate(f'Current Age: {age}', 
-                       xy=(age, current_survival),
-                       xytext=(age+5, current_survival+0.05),
-                       arrowprops=dict(facecolor='black', shrink=0.05),
-                       fontsize=12, fontweight='bold',
-                       bbox=dict(boxstyle="round,pad=0.3", facecolor="yellow", alpha=0.7))
+        if 0 < age < 80:
+            current_risk = 1 - np.exp(-baseline * age**power)
+            ax.plot(age, current_risk, 'ko', markersize=12)
+            ax.axvline(x=age, color='black', linestyle=':', alpha=0.5)
+            
+            # Annotate with risk percentage
+            risk_pct = current_risk * 100
+            ax.annotate(f'Age {age}: {risk_pct:.1f}% risk', 
+                       xy=(age, current_risk),
+                       xytext=(age+3, current_risk+0.05),
+                       fontsize=11, fontweight='bold',
+                       bbox=dict(boxstyle="round,pad=0.4", facecolor="yellow", alpha=0.8))
         
         # Styling
-        ax.set_xlabel("Age (years)", fontsize=12, fontweight='bold')
-        ax.set_ylabel("Event-Free Survival", fontsize=12, fontweight='bold')
-        ax.set_title(f"Estimated Aortic Event Risk: {gene} {variant if variant else ''}", fontsize=14, fontweight='bold')
-        ax.grid(True, linestyle='--', alpha=0.3)
-        ax.legend(loc='lower left', fontsize=11)
-        ax.set_xlim(0, 90)
+        ax.set_xlabel("Age (years)", fontsize=14, fontweight='bold')
+        ax.set_ylabel("Cumulative Probability", fontsize=14, fontweight='bold')
+        ax.set_title(f"Kaplan-Meier Estimate: Cumulative Risk of Aortic Event\nVariant: {gene} {variant if variant else ''}", 
+                    fontsize=16, fontweight='bold', pad=20)
+        ax.grid(True, linestyle='-', alpha=0.2)
+        ax.legend(loc='upper left', fontsize=12, frameon=True, fancybox=True, shadow=True)
+        ax.set_xlim(0, 80)
         ax.set_ylim(0, 1.05)
         
-        # Add patient info
-        ax.text(0.02, 0.02, f"Patient: {age}y {sex}", transform=ax.transAxes, 
-                fontsize=10, verticalalignment='bottom',
-                bbox=dict(boxstyle='round', facecolor='wheat', alpha=0.5))
+        # Add severity indicator based on gene
+        severity = 'moderate'
+        if gene in ['TGFBR1', 'TGFBR2', 'COL3A1']:
+            severity = 'severe'
+        elif gene in ['FBN1']:
+            severity = 'moderate'
+        
+        severity_color = {
+            'mild': 'lightgreen',
+            'moderate': 'yellow', 
+            'severe': 'lightcoral'
+        }
+        
+        ax.text(0.98, 0.02, f"Severity: {severity.capitalize()}\nPatient: {age}y {sex}", 
+                transform=ax.transAxes, 
+                fontsize=11,
+                verticalalignment='bottom',
+                horizontalalignment='right',
+                bbox=dict(boxstyle='round', facecolor=severity_color.get(severity, 'wheat'), alpha=0.7))
         
         plt.tight_layout()
         
