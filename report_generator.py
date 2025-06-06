@@ -7,7 +7,9 @@ from typing import Dict, Any, List
 from openai import OpenAI
 from helper_functions import build_patient_context
 from vector_search import search_documents
+from km_curve_generator import KMCurveGenerator
 import json
+from datetime import datetime
 
 
 REPORT_SYSTEM_PROMPT = """You are AortaGPT, an advanced clinical decision support tool for Heritable Thoracic Aortic Disease (HTAD). Your purpose is to provide evidence-based, clinically detailed recommendations structured into specific sections, with precise citations to approved sources only. 
@@ -109,6 +111,7 @@ class ReportGenerator:
     
     def __init__(self, client: OpenAI):
         self.client = client
+        self.km_generator = KMCurveGenerator(client)
         
     def generate_report(self, session_state: Dict[str, Any], clinical_options: List[str]) -> Dict[str, str]:
         """
@@ -216,6 +219,17 @@ class ReportGenerator:
         if not report_data:
             st.error("No report data available")
             return
+        
+        # Generate and display Kaplan-Meier curve at the top
+        st.subheader("📊 Risk Visualization")
+        try:
+            km_result = self.km_generator.generate_km_curve(st.session_state)
+            if km_result:
+                fig, interpretation = km_result
+                self.km_generator.display_km_curve(fig, interpretation)
+                st.divider()
+        except Exception as e:
+            st.warning(f"Could not generate Kaplan-Meier curve: {str(e)}")
         
         # Section mappings with icons
         sections = [
