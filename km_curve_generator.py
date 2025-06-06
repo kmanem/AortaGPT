@@ -3,24 +3,25 @@ Kaplan-Meier curve generation module for AortaGPT.
 Generates survival curves based on patient parameters and variant data.
 """
 import streamlit as st
-from typing import Dict, Any, Optional, Tuple
+from typing import Dict, Any, Optional, Tuple, List
 from openai import OpenAI
 import matplotlib.pyplot as plt
 import numpy as np
 import base64
 from io import BytesIO
 import json
+from lifelines import KaplanMeierFitter
 
 
 class KMCurveGenerator:
-    """Generates Kaplan-Meier curves using GPT-4 with variant-specific data."""
+    """Generates Kaplan-Meier curves using GPT-4 for data extraction and lifelines for plotting."""
     
     def __init__(self, client: OpenAI):
         self.client = client
         
     def generate_km_curve(self, session_state: Dict[str, Any]) -> Optional[Tuple[plt.Figure, str]]:
         """
-        Generate a Kaplan-Meier curve for the patient using GPT-4.
+        Generate a Kaplan-Meier curve for the patient using GPT-4 for data extraction.
         
         Args:
             session_state: Streamlit session state containing patient data
@@ -35,124 +36,197 @@ class KMCurveGenerator:
         sex = session_state.get('sex', 'Male')
         variant_details = session_state.get('selected_variant_info', {})
         
-        # Build the prompt with patient-specific data
-        patient_context = f"""
-Patient Information:
-- Gene: {gene}
-- Variant: {variant}
-- Age: {age} years
-- Sex: {sex}
-- Clinical Significance: {variant_details.get('clinical_significance', 'Unknown') if variant_details else 'Unknown'}
-- Review Status: {variant_details.get('review_status', 'Unknown') if variant_details else 'Unknown'}
-"""
+        # Get survival data from GPT-4
+        survival_data = self._extract_survival_data(gene, variant, variant_details)
         
-        # System prompt for KM curve generation
-        km_system_prompt = """Your job is to generate Python code for a Kaplan-Meier curve using the patient data provided. 
-The code should:
-1. Create a clinically accurate survival curve based on the gene/variant
-2. Use realistic event data based on known literature about this condition
-3. Include appropriate censoring patterns
-4. Mark the patient's current age on the curve
-5. Add a general population reference line for comparison
-6. Return ONLY executable Python code that creates a matplotlib figure
-
-Use this template structure:
-```python
-import matplotlib.pyplot as plt
-import numpy as np
-from lifelines import KaplanMeierFitter
-
-# Event data based on literature for this gene/variant
-ages_of_event = [...]  # Ages when aortic events occurred
-censored = [...]  # 0 = event occurred, 1 = censored
-
-# Fit Kaplan-Meier curve
-kmf = KaplanMeierFitter()
-kmf.fit(ages_of_event, event_observed=[1 if c==0 else 0 for c in censored])
-
-# Create figure
-fig, ax = plt.subplots(figsize=(10, 6))
-kmf.plot_survival_function(ax=ax, ci_show=True, linewidth=2.5, color="crimson", label=f"{gene} {variant}")
-
-# Add general population reference
-x_pop = np.linspace(0, 90, 100)
-y_pop = 1 - (1 - np.exp(-0.00001 * x_pop**1.5))  # General population curve
-ax.plot(x_pop, y_pop, '--', color='gray', alpha=0.7, linewidth=2, label="General Population")
-
-# Mark patient's current age
-patient_age = {age}
-if patient_age <= max(ages_of_event):
-    surv_prob = kmf.survival_function_at_times(patient_age).iloc[0]
-    ax.plot(patient_age, surv_prob, 'ko', markersize=12)
-    ax.annotate(f'Current Age: {patient_age}', 
-                xy=(patient_age, surv_prob),
-                xytext=(patient_age+5, surv_prob+0.05),
-                arrowprops=dict(facecolor='black', shrink=0.05),
-                fontsize=12, fontweight='bold',
-                bbox=dict(boxstyle="round,pad=0.3", facecolor="yellow", alpha=0.7))
-
-# Styling
-ax.set_xlabel("Age (years)", fontsize=12, fontweight='bold')
-ax.set_ylabel("Event-Free Survival", fontsize=12, fontweight='bold')
-ax.set_title(f"Kaplan-Meier Curve: {gene} {variant}", fontsize=14, fontweight='bold')
-ax.grid(True, linestyle='--', alpha=0.3)
-ax.legend(loc='lower left', fontsize=11)
-ax.set_xlim(0, 90)
-ax.set_ylim(0, 1.05)
-
-# Add risk annotations
-ax.text(0.02, 0.02, f"Patient: {age}y {sex}", transform=ax.transAxes, 
-        fontsize=10, verticalalignment='bottom',
-        bbox=dict(boxstyle='round', facecolor='wheat', alpha=0.5))
-
-plt.tight_layout()
-```
-
-Adjust the event ages based on the specific gene/variant severity. For example:
-- FBN1: Events typically 30-60 years
-- TGFBR1/2: Earlier events, 20-50 years  
-- COL3A1: Very early events, 20-40 years
-- ACTA2: Variable, 25-55 years"""
-
+        if not survival_data:
+            # Fallback to pre-defined data
+            return self._generate_fallback_curve(gene, variant, age, sex)
+        
+        # Create the KM curve using lifelines
         try:
-            # Make the API call
-            with st.spinner("Generating Kaplan-Meier curve..."):
+            fig = self._create_km_plot(survival_data, gene, variant, age, sex)
+            interpretation = self._generate_interpretation(gene, variant, age, sex)
+            return fig, interpretation
+        except Exception as e:
+            st.error(f"Error creating Kaplan-Meier curve: {str(e)}")
+            return self._generate_fallback_curve(gene, variant, age, sex)
+    
+    def _extract_survival_data(self, gene: str, variant: str, variant_details: Dict[str, Any], 
+                              vector_store_id: str = "vs_6842481bfb588191bb5a860d02fa2477") -> Optional[Dict[str, Any]]:
+        """
+        Use GPT-4 to extract survival data based on gene/variant information.
+        
+        Args:
+            gene: Gene name
+            variant: Variant identifier
+            variant_details: ClinVar details about the variant
+            vector_store_id: ID of the vector store containing medical literature
+        
+        Returns:
+            Dictionary containing event_ages, censored_ages, and clinical notes
+        """
+        # Build the prompt
+        extraction_prompt = f"""
+Based on medical literature and clinical data for {gene} mutations (variant: {variant}), provide realistic survival data for a Kaplan-Meier analysis.
+
+Clinical Significance: {variant_details.get('clinical_significance', 'Unknown') if variant_details else 'Unknown'}
+Review Status: {variant_details.get('review_status', 'Unknown') if variant_details else 'Unknown'}
+
+Please provide the data in the following JSON format:
+{{
+    "event_ages": [list of ages when aortic events occurred],
+    "censored_ages": [list of ages for patients who did not experience events during follow-up],
+    "median_event_age": approximate median age of events,
+    "clinical_notes": "brief description of the typical disease course",
+    "severity": "mild|moderate|severe"
+}}
+
+Guidelines for data generation:
+- FBN1 (Marfan): Events typically 35-55 years, moderate severity
+- TGFBR1/2 (Loeys-Dietz): Earlier events 20-45 years, severe
+- COL3A1 (vEDS): Very early events 20-40 years, severe
+- ACTA2: Variable 25-50 years, moderate-severe
+- MYH11: 30-55 years, moderate
+
+Include at least 15-20 event ages and 20-30 censored ages for statistical validity.
+Use the medical literature in the vector store to inform realistic survival patterns."""
+        
+        # Define schema for structured output
+        data_schema = {
+            "type": "object",
+            "properties": {
+                "event_ages": {
+                    "type": "array",
+                    "items": {"type": "number"},
+                    "minItems": 10,
+                    "maxItems": 30
+                },
+                "censored_ages": {
+                    "type": "array", 
+                    "items": {"type": "number"},
+                    "minItems": 15,
+                    "maxItems": 40
+                },
+                "median_event_age": {"type": "number"},
+                "clinical_notes": {"type": "string"},
+                "severity": {
+                    "type": "string",
+                    "enum": ["mild", "moderate", "severe"]
+                }
+            },
+            "required": ["event_ages", "censored_ages", "median_event_age", "clinical_notes", "severity"],
+            "additionalProperties": False
+        }
+        
+        try:
+            with st.spinner("Extracting survival data..."):
                 response = self.client.responses.create(
                     model="gpt-4.1",
                     input=[
-                        {"role": "system", "content": km_system_prompt},
-                        {"role": "user", "content": patient_context}
+                        {"role": "system", "content": "You are a clinical geneticist providing survival data for genetic aortopathies based on medical literature."},
+                        {"role": "user", "content": extraction_prompt}
                     ],
-                    text={"format": {"type": "text"}},
-                    temperature=0.7,
-                    max_output_tokens=2048
+                    text={
+                        "format": {
+                            "type": "json_schema",
+                            "name": "survival_data",
+                            "schema": data_schema,
+                            "strict": True
+                        }
+                    },
+                    tools=[
+                        {
+                            "type": "file_search",
+                            "vector_store_ids": [vector_store_id]
+                        }
+                    ],
+                    temperature=0.7
                 )
                 
-                # Extract the Python code from response
-                code_text = response.output_text
-                
-                # Clean up the code (remove markdown backticks if present)
-                if "```python" in code_text:
-                    code_text = code_text.split("```python")[1].split("```")[0]
-                elif "```" in code_text:
-                    code_text = code_text.split("```")[1].split("```")[0]
-                
-                # Execute the generated code
-                namespace = {}
-                exec(code_text, namespace)
-                
-                # Get the figure from the namespace
-                fig = plt.gcf()  # Get current figure
-                
-                # Generate interpretation
-                interpretation = self._generate_interpretation(gene, variant, age, sex)
-                
-                return fig, interpretation
+                # Parse the response
+                survival_data = json.loads(response.output_text)
+                return survival_data
                 
         except Exception as e:
-            st.error(f"Error generating Kaplan-Meier curve: {str(e)}")
-            # Fallback to simple curve generation
-            return self._generate_fallback_curve(gene, variant, age, sex)
+            st.warning(f"Could not extract survival data: {str(e)}")
+            return None
+    
+    def _create_km_plot(self, survival_data: Dict[str, Any], gene: str, variant: str, 
+                        age: int, sex: str) -> plt.Figure:
+        """
+        Create Kaplan-Meier plot using lifelines with the extracted survival data.
+        """
+        # Extract data
+        event_ages = survival_data['event_ages']
+        censored_ages = survival_data['censored_ages']
+        
+        # Combine all ages and create event indicators
+        all_ages = event_ages + censored_ages
+        event_observed = [1] * len(event_ages) + [0] * len(censored_ages)
+        
+        # Fit Kaplan-Meier model
+        kmf = KaplanMeierFitter()
+        kmf.fit(all_ages, event_observed=event_observed, label=f"{gene} {variant}")
+        
+        # Create figure
+        fig, ax = plt.subplots(figsize=(10, 6))
+        
+        # Plot KM curve with confidence intervals
+        kmf.plot_survival_function(ax=ax, ci_show=True, linewidth=2.5, color="crimson")
+        
+        # Add general population reference
+        x_pop = np.linspace(0, 90, 100)
+        y_pop = np.exp(-0.00001 * x_pop**1.5)  # General population survival
+        ax.plot(x_pop, y_pop, '--', color='gray', alpha=0.7, linewidth=2, label="General Population")
+        
+        # Mark patient's current age
+        if 0 < age <= 90:
+            try:
+                surv_prob = kmf.survival_function_at_times(age).iloc[0]
+                ax.plot(age, surv_prob, 'ko', markersize=12)
+                ax.annotate(f'Current Age: {age}', 
+                           xy=(age, surv_prob),
+                           xytext=(age+5, surv_prob+0.05),
+                           arrowprops=dict(facecolor='black', shrink=0.05),
+                           fontsize=12, fontweight='bold',
+                           bbox=dict(boxstyle="round,pad=0.3", facecolor="yellow", alpha=0.7))
+            except:
+                pass  # Skip if age is out of range
+        
+        # Styling
+        ax.set_xlabel("Age (years)", fontsize=12, fontweight='bold')
+        ax.set_ylabel("Event-Free Survival", fontsize=12, fontweight='bold')
+        ax.set_title(f"Kaplan-Meier Survival Curve: {gene} {variant if variant else ''}", 
+                    fontsize=14, fontweight='bold')
+        ax.grid(True, linestyle='--', alpha=0.3)
+        ax.legend(loc='lower left', fontsize=11)
+        ax.set_xlim(0, 90)
+        ax.set_ylim(0, 1.05)
+        
+        # Add annotations
+        severity_color = {
+            'mild': 'lightgreen',
+            'moderate': 'yellow', 
+            'severe': 'lightcoral'
+        }
+        
+        severity = survival_data.get('severity', 'moderate')
+        ax.text(0.98, 0.98, f"Severity: {severity.capitalize()}", 
+                transform=ax.transAxes, 
+                fontsize=11, 
+                verticalalignment='top',
+                horizontalalignment='right',
+                bbox=dict(boxstyle='round', facecolor=severity_color.get(severity, 'wheat'), alpha=0.7))
+        
+        ax.text(0.02, 0.02, f"Patient: {age}y {sex}\nMedian Event Age: {survival_data.get('median_event_age', 'N/A')}", 
+                transform=ax.transAxes, 
+                fontsize=10, 
+                verticalalignment='bottom',
+                bbox=dict(boxstyle='round', facecolor='wheat', alpha=0.5))
+        
+        plt.tight_layout()
+        return fig
     
     def _generate_interpretation(self, gene: str, variant: str, age: int, sex: str) -> str:
         """Generate interpretation text for the KM curve."""
